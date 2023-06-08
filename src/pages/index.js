@@ -70,10 +70,10 @@ const RoadmapPage = ({ data }) => {
       <header className="header">
         <img
           className="header-logo"
-          src="https://example.com/logo.png" // Reemplaza la URL con el logo de Travelgatex
+          src="https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg" 
           alt="Travelgatex Logo"
         />
-        <h1 className="header-title">Roadmap</h1>
+        <h1 className="header-title">Integrations Roadmap <small>(beta)</small> </h1>
       </header>
 
       <div className="filters">
