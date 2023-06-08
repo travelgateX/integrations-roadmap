@@ -2,12 +2,12 @@
   {
     "Summary": "TEST",
     "Created": "2023-05-29T14:15:29.000Z",
-    "Updated": "2023-06-08T12:28:22.000Z",
+    "Updated": "2023-06-08T15:12:29.000Z",
     "Status": "In Progress",
-    "Due date": "2023-07-09T22:00:00.000Z",
+    "Due date": "2023-06-27T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:23:00.000Z",
     "Ticket ID": 0,
-    "Tier": "1",
+    "Tier": "0",
     "Start date": "2023-05-31T22:00:00.000Z",
     "Rank": "2|i03zbj:",
     "Planned end": "2023-08-24T00:00:00.000Z"
@@ -73,7 +73,7 @@
   {
     "Summary": "Saltours Hotel Pull Integration",
     "Created": "2022-12-29T10:27:00.000Z",
-    "Updated": "2023-06-07T16:11:22.000Z",
+    "Updated": "2023-06-08T15:42:48.000Z",
     "Resolved": "2023-05-04T12:49:49.000Z",
     "Status": "Completed",
     "Last Transition Occurred": "2023-05-04T12:49:00.000Z",
@@ -85,11 +85,11 @@
   {
     "Summary": "Teldar Gekko Hotel Pull Integration",
     "Created": "2023-03-07T11:09:45.000Z",
-    "Updated": "2023-06-08T06:47:32.000Z",
+    "Updated": "2023-06-08T15:38:06.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-26T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:31:00.000Z",
-    "Ticket ID": 1462463338,
+    "Ticket ID": 1675561282,
     "Tier": "0",
     "CRM Create DateTime": "2023-02-25T13:23:00.000Z",
     "Start date": "2023-05-31T22:00:00.000Z",
@@ -113,7 +113,7 @@
   {
     "Summary": "CTrip Hotel Pull Integration",
     "Created": "2022-12-29T10:57:50.000Z",
-    "Updated": "2023-06-07T16:11:33.000Z",
+    "Updated": "2023-06-08T15:42:57.000Z",
     "Resolved": "2023-05-17T12:55:53.000Z",
     "Status": "Completed",
     "Last Transition Occurred": "2023-05-17T12:55:00.000Z",
@@ -125,7 +125,7 @@
   {
     "Summary": "TBO Holidays Hotel Pull Integration",
     "Created": "2022-12-29T14:33:30.000Z",
-    "Updated": "2023-06-07T16:11:28.000Z",
+    "Updated": "2023-06-08T15:42:53.000Z",
     "Resolved": "2023-05-26T07:30:41.000Z",
     "Status": "Completed",
     "Last Transition Occurred": "2023-05-26T07:30:00.000Z",
@@ -137,7 +137,7 @@
   {
     "Summary": "Seera Group Hotel Pull Integration",
     "Created": "2022-12-29T14:39:03.000Z",
-    "Updated": "2023-06-07T16:11:05.000Z",
+    "Updated": "2023-06-08T15:42:34.000Z",
     "Status": "In Progress",
     "Due date": "2023-04-30T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-06T12:21:00.000Z",
