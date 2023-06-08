@@ -24,5 +24,13 @@ module.exports = {
       },
     },
     'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'SERVER',
+        fieldName: 'server',
+        url: 'https://docs.travelgatex.com/integrations-roadmap/graphql', // Reemplaza con la URL de tu servidor GraphQL
+      },
+    },
   ],
 };
