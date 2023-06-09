@@ -2,9 +2,9 @@
   {
     "Summary": "TEST",
     "Created": "2023-05-29T14:15:29.000Z",
-    "Updated": "2023-06-08T15:12:29.000Z",
+    "Updated": "2023-06-09T02:18:07.000Z",
     "Status": "In Progress",
-    "Due date": "2023-06-27T22:00:00.000Z",
+    "Due date": "2023-07-03T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:23:00.000Z",
     "Ticket ID": 0,
     "Tier": "0",
@@ -311,9 +311,9 @@
   {
     "Summary": "Travel Compositor",
     "Created": "2023-05-02T05:59:48.000Z",
-    "Updated": "2023-06-05T23:35:15.000Z",
+    "Updated": "2023-06-09T02:18:07.000Z",
     "Status": "In Progress",
-    "Due date": "2023-06-25T22:00:00.000Z",
+    "Due date": "2023-06-26T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:31:00.000Z",
     "Ticket ID": 1555039618,
     "Tier": "0",
