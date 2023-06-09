@@ -1,18 +1,5 @@
 [
   {
-    "Summary": "TEST",
-    "Created": "2023-05-29T14:15:29.000Z",
-    "Updated": "2023-06-09T07:18:54.000Z",
-    "Status": "In Progress",
-    "Due date": "2023-07-03T22:00:00.000Z",
-    "Last Transition Occurred": "2023-06-09T07:18:00.000Z",
-    "Ticket ID": 0,
-    "Tier": "0",
-    "Start date": "2023-05-31T22:00:00.000Z",
-    "Rank": "2|i03zbj:",
-    "Planned end": "2023-08-24T00:00:00.000Z"
-  },
-  {
     "Summary": "Canarias New Travel",
     "Created": "2022-12-29T11:30:52.000Z",
     "Updated": "2023-06-09T07:23:19.000Z",
@@ -47,7 +34,7 @@
   {
     "Summary": "Conextur Argentina",
     "Created": "2023-04-20T15:26:30.000Z",
-    "Updated": "2023-05-18T05:54:02.000Z",
+    "Updated": "2023-06-09T07:53:12.000Z",
     "Resolved": "2023-05-18T05:53:59.000Z",
     "Status": "Completed",
     "Due date": "2023-05-14T22:00:00.000Z",
@@ -56,7 +43,9 @@
     "Tier": "0",
     "CRM Create DateTime": "2023-02-22T09:42:00.000Z",
     "Start date": "2023-02-28T23:00:00.000Z",
-    "Rank": "2|i03d67:"
+    "Rank": "2|i03d67:",
+    "Target End": "2023-05-17T22:00:00.000Z",
+    "Target Start": "2023-04-19T22:00:00.000Z"
   },
   {
     "Summary": "Allbeds",
@@ -123,23 +112,28 @@
     "Target Start": "2023-04-18T22:00:00.000Z"
   },
   {
-    "Summary": "CTrip Hotel Pull Integration",
+    "Summary": "CTrip",
     "Created": "2022-12-29T10:57:50.000Z",
-    "Updated": "2023-06-09T07:13:16.000Z",
+    "Updated": "2023-06-09T07:51:23.000Z",
     "Resolved": "2023-05-17T12:55:53.000Z",
     "Status": "Completed",
+    "Due date": "2023-05-16T22:00:00.000Z",
     "Last Transition Occurred": "2023-05-17T12:55:00.000Z",
     "Ticket ID": 1500734036,
     "Tier": "2",
     "CRM Create DateTime": "2023-03-16T16:06:00.000Z",
-    "Rank": "2|i02kt3:"
+    "Start date": "2022-12-28T23:00:00.000Z",
+    "Rank": "2|i02kt3:",
+    "Target End": "2023-05-16T22:00:00.000Z",
+    "Target Start": "2022-12-28T23:00:00.000Z"
   },
   {
     "Summary": "TBO Holidays",
     "Created": "2022-12-29T14:33:30.000Z",
-    "Updated": "2023-06-09T07:20:04.000Z",
+    "Updated": "2023-06-09T07:54:02.000Z",
     "Resolved": "2023-05-26T07:30:41.000Z",
     "Status": "Completed",
+    "Due date": "2023-05-25T22:00:00.000Z",
     "Last Transition Occurred": "2023-05-26T07:30:00.000Z",
     "Ticket ID": 1507561123,
     "Tier": "2",
