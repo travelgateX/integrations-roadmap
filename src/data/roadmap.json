@@ -2,7 +2,7 @@
   {
     "Summary": "Canarias New Travel",
     "Created": "2022-12-29T11:30:52.000Z",
-    "Updated": "2023-06-13T07:18:02.000Z",
+    "Updated": "2023-06-13T10:37:23.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-15T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-07T13:14:00.000Z",
@@ -18,7 +18,7 @@
   {
     "Summary": "EHTL Viagens",
     "Created": "2023-04-11T08:55:11.000Z",
-    "Updated": "2023-06-13T07:16:05.000Z",
+    "Updated": "2023-06-13T10:34:41.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-25T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:42:00.000Z",
@@ -34,7 +34,7 @@
   {
     "Summary": "Conextur Argentina",
     "Created": "2023-04-20T15:26:30.000Z",
-    "Updated": "2023-06-13T07:20:37.000Z",
+    "Updated": "2023-06-13T10:39:53.000Z",
     "Resolved": "2023-05-18T05:53:59.000Z",
     "Status": "Completed",
     "Due date": "2023-05-14T22:00:00.000Z",
@@ -50,7 +50,7 @@
   {
     "Summary": "Allbeds",
     "Created": "2022-12-29T14:22:42.000Z",
-    "Updated": "2023-06-13T07:19:33.000Z",
+    "Updated": "2023-06-13T10:38:47.000Z",
     "Resolved": "2023-05-31T14:31:35.000Z",
     "Status": "Completed",
     "Due date": "2023-05-30T22:00:00.000Z",
@@ -66,7 +66,7 @@
   {
     "Summary": "Saltour",
     "Created": "2022-12-29T10:27:00.000Z",
-    "Updated": "2023-06-13T09:23:42.000Z",
+    "Updated": "2023-06-13T11:26:06.000Z",
     "Resolved": "2023-05-04T12:49:49.000Z",
     "Status": "Completed",
     "Due date": "2023-05-03T22:00:00.000Z",
@@ -82,7 +82,7 @@
   {
     "Summary": "Teldar Gekko",
     "Created": "2023-03-07T11:09:45.000Z",
-    "Updated": "2023-06-13T07:16:26.000Z",
+    "Updated": "2023-06-13T10:35:16.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-05T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:31:00.000Z",
@@ -98,7 +98,7 @@
   {
     "Summary": "RealTime Travel Solutions v2",
     "Created": "2022-04-19T10:34:02.000Z",
-    "Updated": "2023-06-13T07:20:25.000Z",
+    "Updated": "2023-06-13T10:39:40.000Z",
     "Resolved": "2023-05-17T12:57:27.000Z",
     "Status": "Completed",
     "Due date": "2023-05-16T22:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "Summary": "CTrip",
     "Created": "2022-12-29T10:57:50.000Z",
-    "Updated": "2023-06-13T09:23:49.000Z",
+    "Updated": "2023-06-13T11:26:14.000Z",
     "Resolved": "2023-05-17T12:55:53.000Z",
     "Status": "Completed",
     "Due date": "2023-05-16T22:00:00.000Z",
@@ -130,7 +130,7 @@
   {
     "Summary": "TBO Holidays",
     "Created": "2022-12-29T14:33:30.000Z",
-    "Updated": "2023-06-13T09:23:46.000Z",
+    "Updated": "2023-06-13T11:26:10.000Z",
     "Resolved": "2023-05-26T07:30:41.000Z",
     "Status": "Completed",
     "Due date": "2023-05-25T22:00:00.000Z",
@@ -146,13 +146,13 @@
   {
     "Summary": "Seera Group",
     "Created": "2022-12-29T14:39:03.000Z",
-    "Updated": "2023-06-13T09:31:50.000Z",
+    "Updated": "2023-06-13T11:25:55.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-08T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-06T12:21:00.000Z",
-    "Ticket ID": 1305083046,
+    "Ticket ID": 1454320686,
     "Tier": "1",
-    "CRM Create DateTime": "2022-12-07T10:07:00.000Z",
+    "CRM Create DateTime": "2023-02-23T17:05:00.000Z",
     "Start date": "2023-03-22T23:00:00.000Z",
     "Rank": "2|i02l0c:i",
     "Target End": "2023-04-30T22:00:00.000Z",
@@ -162,9 +162,9 @@
   {
     "Summary": "NextPax",
     "Created": "2023-05-02T09:23:01.000Z",
-    "Updated": "2023-06-13T07:20:03.000Z",
+    "Updated": "2023-06-13T10:39:18.000Z",
     "Status": "In Progress",
-    "Due date": "2023-07-06T22:00:00.000Z",
+    "Due date": "2023-07-12T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:33:00.000Z",
     "Ticket ID": 1594565210,
     "Tier": "1",
@@ -178,7 +178,7 @@
   {
     "Summary": "Booking Agora",
     "Created": "2023-05-02T09:17:59.000Z",
-    "Updated": "2023-06-13T07:18:35.000Z",
+    "Updated": "2023-06-13T10:37:54.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-10T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-08T09:04:00.000Z",
@@ -193,10 +193,10 @@
   {
     "Summary": "Otelz.com",
     "Created": "2023-05-02T06:07:33.000Z",
-    "Updated": "2023-06-13T07:16:24.000Z",
+    "Updated": "2023-06-13T11:15:13.000Z",
     "Status": "In Progress",
-    "Due date": "2023-06-22T22:00:00.000Z",
-    "Last Transition Occurred": "2023-06-12T10:06:00.000Z",
+    "Due date": "2023-07-03T22:00:00.000Z",
+    "Last Transition Occurred": "2023-06-13T11:15:00.000Z",
     "Ticket ID": 1463292943,
     "Tier": "1",
     "CRM Create DateTime": "2023-02-25T12:25:00.000Z",
@@ -209,7 +209,7 @@
   {
     "Summary": "Eurotours",
     "Created": "2023-05-02T06:06:55.000Z",
-    "Updated": "2023-06-13T07:15:30.000Z",
+    "Updated": "2023-06-13T10:35:18.000Z",
     "Status": "In Progress",
     "Due date": "2023-09-05T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-12T10:04:00.000Z",
@@ -225,7 +225,7 @@
   {
     "Summary": "Ezlink",
     "Created": "2023-05-02T06:05:43.000Z",
-    "Updated": "2023-06-13T07:23:47.000Z",
+    "Updated": "2023-06-13T10:42:56.000Z",
     "Status": "Completed",
     "Due date": "2023-06-08T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-12T08:19:00.000Z",
@@ -241,7 +241,7 @@
   {
     "Summary": "Travalco Seller",
     "Created": "2023-05-02T06:03:39.000Z",
-    "Updated": "2023-06-13T07:20:21.000Z",
+    "Updated": "2023-06-13T10:39:36.000Z",
     "Status": "ToDo",
     "Due date": "2023-07-31T22:00:00.000Z",
     "Last Transition Occurred": "2023-05-26T11:28:00.000Z",
@@ -256,7 +256,7 @@
   {
     "Summary": "EverRooms_Seller",
     "Created": "2023-05-02T06:03:02.000Z",
-    "Updated": "2023-06-13T07:15:36.000Z",
+    "Updated": "2023-06-13T10:35:36.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-12T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:32:00.000Z",
@@ -304,7 +304,7 @@
   {
     "Summary": "Alpitour (Peakwork)",
     "Created": "2023-05-02T06:00:23.000Z",
-    "Updated": "2023-06-13T07:16:38.000Z",
+    "Updated": "2023-06-13T10:36:13.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-23T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:31:00.000Z",
@@ -320,7 +320,7 @@
   {
     "Summary": "Travel Compositor",
     "Created": "2023-05-02T05:59:48.000Z",
-    "Updated": "2023-06-13T07:16:49.000Z",
+    "Updated": "2023-06-13T10:36:22.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-26T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-02T19:31:00.000Z",
@@ -336,7 +336,7 @@
   {
     "Summary": "NetSemantics S.A",
     "Created": "2023-05-02T05:57:40.000Z",
-    "Updated": "2023-06-13T07:22:01.000Z",
+    "Updated": "2023-06-13T10:41:14.000Z",
     "Status": "ToDo",
     "Due date": "2023-07-11T22:00:00.000Z",
     "Last Transition Occurred": "2023-05-26T11:28:00.000Z",
