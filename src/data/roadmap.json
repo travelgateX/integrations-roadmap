@@ -66,7 +66,7 @@
   {
     "Summary": "Saltour",
     "Created": "2022-12-29T10:27:00.000Z",
-    "Updated": "2023-06-19T06:53:19.000Z",
+    "Updated": "2023-06-19T10:54:23.000Z",
     "Resolved": "2023-05-04T12:49:49.000Z",
     "Status": "Completed",
     "Due date": "2023-05-03T22:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "Summary": "CTrip",
     "Created": "2022-12-29T10:57:50.000Z",
-    "Updated": "2023-06-19T06:53:29.000Z",
+    "Updated": "2023-06-19T10:54:34.000Z",
     "Resolved": "2023-05-17T12:55:53.000Z",
     "Status": "Completed",
     "Due date": "2023-05-16T22:00:00.000Z",
@@ -130,7 +130,7 @@
   {
     "Summary": "TBO Holidays",
     "Created": "2022-12-29T14:33:30.000Z",
-    "Updated": "2023-06-19T06:53:24.000Z",
+    "Updated": "2023-06-19T10:54:29.000Z",
     "Resolved": "2023-05-26T07:30:41.000Z",
     "Status": "Completed",
     "Due date": "2023-05-25T22:00:00.000Z",
@@ -146,7 +146,7 @@
   {
     "Summary": "Seera Group",
     "Created": "2022-12-29T14:39:03.000Z",
-    "Updated": "2023-06-19T06:53:07.000Z",
+    "Updated": "2023-06-19T10:54:08.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-17T22:00:00.000Z",
     "Last Transition Occurred": "2023-06-16T08:12:00.000Z",
@@ -162,14 +162,14 @@
   {
     "Summary": "The Travel Junction",
     "Created": "2023-05-02T15:13:18.000Z",
-    "Updated": "2023-06-15T07:53:52.000Z",
+    "Updated": "2023-06-19T11:01:45.000Z",
     "Status": "ToDo",
-    "Due date": "2024-02-15T23:00:00.000Z",
-    "Last Transition Occurred": "2023-06-14T09:39:00.000Z",
+    "Due date": "2023-07-16T22:00:00.000Z",
+    "Last Transition Occurred": "2023-06-19T11:00:00.000Z",
     "Ticket ID": 1594758515,
     "Tier": "0",
     "CRM Create DateTime": "2023-05-02T14:34:00.000Z",
-    "Start date": "2023-11-24T23:00:00.000Z",
+    "Start date": "2023-06-19T22:00:00.000Z",
     "Rank": "2|i03gdj:",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
@@ -177,14 +177,12 @@
   {
     "Summary": "MTS City Breaks",
     "Created": "2023-05-02T14:28:50.000Z",
-    "Updated": "2023-06-14T14:35:26.000Z",
+    "Updated": "2023-06-19T11:01:23.000Z",
     "Status": "ToDo",
-    "Due date": "2024-01-25T23:00:00.000Z",
-    "Last Transition Occurred": "2023-06-14T14:35:00.000Z",
+    "Last Transition Occurred": "2023-06-19T11:00:00.000Z",
     "Ticket ID": 1594812825,
     "Tier": "0",
     "CRM Create DateTime": "2023-05-02T14:25:00.000Z",
-    "Start date": "2023-11-02T23:00:00.000Z",
     "Rank": "2|i03gbr:",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
