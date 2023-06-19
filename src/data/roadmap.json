@@ -12,9 +12,9 @@
   {
     "Summary": "EHTL Viagens",
     "Created": "2023-04-11T08:55:11.000Z",
-    "Updated": "2023-06-19T05:04:04.000Z",
+    "Updated": "2023-06-19T14:15:54.000Z",
     "Status": "In Progress",
-    "Due date": "2023-08-28T22:00:00.000Z",
+    "Due date": "2023-07-26T22:00:00.000Z",
     "Start date": "2023-05-22T22:00:00.000Z",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
@@ -98,9 +98,9 @@
   {
     "Summary": "Seera Group",
     "Created": "2022-12-29T14:39:03.000Z",
-    "Updated": "2023-06-19T10:54:08.000Z",
+    "Updated": "2023-06-19T14:19:51.000Z",
     "Status": "In Progress",
-    "Due date": "2023-07-17T22:00:00.000Z",
+    "Due date": "2023-06-04T22:00:00.000Z",
     "Start date": "2023-03-22T23:00:00.000Z",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
@@ -108,7 +108,7 @@
   {
     "Summary": "The Travel Junction",
     "Created": "2023-05-02T15:13:18.000Z",
-    "Updated": "2023-06-19T13:25:43.000Z",
+    "Updated": "2023-06-19T13:42:24.000Z",
     "Status": "Planned",
     "Due date": "2023-07-17T22:00:00.000Z",
     "Start date": "2023-06-20T22:00:00.000Z",
@@ -118,7 +118,7 @@
   {
     "Summary": "MTS City Breaks",
     "Created": "2023-05-02T14:28:50.000Z",
-    "Updated": "2023-06-19T13:09:20.000Z",
+    "Updated": "2023-06-19T13:42:14.000Z",
     "Status": "Planned",
     "Due date": "2023-07-17T22:00:00.000Z",
     "Start date": "2023-06-20T22:00:00.000Z",
@@ -128,7 +128,7 @@
   {
     "Summary": "NextPax",
     "Created": "2023-05-02T09:23:01.000Z",
-    "Updated": "2023-06-14T11:11:01.000Z",
+    "Updated": "2023-06-19T13:49:57.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-12T22:00:00.000Z",
     "Start date": "2023-06-01T22:00:00.000Z",
@@ -138,9 +138,9 @@
   {
     "Summary": "Booking Agora",
     "Created": "2023-05-02T09:17:59.000Z",
-    "Updated": "2023-06-13T10:37:54.000Z",
+    "Updated": "2023-06-19T14:19:00.000Z",
     "Status": "In Progress",
-    "Due date": "2023-07-10T22:00:00.000Z",
+    "Due date": "2023-07-18T22:00:00.000Z",
     "Start date": "2023-06-07T22:00:00.000Z",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
@@ -198,9 +198,9 @@
   {
     "Summary": "Atharva Infotech",
     "Created": "2023-05-02T06:02:21.000Z",
-    "Updated": "2023-06-19T05:04:05.000Z",
+    "Updated": "2023-06-19T14:17:01.000Z",
     "Status": "In Progress",
-    "Due date": "2023-07-19T22:00:00.000Z",
+    "Due date": "2023-07-11T22:00:00.000Z",
     "Start date": "2023-05-31T22:00:00.000Z",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
@@ -228,7 +228,7 @@
   {
     "Summary": "Travel Compositor",
     "Created": "2023-05-02T05:59:48.000Z",
-    "Updated": "2023-06-13T10:36:22.000Z",
+    "Updated": "2023-06-19T13:48:55.000Z",
     "Status": "In Progress",
     "Due date": "2023-06-26T22:00:00.000Z",
     "Start date": "2023-05-30T22:00:00.000Z",
@@ -248,10 +248,10 @@
   {
     "Summary": "Sabre",
     "Created": "2023-05-02T05:53:35.000Z",
-    "Updated": "2023-06-19T13:25:47.000Z",
-    "Status": "Planned",
-    "Due date": "2023-08-06T22:00:00.000Z",
-    "Start date": "2023-06-25T22:00:00.000Z",
+    "Updated": "2023-06-19T13:54:38.000Z",
+    "Status": "In Progress",
+    "Due date": "2023-07-25T22:00:00.000Z",
+    "Start date": "2023-06-18T22:00:00.000Z",
     "customfield_11517": "[no field found]",
     "customfield_11515": "[no field found]"
   }
