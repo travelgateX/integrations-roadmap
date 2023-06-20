@@ -6,8 +6,8 @@
     "Status": "In Progress",
     "Due date": "2023-06-15T22:00:00.000Z",
     "Start date": "2023-05-21T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-21T22:00:00.000Z",
+    "Target end": "2023-06-14T22:00:00.000Z"
   },
   {
     "Summary": "EHTL Viagens",
@@ -16,8 +16,8 @@
     "Status": "In Progress",
     "Due date": "2023-08-03T22:00:00.000Z",
     "Start date": "2023-05-22T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-22T22:00:00.000Z",
+    "Target end": "2023-07-17T22:00:00.000Z"
   },
   {
     "Summary": "Conextur Argentina",
@@ -26,9 +26,7 @@
     "Resolved": "2023-05-18T05:53:59.000Z",
     "Status": "Completed",
     "Due date": "2023-05-14T22:00:00.000Z",
-    "Start date": "2023-02-28T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Start date": "2023-02-28T23:00:00.000Z"
   },
   {
     "Summary": "Allbeds",
@@ -38,8 +36,7 @@
     "Status": "Completed",
     "Due date": "2023-05-30T22:00:00.000Z",
     "Start date": "2022-12-28T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-03-09T23:00:00.000Z"
   },
   {
     "Summary": "Saltour",
@@ -48,9 +45,7 @@
     "Resolved": "2023-05-04T12:49:49.000Z",
     "Status": "Completed",
     "Due date": "2023-05-03T22:00:00.000Z",
-    "Start date": "2022-12-28T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Start date": "2022-12-28T23:00:00.000Z"
   },
   {
     "Summary": "Teldar Gekko",
@@ -59,8 +54,8 @@
     "Status": "In Progress",
     "Due date": "2023-07-23T22:00:00.000Z",
     "Start date": "2023-05-31T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-31T22:00:00.000Z",
+    "Target end": "2023-06-26T22:00:00.000Z"
   },
   {
     "Summary": "RealTime Travel Solutions v2",
@@ -69,9 +64,7 @@
     "Resolved": "2023-05-17T12:57:27.000Z",
     "Status": "Completed",
     "Due date": "2023-05-16T22:00:00.000Z",
-    "Start date": "2023-04-18T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Start date": "2023-04-18T22:00:00.000Z"
   },
   {
     "Summary": "CTrip",
@@ -80,9 +73,7 @@
     "Resolved": "2023-05-17T12:55:53.000Z",
     "Status": "Completed",
     "Due date": "2023-05-16T22:00:00.000Z",
-    "Start date": "2022-12-28T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Start date": "2022-12-28T23:00:00.000Z"
   },
   {
     "Summary": "TBO Holidays",
@@ -92,8 +83,7 @@
     "Status": "Completed",
     "Due date": "2023-05-25T22:00:00.000Z",
     "Start date": "2022-12-28T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-01-03T23:00:00.000Z"
   },
   {
     "Summary": "Seera Group",
@@ -102,8 +92,8 @@
     "Status": "In Progress",
     "Due date": "2023-06-19T22:00:00.000Z",
     "Start date": "2023-03-22T23:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-03-22T23:00:00.000Z",
+    "Target end": "2023-04-30T22:00:00.000Z"
   },
   {
     "Summary": "The Travel Junction",
@@ -112,8 +102,8 @@
     "Status": "Planned",
     "Due date": "2023-07-17T22:00:00.000Z",
     "Start date": "2023-06-20T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-20T22:00:00.000Z",
+    "Target end": "2023-07-17T22:00:00.000Z"
   },
   {
     "Summary": "MTS City Breaks",
@@ -122,8 +112,8 @@
     "Status": "In Progress",
     "Due date": "2023-07-16T22:00:00.000Z",
     "Start date": "2023-06-19T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-20T22:00:00.000Z",
+    "Target end": "2023-07-17T22:00:00.000Z"
   },
   {
     "Summary": "NextPax",
@@ -132,8 +122,8 @@
     "Status": "In Progress",
     "Due date": "2023-07-12T22:00:00.000Z",
     "Start date": "2023-06-01T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-01T22:00:00.000Z",
+    "Target end": "2023-07-10T22:00:00.000Z"
   },
   {
     "Summary": "Booking Agora",
@@ -142,8 +132,7 @@
     "Status": "In Progress",
     "Due date": "2023-07-18T22:00:00.000Z",
     "Start date": "2023-06-07T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-05T22:00:00.000Z"
   },
   {
     "Summary": "Otelz.com",
@@ -152,8 +141,8 @@
     "Status": "ToDo",
     "Due date": "2023-08-21T22:00:00.000Z",
     "Start date": "2023-05-16T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-16T22:00:00.000Z",
+    "Target end": "2023-06-22T22:00:00.000Z"
   },
   {
     "Summary": "Eurotours",
@@ -162,8 +151,8 @@
     "Status": "In Progress",
     "Due date": "2023-08-22T22:00:00.000Z",
     "Start date": "2023-05-18T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-18T22:00:00.000Z",
+    "Target end": "2023-07-13T22:00:00.000Z"
   },
   {
     "Summary": "Ezlink",
@@ -172,8 +161,8 @@
     "Status": "Completed",
     "Due date": "2023-06-08T22:00:00.000Z",
     "Start date": "2023-05-14T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-14T22:00:00.000Z",
+    "Target end": "2023-06-11T22:00:00.000Z"
   },
   {
     "Summary": "Travalco Seller",
@@ -182,8 +171,7 @@
     "Status": "ToDo",
     "Due date": "2023-07-31T22:00:00.000Z",
     "Start date": "2023-06-22T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-22T22:00:00.000Z"
   },
   {
     "Summary": "EverRooms_Seller",
@@ -192,8 +180,8 @@
     "Status": "In Progress",
     "Due date": "2023-06-12T22:00:00.000Z",
     "Start date": "2023-05-16T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-16T22:00:00.000Z",
+    "Target end": "2023-06-11T22:00:00.000Z"
   },
   {
     "Summary": "Atharva Infotech",
@@ -202,8 +190,8 @@
     "Status": "In Progress",
     "Due date": "2023-07-16T22:00:00.000Z",
     "Start date": "2023-05-31T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-31T22:00:00.000Z",
+    "Target end": "2023-07-09T22:00:00.000Z"
   },
   {
     "Summary": "DCS Plus",
@@ -212,8 +200,8 @@
     "Status": "ToDo",
     "Due date": "2023-07-05T22:00:00.000Z",
     "Start date": "2023-05-21T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-21T22:00:00.000Z",
+    "Target end": "2023-06-27T22:00:00.000Z"
   },
   {
     "Summary": "Alpitour (Peakwork)",
@@ -222,8 +210,8 @@
     "Status": "ToDo",
     "Due date": "2023-07-23T22:00:00.000Z",
     "Start date": "2023-05-31T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-31T22:00:00.000Z",
+    "Target end": "2023-07-26T22:00:00.000Z"
   },
   {
     "Summary": "Travel Compositor",
@@ -232,8 +220,8 @@
     "Status": "In Progress",
     "Due date": "2023-06-26T22:00:00.000Z",
     "Start date": "2023-05-30T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-05-30T22:00:00.000Z",
+    "Target end": "2023-06-25T22:00:00.000Z"
   },
   {
     "Summary": "NetSemantics S.A",
@@ -242,8 +230,7 @@
     "Status": "ToDo",
     "Due date": "2023-07-11T22:00:00.000Z",
     "Start date": "2023-06-15T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-15T22:00:00.000Z"
   },
   {
     "Summary": "Sabre",
@@ -252,7 +239,7 @@
     "Status": "In Progress",
     "Due date": "2023-07-25T22:00:00.000Z",
     "Start date": "2023-06-18T22:00:00.000Z",
-    "Target start": "[no field found]",
-    "Target end": "[no field found]"
+    "Target start": "2023-06-25T22:00:00.000Z",
+    "Target end": "2023-08-06T22:00:00.000Z"
   }
 ]
