@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { format } from 'date-fns';
+import Helmet from 'react-helmet';
 import './index.css';
 
 const RoadmapPage = ({ data }) => {
@@ -71,6 +72,23 @@ const RoadmapPage = ({ data }) => {
 
   return (
     <>
+      <Helmet>
+        <link
+          href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'
+          rel='stylesheet'
+          integrity='sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM'
+          crossorigin='anonymous'
+        />
+        <script
+          src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
+          integrity='sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz'
+          crossorigin='anonymous'
+        ></script>
+        <script
+          src='https://kit.fontawesome.com/e1e13599a5.js'
+          crossorigin='anonymous'
+        ></script>
+      </Helmet>
       <div className='container-flex'>
         <header className='header'>
           <img
@@ -141,7 +159,25 @@ const RoadmapPage = ({ data }) => {
               <React.Fragment key={node.Ticket_ID}>
                 <tr onClick={() => toggleDetails(index)}>
                   <td>{node.Summary}</td>
-                  <td>{node.Status}</td>
+                  <td>
+                    <span
+                      className={
+                        node.Status === 'In Progress'
+                          ? 'badge text-bg-primary'
+                          : node.Status === 'Completed'
+                          ? 'badge text-bg-success'
+                          : node.Status === 'Planned'
+                          ? 'badge text-bg-info'
+                          : node.Status === 'In Certification'
+                          ? 'badge text-bg-info'
+                          : node.Status === 'ToDo'
+                          ? 'badge text-bg-secondary'
+                          : ''
+                      }
+                    >
+                      {node.Status}
+                    </span>
+                  </td>
                   <td>{formatDate(node.Due_date)}</td>
                   <td>{formatDate(node.Target_End)}</td>
                   <td class='text-end'>
@@ -153,48 +189,62 @@ const RoadmapPage = ({ data }) => {
                 </tr>
                 <tr id={`row-details-${index}`} className='row-details'>
                   <td colSpan='5'>
-                    <div className='details-container'>
-                      <div className='details-row'>
-                        <span>Created:</span>
-                        <span>{formatDate(node.Created)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Updated:</span>
-                        <span>{formatDate(node.Updated)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Last Transition Occurred:</span>
-                        <span>{formatDate(node.Last_Transition_Occurred)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Ticket ID:</span>
-                        <span>{node.Ticket_ID}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Tier:</span>
-                        <span>{node.Tier}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>CRM Create DateTime:</span>
-                        <span>{formatDate(node.CRM_Create_DateTime)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Start date:</span>
-                        <span>{formatDate(node.Start_date)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Rank:</span>
-                        <span>{node.Rank}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Target Start:</span>
-                        <span>{formatDate(node.Target_Start)}</span>
-                      </div>
-                      <div className='details-row'>
-                        <span>Planned end:</span>
-                        <span>{formatDate(node.Planned_end)}</span>
-                      </div>
+                    <div className='mb-3'>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Proin id nunc quis ante placerat dignissim. Fusce
+                        vulputate mi quis bibendum elementum. Etiam nec diam
+                        tellus. Fusce non magna massa. Nullam vehicula et ex
+                        eget pellentesque. Duis a eros vulputate, congue dui
+                        non, sollicitudin nunc.
+                      </p>
                     </div>
+                    <ul className='details-container list-unstyled ms-0'>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Created:</span>
+                        <span>{formatDate(node.Created)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Updated:</span>
+                        <span>{formatDate(node.Updated)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>
+                          Last Transition Occurred:
+                        </span>
+                        <span>{formatDate(node.Last_Transition_Occurred)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Ticket ID:</span>
+                        <span>{node.Ticket_ID}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Tier:</span>
+                        <span>{node.Tier}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>
+                          CRM Create DateTime:
+                        </span>
+                        <span>{formatDate(node.CRM_Create_DateTime)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Start date:</span>
+                        <span>{formatDate(node.Start_date)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Rank:</span>
+                        <span>{node.Rank}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Target Start:</span>
+                        <span>{formatDate(node.Target_Start)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Planned end:</span>
+                        <span>{formatDate(node.Planned_end)}</span>
+                      </li>
+                    </ul>
                   </td>
                 </tr>
               </React.Fragment>

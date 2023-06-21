@@ -2880,8 +2880,10 @@ const RoadmapPage = ({
   });
   const toggleDetails = index => {
     const detailsRow = document.getElementById(`row-details-${index}`);
-    if (detailsRow) {
+    const detailsChevron = document.getElementById(`fa-chevron-down-${index}`);
+    if (detailsRow, detailsChevron) {
       detailsRow.classList.toggle('show-details');
+      detailsChevron.classList.toggle('rotate');
     }
   };
   const formatDate = date => {
@@ -2890,24 +2892,28 @@ const RoadmapPage = ({
     }
     return (0,date_fns__WEBPACK_IMPORTED_MODULE_2__["default"])(new Date(date), 'yyyy-MM-dd');
   };
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container-flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
     className: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "header-logo",
     src: "https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg",
     alt: "Travelgatex Logo"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "header-title"
-  }, "Integrations Roadmap ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("small", null, "(beta)"), ' ')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "filters"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "header-title mb-4"
+  }, "Integrations Roadmap ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("small", null, "(beta)"), ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "filters d-flex gap-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
+    className: "form-control",
     placeholder: "Search",
     value: searchTerm,
     onChange: e => setSearchTerm(e.target.value)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    className: "form-select",
     value: filterStatus,
     onChange: e => setFilterStatus(e.target.value)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
@@ -2923,6 +2929,7 @@ const RoadmapPage = ({
   }, "In Certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "ToDo"
   }, "ToDo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    className: "form-select",
     value: sortField,
     onChange: e => setSortField(e.target.value)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
@@ -2936,6 +2943,7 @@ const RoadmapPage = ({
   }, "Due Date"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "Target_End"
   }, "Target End")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    className: "form-select",
     value: sortOrder,
     onChange: e => setSortOrder(e.target.value)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
@@ -2945,18 +2953,23 @@ const RoadmapPage = ({
   }, "Ascending"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "desc"
   }, "Descending"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", {
-    className: "roadmap-table"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Summary"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Status"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Due Date"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Target End"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, sortedEdges.map(({
+    className: "roadmap-table table-hover"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Summary"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Status"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Due Date"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null, "Target End"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, sortedEdges.map(({
     node
   }, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: node.Ticket_ID
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", {
     onClick: () => toggleDetails(index)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, node.Summary), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, node.Status), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, formatDate(node.Due_date)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, formatDate(node.Target_End))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, node.Summary), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, node.Status), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, formatDate(node.Due_date)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, formatDate(node.Target_End)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", {
+    class: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    class: "fa-regular fa-chevron-down",
+    id: `fa-chevron-down-${index}`
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", {
     id: `row-details-${index}`,
     className: "row-details"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", {
-    colSpan: "4"
+    colSpan: "5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "details-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2981,7 +2994,7 @@ const RoadmapPage = ({
     className: "details-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Planned end:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, formatDate(node.Planned_end)))))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
     className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 ", new Date().getFullYear(), " Travelgatex. All rights reserved.")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 ", new Date().getFullYear(), " Travelgatex. All rights reserved."))));
 };
 const query = "4260371351";
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RoadmapPage);
