@@ -97,7 +97,6 @@ const RoadmapPage = ({ data }) => {
           onChange={e => setSortOrder(e.target.value)}
         >
           <option value="">Order</option>
-```jsx
           <option value="asc">Ascending</option>
           <option value="desc">Descending</option>
         </select>
