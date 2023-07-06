@@ -128,7 +128,7 @@
   {
     "Summary": "Booking Agora",
     "Created": "2023-05-02T09:17:59.000Z",
-    "Updated": "2023-07-04T16:09:44.000Z",
+    "Updated": "2023-07-06T09:02:59.000Z",
     "Status": "In Progress",
     "Due date": "2023-07-23T22:00:00.000Z",
     "Start date": "2023-06-07T22:00:00.000Z",
@@ -225,7 +225,7 @@
     "Summary": "Travel Compositor",
     "Created": "2023-05-02T05:59:48.000Z",
     "Updated": "2023-07-05T07:59:18.000Z",
-    "Status": "#N/A",
+    "Status": "In Progress",
     "Due date": "2023-07-06T22:00:00.000Z",
     "Start date": "2023-05-30T22:00:00.000Z",
     "Target start": "2023-05-30T22:00:00.000Z",
