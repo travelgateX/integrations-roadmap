@@ -1,29 +1,39 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { format } from 'date-fns';
+import Helmet from 'react-helmet';
 import './index.css';
 
 const RoadmapPage = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortField, setSortField] = useState(null);
   const [sortOrder, setSortOrder] = useState('');
+  const [filterStatus, setFilterStatus] = useState('');
 
   const { allRoadmapJson } = data;
   const { edges } = allRoadmapJson;
 
-  const filteredEdges = edges.filter(edge => {
+  const filteredEdges = edges.filter((edge) => {
     const { node } = edge;
 
-    // Filtrar por el campo Summary
-    if (node.Summary.toLowerCase().includes(searchTerm.toLowerCase())) {
+    // Filtrar por el campo Summary y Status
+    if (
+      node.Summary.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (filterStatus === '' ||
+        node.Status.toLowerCase() === filterStatus.toLowerCase())
+    ) {
       return true;
     }
 
     // Filtrar por todos los campos
     const values = Object.values(node);
-    return values.some(value => {
+    return values.some((value) => {
       if (typeof value === 'string') {
-        return value.toLowerCase().includes(searchTerm.toLowerCase());
+        return (
+          value.toLowerCase().includes(searchTerm.toLowerCase()) &&
+          (filterStatus === '' ||
+            value.toLowerCase() === filterStatus.toLowerCase())
+        );
       }
       return false;
     });
@@ -44,77 +54,105 @@ const RoadmapPage = ({ data }) => {
     return 0;
   });
 
-  const toggleDetails = index => {
+  const toggleDetails = (index) => {
     const detailsRow = document.getElementById(`row-details-${index}`);
-    if (detailsRow) {
+    const detailsChevron = document.getElementById(`fa-chevron-down-${index}`);
+    if ((detailsRow, detailsChevron)) {
       detailsRow.classList.toggle('show-details');
+      detailsChevron.classList.toggle('rotate');
     }
   };
 
-  const formatDate = date => {
+  const formatDate = (date) => {
     if (!date) {
       return '';
     }
-    return format(new Date(date), 'MMMM yyyy'); // Actualizado el formato de fecha
+    return format(new Date(date), 'yyyy-MM-dd');
   };
 
   return (
-    <div className="container">
-      <header className="header">
-        <img
-          className="header-logo"
-          src="https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg"
-          alt="Travelgatex Logo"
+    <>
+      <Helmet>
+        <link
+          href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'
+          rel='stylesheet'
+          integrity='sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM'
+          crossorigin='anonymous'
         />
-        <h1 className="header-title">Integrations Roadmap <small>beta</small></h1>
+        <script
+          src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
+          integrity='sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz'
+          crossorigin='anonymous'
+        ></script>
+        <script
+          src='https://kit.fontawesome.com/e1e13599a5.js'
+          crossorigin='anonymous'
+        ></script>
+      </Helmet>
+      <div className='container-flex'>
+        <header className='header'
+      >
+        <img
+          className='header-logo'
+          src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
+          alt='Travelgatex Logo'
+        />
       </header>
-
-      <div className="filters">
+    </div>
+    <div className='container'>
+      <h1 className='header-title mb-4'>
+        Integrations Roadmap <small>(beta)</small>{' '}
+      </h1>
+      <div className='filters d-flex gap-3'>
         <input
-          type="text"
-          placeholder="Search"
+          type='text'
+          className='form-control'
+          placeholder='Search'
           value={searchTerm}
-          onChange={e => setSearchTerm(e.target.value)}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <select
-          value={sortField}
-          onChange={e => setSortField(e.target.value)}
+          className='form-select'
+          value={filterStatus}
+          onChange={(e) => setFilterStatus(e.target.value)}
         >
-          <option value="">Sort By</option>
-          <option value="Summary">Summary</option>
-          <option value="Created">Created</option>
-          <option value="Updated">Updated</option>
-          <option value="Status">Status</option>
-          <option value="Due_date">Due Date</option>
-          <option value="Start_date">Start Date</option>
-          <option value="Target_start">Target Start</option>
-          <option value="Target_end">Target End</option>
-          <option value="Profile_Link">Profile Link</option>
-          <option value="External_Description">External Description</option>
+          <option value=''>All Status</option>
+          <option value='In Progress'>In Progress</option>
+          <option value='Completed'>Completed</option>
+          <option value='Planned'>Planned</option>
+          <option value='In Certification'>In Certification</option>
+          <option value='ToDo'>ToDo</option>
         </select>
         <select
-          value={sortOrder}
-          onChange={e => setSortOrder(e.target.value)}
+          className='form-select'
+          value={sortField}
+          onChange={(e) => setSortField(e.target.value)}
         >
-          <option value="">Order</option>
-          <option value="asc">Ascending</option>
-          <option value="desc">Descending</option>
+          <option value=''>Sort By</option>
+          <option value='Summary'>Summary</option>
+          <option value='Status'>Status</option>
+          <option value='Due_date'>Due Date</option>
+          <option value='Target_end'>Target End</option>
+        </select>
+        <select
+          className='form-select'
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+        >
+          <option value=''>Order</option>
+          <option value='asc'>Ascending</option>
+          <option value='desc'>Descending</option>
         </select>
       </div>
 
-      <table className="roadmap-table">
+      <table className='roadmap-table table-hover'>
         <thead>
           <tr>
             <th>Summary</th>
-            <th>Created</th>
-            <th>Updated</th>
             <th>Status</th>
             <th>Due Date</th>
-            <th>Start Date</th>
-            <th>Target Start</th>
             <th>Target End</th>
-            <th>Profile Link</th>
-            <th>External Description</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -122,38 +160,81 @@ const RoadmapPage = ({ data }) => {
             <React.Fragment key={node.Summary}>
               <tr onClick={() => toggleDetails(index)}>
                 <td>{node.Summary}</td>
-                <td>{formatDate(node.Created)}</td>
-                <td>{formatDate(node.Updated)}</td>
-                <td>{node.Status}</td>
-                <td>{formatDate(node['Due date'])}</td>
-                <td>{formatDate(node['Start date'])}</td>
-                <td>{formatDate(node['Target start'])}</td>
-                <td>{formatDate(node['Target end'])}</td>
                 <td>
-                  <a href={node['Profile Link']} target="_blank" rel="noopener noreferrer">
-                    {node['Profile Link']}
-                  </a>
+                  <span
+                    className={`badge text-bg-${node.Status.toLowerCase()}`}
+                  >
+                    {node.Status}
+                  </span>
                 </td>
-                <td>{node['External Description']}</td>
+                <td>{formatDate(node['Due date'])}</td>
+                <td>{formatDate(node['Target End'])}</td>
+                <td className='text-end'>
+                  <i
+                    className='fa-regular fa-chevron-down'
+                    id={`fa-chevron-down-${index}`}
+                  ></i>
+                </td>
               </tr>
-              <tr id={`row-details-${index}`} className="row-details">
-                <td colSpan="10">
-                  <div className="details-container">
-                    {/* Agrega los detalles adicionales aquí */}
+              <tr id={`row-details-${index}`} className='row-details'>
+                <td colSpan='5'>
+                  <div className='mb-3'>
+                    <p>{node['External Description']}</p>
                   </div>
+                  <ul className='details-container list-unstyled ms-0'>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Created:</span>
+                      <span>{node.Created}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Updated:</span>
+                      <span>{node.Updated}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Status:</span>
+                      <span>{node.Status}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Due Date:</span>
+                      <span>{node['Due date']}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Start Date:</span>
+                      <span>{node['Start date']}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Target Start:</span>
+                      <span>{node['Target start']}</span>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>Profile Link:</span>
+                      <a
+                        href={node['Profile Link']}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        {node['Profile Link']}
+                      </a>
+                    </li>
+                    <li className='details-row'>
+                      <span className='me-2 fw-bold'>
+                        External Description:
+                      </span>
+                      <span>{node['External Description']}</span>
+                    </li>
+                  </ul>
                 </td>
               </tr>
             </React.Fragment>
           ))}
         </tbody>
       </table>
-
-      <footer className="footer">
+      <footer className='footer'>
         <p>&copy; {new Date().getFullYear()} Travelgatex. All rights reserved.</p>
       </footer>
     </div>
-  );
-};
+  </>
+);
 
 export const query = graphql`
   query {
