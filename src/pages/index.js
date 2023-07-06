@@ -90,7 +90,7 @@ const RoadmapPage = ({ data }) => {
         ></script>
       </Helmet>
       <div className='container-flex'>
-        <headerclassName='header'>
+        <header className='header'>
           <img
             className='header-logo'
             src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
