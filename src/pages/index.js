@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { format, parse } from 'date-fns';
+import { format, isValid, parse } from 'date-fns';
 import Helmet from 'react-helmet';
 import './index.css';
 
@@ -64,8 +64,11 @@ const RoadmapPage = ({ data }) => {
   };
 
   const formatDate = (dateString) => {
-    const parsedDate = parse(dateString, 'MMM yyyy', new Date());
-    return format(parsedDate, 'yyyy-MM-dd');
+    const parsedDate = parse(dateString, 'LLLL yyyy', new Date());
+    if (!isValid(parsedDate)) {
+      return ''; // O cualquier otro valor predeterminado en caso de fecha inválida
+     }
+    return format(parsedDate, 'LLL yyyy');
   };
 
   return (
@@ -150,7 +153,6 @@ const RoadmapPage = ({ data }) => {
               <th>Status</th>
               <th>Due Date</th>
               <th>Target End</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>
