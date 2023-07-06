@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { graphql } from 'gatsby';
 import { format } from 'date-fns';
 import Helmet from 'react-helmet';
 import './index.css';
+import { roadmapQuery } from './roadmapQuery'; // Importa la consulta
 
 const RoadmapPage = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -235,26 +235,5 @@ const RoadmapPage = ({ data }) => {
     </>
   );
 };
-
-export const query = graphql`
-  query {
-    allRoadmapJson {
-      edges {
-        node {
-          Summary
-          Created
-          Updated
-          Status
-          Due_date
-          Start_date
-          Target_start
-          Target_end
-          Profile_Link
-          External_Description
-        }
-      }
-    }
-  }
-`;
 
 export default RoadmapPage;
