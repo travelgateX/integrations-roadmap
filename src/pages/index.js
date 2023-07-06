@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { format } from 'date-fns';
 import Helmet from 'react-helmet';
 import './index.css';
-import { roadmapQuery } from './roadmapQuery'; // Importa la consulta
+import { roadmapQuery } from '../queries/roadmapQuery'; // Importa la consulta
 
 const RoadmapPage = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
