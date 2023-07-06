@@ -1,625 +1,242 @@
 [
   {
-    "Summary": "Canarias New Travel",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "EHTL Viagens",
-    "Created": "April 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "August 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Conextur Argentina",
-    "Created": "April 2023",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "March 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Allbeds",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "December 2022",
-    "Target start": "March 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Saltour",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "December 2022",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Teldar Gekko",
-    "Created": "March 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "RealTime Travel Solutions v2",
-    "Created": "April 2022",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "April 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "CTrip",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "December 2022",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "TBO Holidays",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Resolved": "May 2023",
-    "Status": "Completed",
-    "Due date": "May 2023",
-    "Start date": "December 2022",
-    "Target start": "January 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Seera Group",
-    "Created": "December 2022",
-    "Updated": "July 2023",
-    "Status": "Completed",
-    "Due date": "September 2023",
-    "Start date": "March 2023",
-    "Target start": "March 2023",
-    "Target end": "May 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "The Travel Junction",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "MTS City Breaks",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "NextPax",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "Profile Link": "https://app.travelgatex.com/network/nextpax",
-    "External Description": "NextPax is the most advanced channel management technology provider for hotels, resorts and vacation rentals worldwide, recognised for delivering the most advanced full-service solutions between property management systems and distribution channels worldwide. Connect your vacation rentals, hotels and/or vacation parks to over 100+ booking channels around the world."
-  },
-  {
-    "Summary": "Booking Agora",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Otelz.com",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "August 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Eurotours",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "August 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Ezlink",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "Completed",
-    "Due date": "June 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Travalco Seller",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "August 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "EverRooms_Seller",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "June 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Atharva Infotech",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "DCS Plus",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "July 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Vervotech",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "November 2023",
-    "Start date": "August 2023",
-    "Profile Link": "none",
-    "External Description": "none"
-  },
-  {
-    "Summary": "Alpitour (Peakwork)",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "Profile Link": "none",
-    "External Description": "none"
+    "": "#REF!"
   },
   {
-    "Summary": "Travel Compositor",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
+    "": "#REF!"
   },
   {
-    "Summary": "NetSemantics S.A",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "ToDo",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Profile Link": "none",
-    "External Description": "none"
+    "": "#REF!"
   },
   {
-    "Summary": "Sabre",
-    "Created": "May 2023",
-    "Updated": "July 2023",
-    "Status": "In Progress",
-    "Due date": "July 2023",
-    "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "August 2023",
-    "Profile Link": "none",
-    "External Description": "none"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   },
   {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
-  },
-  {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
-  },
-  {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
-  },
-  {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
-  },
-  {
-    "Target start": "Invalid Date NaN",
-    "Target end": "Invalid Date NaN"
+    "": "#REF!"
   }
 ]
