@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { format } from 'date-fns';
+import { format, parse } from 'date-fns';
 import Helmet from 'react-helmet';
 import './index.css';
 
@@ -63,11 +63,9 @@ const RoadmapPage = ({ data }) => {
     }
   };
 
-  const formatDate = (date) => {
-    if (!date) {
-      return '';
-    }
-    return format(new Date(date), 'yyyy-MM-dd');
+  const formatDate = (dateString) => {
+    const parsedDate = parse(dateString, 'MMM yyyy', new Date());
+    return format(parsedDate, 'yyyy-MM-dd');
   };
 
   return (
@@ -88,153 +86,154 @@ const RoadmapPage = ({ data }) => {
           src='https://kit.fontawesome.com/e1e13599a5.js'
           crossorigin='anonymous'
         ></script>
+
       </Helmet>
       <div className='container-flex'>
-        <header className='header'
-      >
-        <img
-          className='header-logo'
-          src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
-          alt='Travelgatex Logo'
-        />
-      </header>
-    </div>
-    <div className='container'>
-      <h1 className='header-title mb-4'>
-        Integrations Roadmap <small>(beta)</small>{' '}
-      </h1>
-      <div className='filters d-flex gap-3'>
-        <input
-          type='text'
-          className='form-control'
-          placeholder='Search'
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-        <select
-          className='form-select'
-          value={filterStatus}
-          onChange={(e) => setFilterStatus(e.target.value)}
-        >
-          <option value=''>All Status</option>
-          <option value='In Progress'>In Progress</option>
-          <option value='Completed'>Completed</option>
-          <option value='Planned'>Planned</option>
-          <option value='In Certification'>In Certification</option>
-          <option value='ToDo'>ToDo</option>
-        </select>
-        <select
-          className='form-select'
-          value={sortField}
-          onChange={(e) => setSortField(e.target.value)}
-        >
-          <option value=''>Sort By</option>
-          <option value='Summary'>Summary</option>
-          <option value='Status'>Status</option>
-          <option value='Due_date'>Due Date</option>
-          <option value='Target_end'>Target End</option>
-        </select>
-        <select
-          className='form-select'
-          value={sortOrder}
-          onChange={(e) => setSortOrder(e.target.value)}
-        >
-          <option value=''>Order</option>
-          <option value='asc'>Ascending</option>
-          <option value='desc'>Descending</option>
-        </select>
+        <header className='header'>
+          <img
+            className='header-logo'
+            src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
+            alt='Travelgatex Logo'
+          />
+        </header>
       </div>
+      <div className='container'>
+        <h1 className='header-title mb-4'>
+          Integrations Roadmap <small>(beta)</small>{' '}
+        </h1>
+        <div className='filters d-flex gap-3'>
+          <input
+            type='text'
+            className='form-control'
+            placeholder='Search'
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <select
+            className='form-select'
+            value={filterStatus}
+            onChange={(e) => setFilterStatus(e.target.value)}
+          >
+            <option value=''>All Status</option>
+            <option value='In Progress'>In Progress</option>
+            <option value='Completed'>Completed</option>
+            <option value='Planned'>Planned</option>
+            <option value='In Certification'>In Certification</option>
+            <option value='ToDo'>ToDo</option>
+          </select>
+          <select
+            className='form-select'
+            value={sortField}
+            onChange={(e) => setSortField(e.target.value)}
+          >
+            <option value=''>Sort By</option>
+            <option value='Summary'>Summary</option>
+            <option value='Status'>Status</option>
+            <option value='Due_date'>Due Date</option>
+            <option value='Target_end'>Target End</option>
+          </select>
+          <select
+            className='form-select'
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+          >
+            <option value=''>Order</option>
+            <option value='asc'>Ascending</option>
+            <option value='desc'>Descending</option>
+          </select>
+        </div>
 
-      <table className='roadmap-table table-hover'>
-        <thead>
-          <tr>
-            <th>Summary</th>
-            <th>Status</th>
-            <th>Due Date</th>
-            <th>Target End</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {sortedEdges.map(({ node }, index) => (
-            <React.Fragment key={node.Summary}>
-              <tr onClick={() => toggleDetails(index)}>
-                <td>{node.Summary}</td>
-                <td>
-                  <span
-                    className={`badge text-bg-${node.Status.toLowerCase()}`}
-                  >
-                    {node.Status}
-                  </span>
-                </td>
-                <td>{formatDate(node['Due date'])}</td>
-                <td>{formatDate(node['Target End'])}</td>
-                <td className='text-end'>
-                  <i
-                    className='fa-regular fa-chevron-down'
-                    id={`fa-chevron-down-${index}`}
-                  ></i>
-                </td>
-              </tr>
-              <tr id={`row-details-${index}`} className='row-details'>
-                <td colSpan='5'>
-                  <div className='mb-3'>
-                    <p>{node['External Description']}</p>
-                  </div>
-                  <ul className='details-container list-unstyled ms-0'>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Created:</span>
-                      <span>{node.Created}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Updated:</span>
-                      <span>{node.Updated}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Status:</span>
-                      <span>{node.Status}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Due Date:</span>
-                      <span>{node['Due date']}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Start Date:</span>
-                      <span>{node['Start date']}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Target Start:</span>
-                      <span>{node['Target start']}</span>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>Profile Link:</span>
-                      <a
-                        href={node['Profile Link']}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        {node['Profile Link']}
-                      </a>
-                    </li>
-                    <li className='details-row'>
-                      <span className='me-2 fw-bold'>
-                        External Description:
-                      </span>
-                      <span>{node['External Description']}</span>
-                    </li>
-                  </ul>
-                </td>
-              </tr>
-            </React.Fragment>
-          ))}
-        </tbody>
-      </table>
+        <table className='roadmap-table table-hover'>
+          <thead>
+            <tr>
+              <th>Summary</th>
+              <th>Status</th>
+              <th>Due Date</th>
+              <th>Target End</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedEdges.map(({ node }, index) => (
+              <React.Fragment key={node.Summary}>
+                <tr onClick={() => toggleDetails(index)}>
+                  <td>{node.Summary}</td>
+                  <td>
+                    <span
+                      className={`badge text-bg-${node.Status.toLowerCase()}`}
+                    >
+                      {node.Status}
+                    </span>
+                  </td>
+                  <td>{formatDate(node['Due date'])}</td>
+                  <td>{formatDate(node['Target End'])}</td>
+                  <td className='text-end'>
+                    <i
+                      className='fa-regular fa-chevron-down'
+                      id={`fa-chevron-down-${index}`}
+                    ></i>
+                  </td>
+                </tr>
+                <tr id={`row-details-${index}`} className='row-details'>
+                  <td colSpan='5'>
+                    <div className='mb-3'>
+                      <p>{node['External Description']}</p>
+                    </div>
+                    <ul className='details-container list-unstyled ms-0'>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Created:</span>
+                        <span>{formatDate(node.Created)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Updated:</span>
+                        <span>{formatDate(node.Updated)}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Last Transition Occurred:</span>
+                        <span>{formatDate(node['Last Transition Occurred'])}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Ticket ID:</span>
+                        <span>{node['Ticket ID']}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Tier:</span>
+                        <span>{node.Tier}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>CRM Create DateTime:</span>
+                        <span>{formatDate(node['CRM Create DateTime'])}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Start date:</span>
+                        <span>{formatDate(node['Start date'])}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Rank:</span>
+                        <span>{node.Rank}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Target Start:</span>
+                        <span>{formatDate(node['Target Start'])}</span>
+                      </li>
+                      <li className='details-row'>
+                        <span className='me-2 fw-bold'>Planned end:</span>
+                        <span>{formatDate(node['Planned end'])}</span>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </React.Fragment>
+            ))}
+          </tbody>
+        </table>
+      </div>
       <footer className='footer'>
-        <p>&copy; {new Date().getFullYear()} Travelgatex. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Travelgatex</p>
       </footer>
-    </div>
-  </>
-);
+    </>
+  );
+};
 
 export const query = graphql`
   query {
