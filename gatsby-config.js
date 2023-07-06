@@ -23,6 +23,5 @@ module.exports = {
       },
     },
     'gatsby-transformer-json',
-    'gatsby-plugin-graphql-codegen',
   ],
 };
