@@ -57,14 +57,14 @@ const RoadmapPage = ({ data }) => {
   const toggleDetails = (index) => {
     const detailsRow = document.getElementById(`row-details-${index}`);
     const detailsChevron = document.getElementById(`fa-chevron-down-${index}`);
-    if ((detailsRow, detailsChevron)) {
+    if (detailsRow && detailsChevron) {
       detailsRow.classList.toggle('show-details');
       detailsChevron.classList.toggle('rotate');
     }
   };
 
   const formatDate = (date) => {
-    if (!date) {
+    if (!date || date === 'Invalid Date NaN') {
       return '';
     }
     return format(new Date(date), 'yyyy-MM-dd');
@@ -90,7 +90,7 @@ const RoadmapPage = ({ data }) => {
         ></script>
       </Helmet>
       <div className='container-flex'>
-        <header className='header'>
+        <headerclassName='header'>
           <img
             className='header-logo'
             src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
@@ -178,11 +178,11 @@ const RoadmapPage = ({ data }) => {
                       {node.Status}
                     </span>
                   </td>
-                  <td>{formatDate(node.Due_date)}</td>
-                  <td>{formatDate(node.Target_End)}</td>
-                  <td class='text-end'>
+                  <td>{formatDate(node['Due date'])}</td>
+                  <td>{formatDate(node['Target end'])}</td>
+                  <td className='text-end'>
                     <i
-                      class='fa-regular fa-chevron-down'
+                      className='fa-regular fa-chevron-down'
                       id={`fa-chevron-down-${index}`}
                     ></i>
                   </td>
@@ -192,11 +192,7 @@ const RoadmapPage = ({ data }) => {
                     <div className='mb-3'>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Proin id nunc quis ante placerat dignissim. Fusce
-                        vulputate mi quis bibendum elementum. Etiam nec diam
-                        tellus. Fusce non magna massa. Nullam vehicula et ex
-                        eget pellentesque. Duis a eros vulputate, congue dui
-                        non, sollicitudin nunc.
+                        Proin id nunc quis ante placerat dignissim. Fusce vulputate mi quis bibendum elementum. Etiam nec diam tellus. Fusce non magna massa. Nullam vehicula et ex eget pellentesque. Duis a eros vulputate, congue dui non, sollicitudin nunc.
                       </p>
                     </div>
                     <ul className='details-container list-unstyled ms-0'>
@@ -226,23 +222,7 @@ const RoadmapPage = ({ data }) => {
                         <span className='me-2 fw-bold'>
                           CRM Create DateTime:
                         </span>
-                        <span>{formatDate(node.CRM_Create_DateTime)}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Start date:</span>
-                        <span>{formatDate(node.Start_date)}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Rank:</span>
-                        <span>{node.Rank}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Target Start:</span>
-                        <span>{formatDate(node.Target_Start)}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Planned end:</span>
-                        <span>{formatDate(node.Planned_end)}</span>
+                        <span>{formatDate(node['CRM Create DateTime'])}</span>
                       </li>
                     </ul>
                   </td>
@@ -251,12 +231,6 @@ const RoadmapPage = ({ data }) => {
             ))}
           </tbody>
         </table>
-
-        <footer className='footer'>
-          <p>
-            &copy; {new Date().getFullYear()} Travelgatex. All rights reserved.
-          </p>
-        </footer>
       </div>
     </>
   );
@@ -272,15 +246,11 @@ export const query = graphql`
           Updated
           Status
           Due_date
-          Last_Transition_Occurred
-          Ticket_ID
-          Tier
-          CRM_Create_DateTime
           Start_date
-          Rank
-          Target_End
-          Target_Start
-          Planned_end
+          Target_start
+          Target_end
+          Profile_Link
+          External_Description
         }
       }
     }
