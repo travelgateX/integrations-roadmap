@@ -8,6 +8,7 @@ export const roadmapQuery = graphql`
           Summary
           Created
           Updated
+          Resolved
           Status
           Due_date
           Start_date
