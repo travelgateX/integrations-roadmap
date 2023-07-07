@@ -151,7 +151,6 @@ const RoadmapPage = ({ data }) => {
               <th>Summary</th>
               <th>Status</th>
               <th>Due Date</th>
-              <th>Target End</th>
             </tr>
           </thead>
           <tbody>
@@ -166,8 +165,7 @@ const RoadmapPage = ({ data }) => {
                       {node.Status}
                     </span>
                   </td>
-                  <td>{formatDate(node['Due date'])}</td>
-                  <td>{formatDate(node['Target End'])}</td>
+                  <td>{formatDate(node.Due_date)}</td>
                   <td className='text-end'>
                     <i
                       className='fa-regular fa-chevron-down'
@@ -178,31 +176,24 @@ const RoadmapPage = ({ data }) => {
                 <tr id={`row-details-${index}`} className='row-details'>
                   <td colSpan='5'>
                     <div className='mb-3'>
-                      <p>{node['External Description']}</p>
+                      <p>{node.External_Description}</p>
                     </div>
-                    <ul className='details-container list-unstyled ms-0'>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Created:</span>
-                        <span>{formatDate(node.Created)}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Updated:</span>
-                        <span>{formatDate(node.Updated)}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Profile Link:</span>
-                        <span>{node['Profile Link']}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Description:</span>
-                        <span>{node['External Description']}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Start date:</span>
-                        <span>{formatDate(node['Start date'])}</span>
-                      </li>
+                    <p><span className='me-2 fw-bold'>Profile Link:</span>
+                    <span><a href="{node.Profile_Link}">{node.Profile_Link}</a></span> <br/>
+                    <span className='me-2 fw-bold'>Status:</span>
+                    <span>{node.Status}</span><br/>
+                    <span className='me-2 fw-bold'>Due Date:</span>
+                    <span>{node.Due_date}</span><br/>
+                    </p>
+                    <p>
+                    <span className='me-2 fw-bold'>Created:</span>
+                    <span>{formatDate(node.Created)}</span><br/>
+                    <span className='me-2 fw-bold'>Start date:</span>
+                    <span>{formatDate(node.Start_date)}</span><br/>
+                    <span className='me-2 fw-bold'>Updated:</span>
+                    <span>{formatDate(node.Updated)}</span><br/>
+                    </p>
 
-                    </ul>
                   </td>
                 </tr>
               </React.Fragment>
