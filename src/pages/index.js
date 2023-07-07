@@ -146,11 +146,6 @@ const RoadmapPage = ({ data }) => {
         </div>
 
         <table className='roadmap-table table-hover'>
-          <thead>
-            <tr>
-              <th>....</th>
-            </tr>
-          </thead>
           <tbody>
             {sortedEdges.map(({ node }, index) => (
               <React.Fragment key={node.Summary}>
@@ -177,7 +172,7 @@ const RoadmapPage = ({ data }) => {
                       <p>{node.External_Description}</p>
                     </div>
                     <p><span className='me-2 fw-bold'>Profile Link:</span>
-                    <span><a href="{node.Profile_Link}">{node.Profile_Link}</a></span> <br/>
+                    <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br/>
                     <span className='me-2 fw-bold'>Status:</span>
                     <span>{node.Status}</span><br/>
                     <span className='me-2 fw-bold'>Available:</span>
