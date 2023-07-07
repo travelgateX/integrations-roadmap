@@ -100,7 +100,7 @@ table.roadmap-table tr:hover {
 }
 span.badge.text-bg-in.progress {
   background-color: blue;
-  isplay: inline;
+  display: inline;
 }
 span.badge.text-bg-todo {
   background-color: darkgrey;
