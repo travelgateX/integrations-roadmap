@@ -130,9 +130,9 @@ const RoadmapPage = ({ data }) => {
             onChange={(e) => setSortField(e.target.value)}
           >
             <option value=''>Sort By</option>
-            <option value='Summary'>Summary</option>
+            <option value='Summary'>Supplier</option>
             <option value='Status'>Status</option>
-            <option value='Due_date'>Due Date</option>
+            <option value='Due_date'>Available Date</option>
           </select>
           <select
             className='form-select'
@@ -148,9 +148,7 @@ const RoadmapPage = ({ data }) => {
         <table className='roadmap-table table-hover'>
           <thead>
             <tr>
-              <th>Summary</th>
-              <th>Status</th>
-              <th>Due Date</th>
+              <th>....</th>
             </tr>
           </thead>
           <tbody>
@@ -158,14 +156,14 @@ const RoadmapPage = ({ data }) => {
               <React.Fragment key={node.Summary}>
                 <tr onClick={() => toggleDetails(index)}>
                   <td>{node.Summary}</td>
-                  <td>
+                  
+                  <td>                    <span className='me-2 fw-bold'>Status:</span>
                     <span
                       className={`badge text-bg-${node.Status.toLowerCase()}`}
                     >
                       {node.Status}
-                    </span>
-                  </td>
-                  <td>{formatDate(node.Due_date)}</td>
+                    </span><br/>
+                      <span className='me-2 fw-bold'>Available: </span>{formatDate(node.Due_date)}</td>
                   <td className='text-end'>
                     <i
                       className='fa-regular fa-chevron-down'
@@ -182,15 +180,15 @@ const RoadmapPage = ({ data }) => {
                     <span><a href="{node.Profile_Link}">{node.Profile_Link}</a></span> <br/>
                     <span className='me-2 fw-bold'>Status:</span>
                     <span>{node.Status}</span><br/>
-                    <span className='me-2 fw-bold'>Due Date:</span>
+                    <span className='me-2 fw-bold'>Available:</span>
                     <span>{node.Due_date}</span><br/>
                     </p>
                     <p>
-                    <span className='me-2 fw-bold'>Created:</span>
+                    <span className='me-2 fw-bold'>Added to roadmap:</span>
                     <span>{formatDate(node.Created)}</span><br/>
-                    <span className='me-2 fw-bold'>Start date:</span>
+                    <span className='me-2 fw-bold'>Development Start:</span>
                     <span>{formatDate(node.Start_date)}</span><br/>
-                    <span className='me-2 fw-bold'>Updated:</span>
+                    <span className='me-2 fw-bold'>Last Update:</span>
                     <span>{formatDate(node.Updated)}</span><br/>
                     </p>
 
