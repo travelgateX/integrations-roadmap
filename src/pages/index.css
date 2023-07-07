@@ -98,3 +98,13 @@ table.roadmap-table tr:hover {
 .footer p {
   font-size: 14px;
 }
+span.badge.text-bg-in.progress {
+    background-color: blue;
+}
+span.badge.text-bg-todo {
+    background-color: darkgrey;
+}
+span.badge.text-bg-completed {
+    background-color: darkgreen;
+}
+
