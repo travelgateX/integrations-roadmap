@@ -1,1 +1,30 @@
-node_modules
+# Ignorar directorios generados
+node_modules/
+.cache/
+public/
+ 
+# Ignorar archivos generados por Gatsby
+# (esta sección puede variar dependiendo de tu configuración)
+ 
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+.DS_Store
+ 
+# Ignorar archivos de configuración
+.env
+.env.development
+.env.production
+ 
+# Ignorar archivos de dependencias específicos del sistema operativo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Ignorar archivos de respaldo generados por editores de texto
+.vscode/
+.idea/
+*.sublime-*
+*.komodoproject
+*.komodotools
+*.kate-swp
