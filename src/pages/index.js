@@ -102,7 +102,7 @@ const RoadmapPage = ({ data }) => {
       </div>
       <div className='container'>
         <h1 className='header-title mb-4'>
-          Integrations Roadmap <small>(beta)</small>{' '}
+          Seller API development Roadmap{' '}
         </h1>
         <div className='filters d-flex gap-3'>
           <input
