@@ -133,7 +133,6 @@ const RoadmapPage = ({ data }) => {
             <option value='Summary'>Summary</option>
             <option value='Status'>Status</option>
             <option value='Due_date'>Due Date</option>
-            <option value='Target_end'>Target End</option>
           </select>
           <select
             className='form-select'
@@ -191,37 +190,18 @@ const RoadmapPage = ({ data }) => {
                         <span>{formatDate(node.Updated)}</span>
                       </li>
                       <li className='details-row'>
-                        <span className='me-2 fw-bold'>Last Transition Occurred:</span>
-                        <span>{formatDate(node['Last Transition Occurred'])}</span>
+                        <span className='me-2 fw-bold'>Profile Link:</span>
+                        <span>{node['Profile Link']}</span>
                       </li>
                       <li className='details-row'>
-                        <span className='me-2 fw-bold'>Ticket ID:</span>
-                        <span>{node['Ticket ID']}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Tier:</span>
-                        <span>{node.Tier}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>CRM Create DateTime:</span>
-                        <span>{formatDate(node['CRM Create DateTime'])}</span>
+                        <span className='me-2 fw-bold'>Description:</span>
+                        <span>{node['External Description']}</span>
                       </li>
                       <li className='details-row'>
                         <span className='me-2 fw-bold'>Start date:</span>
                         <span>{formatDate(node['Start date'])}</span>
                       </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Rank:</span>
-                        <span>{node.Rank}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Target Start:</span>
-                        <span>{formatDate(node['Target Start'])}</span>
-                      </li>
-                      <li className='details-row'>
-                        <span className='me-2 fw-bold'>Planned end:</span>
-                        <span>{formatDate(node['Planned end'])}</span>
-                      </li>
+
                     </ul>
                   </td>
                 </tr>
@@ -248,8 +228,6 @@ export const query = graphql`
           Status
           Due_date
           Start_date
-          Target_start
-          Target_end
           Profile_Link
           External_Description
         }
