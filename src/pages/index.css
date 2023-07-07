@@ -99,12 +99,13 @@ table.roadmap-table tr:hover {
   font-size: 14px;
 }
 span.badge.text-bg-in.progress {
-    background-color: blue;
+  background-color: blue;
+  isplay: inline;
 }
 span.badge.text-bg-todo {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 span.badge.text-bg-completed {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
