@@ -108,4 +108,9 @@ span.badge.text-bg-todo {
 span.badge.text-bg-completed {
   background-color: darkgreen;
 }
-
+span.badge.text-bg-planned {
+  background-color: darkgrey;
+}
+span.badge.text-bg-todo {
+  background-color: darkred;
+}
