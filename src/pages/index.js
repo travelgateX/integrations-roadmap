@@ -91,7 +91,7 @@ const RoadmapPage = ({ data }) => {
         ></script>
 
       </Helmet>
-      <div className='container-flex'>
+      <div className='container'>
         <header className='header'>
           <img
             className='header-logo'
@@ -100,10 +100,20 @@ const RoadmapPage = ({ data }) => {
           />
         </header>
       </div>
+
+      <div class="aux-hero">
+        <div className='container'>
+          <h1 className='hero-title mb-4'>
+            Seller API development Roadmap{' '}
+          </h1>
+          <p className='hero-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+      </div>
+
       <div className='container'>
-        <h1 className='header-title mb-4'>
-          Seller API development Roadmap{' '}
-        </h1>
+        <h4 className='header-subtitle mb-2'>
+          Filter the items below:
+        </h4>
         <div className='filters d-flex gap-3'>
           <input
             type='text'
@@ -144,56 +154,64 @@ const RoadmapPage = ({ data }) => {
             <option value='desc'>Descending</option>
           </select>
         </div>
-
-        <table className='roadmap-table table-hover'>
-          <tbody>
-            {sortedEdges.map(({ node }, index) => (
-              <React.Fragment key={node.Summary}>
-                <tr onClick={() => toggleDetails(index)}>
-                  <td>{node.Summary}</td>
-                  
-                  <td>                    <span className='me-2 fw-bold'>Status:</span>
-                    <span
-                      className={`badge text-bg-${node.Status.toLowerCase()}`}
-                    >
-                      {node.Status}
-                    </span><br/>
-                      <span className='me-2 fw-bold'>Available: </span>{formatDate(node.Due_date)}</td>
-                  <td className='text-end'>
-                    <i
-                      className='fa-regular fa-chevron-down'
-                      id={`fa-chevron-down-${index}`}
-                    ></i>
-                  </td>
-                </tr>
-                <tr id={`row-details-${index}`} className='row-details'>
-                  <td colSpan='5'>
-                    <div className='mb-3'>
-                      <p>{node.External_Description}</p>
-                    </div>
-                    <p><span className='me-2 fw-bold'>Profile Link:</span>
-                    <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br/>
-                    <span className='me-2 fw-bold'>Status:</span>
-                    <span>{node.Status}</span><br/>
-                    <span className='me-2 fw-bold'>Available:</span>
-                    <span>{node.Due_date}</span><br/>
-                    </p>
-                    <p>
-                    <span className='me-2 fw-bold'>Added to roadmap:</span>
-                    <span>{formatDate(node.Created)}</span><br/>
-                    <span className='me-2 fw-bold'>Development Start:</span>
-                    <span>{formatDate(node.Start_date)}</span><br/>
-                    <span className='me-2 fw-bold'>Last Update:</span>
-                    <span>{formatDate(node.Updated)}</span><br/>
-                    </p>
-
-                  </td>
-                </tr>
-              </React.Fragment>
-            ))}
-          </tbody>
-        </table>
       </div>
+      
+
+      <div class='aux'>
+        <div className='container'>
+          <table className='roadmap-table table-hover'>
+            <tbody>
+              {sortedEdges.map(({ node }, index) => (
+                <React.Fragment key={node.Summary}>
+                  <div class="card">
+                    <tr onClick={() => toggleDetails(index)}>
+                      <td><strong>{node.Summary}</strong></td>
+                      
+                      <td>                    <span className='me-2'>Status:</span>
+                        <span
+                          className={`badge text-bg-${node.Status.toLowerCase()}`}
+                        >
+                          {node.Status}
+                        </span><br/>
+                          <span className='me-2'>Available: </span>{formatDate(node.Due_date)}</td>
+                      <td className='text-end'>
+                        <i
+                          className='fa-regular fa-chevron-up'
+                          id={`fa-chevron-down-${index}`}
+                        ></i>
+                      </td>
+                    </tr>
+                    <tr id={`row-details-${index}`} className='row-details'>
+                      <td colSpan='5'>
+                        <div className='mb-3'>
+                          <p>{node.External_Description}</p>
+                        </div>
+                        <p><span className='me-2 fw-bold'>Profile Link:</span>
+                        <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br/>
+                        <span className='me-2 fw-bold'>Status:</span>
+                        <span>{node.Status}</span><br/>
+                        <span className='me-2 fw-bold'>Available:</span>
+                        <span>{node.Due_date}</span><br/>
+                        </p>
+                        <p>
+                        <span className='me-2 fw-bold'>Added to roadmap:</span>
+                        <span>{formatDate(node.Created)}</span><br/>
+                        <span className='me-2 fw-bold'>Development Start:</span>
+                        <span>{formatDate(node.Start_date)}</span><br/>
+                        <span className='me-2 fw-bold'>Last Update:</span>
+                        <span>{formatDate(node.Updated)}</span><br/>
+                        </p>
+
+                      </td>
+                    </tr>
+                  </div>
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
       <footer className='footer'>
         <p>© {new Date().getFullYear()} Travelgatex</p>
       </footer>
