@@ -2,34 +2,49 @@ body {
   font-family: 'Roboto', sans-serif !important;
 }
 
-.container {
+/*.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   align-items: center;
-}
+}*/
 
 .header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  /*display: flex;
+  align-items: center;*/
+/*  margin-bottom: 20px;*/
+/*  background-color: #0B59DE;*/
+  padding: 20px 0;
 }
 
 .header-logo {
-  height: 40px;
+  /*height: 40px;
   margin-right: 10px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 30px;*/
+  width: 150px;
+  margin:0;
 }
 
-.header-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
+.aux-hero {
+  padding:50px 0;
+  background: radial-gradient(circle,rgb(73,175,255) 0%,rgb(11,89,222) 100%);
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size:48px;
+/*  text-align: center;*/
+  color:#fff;
+}
+
+.hero-desc {
+  font-size:18px;
+  color:#fff;
 }
 
 .filters {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 table.roadmap-table {
@@ -46,11 +61,15 @@ table.fa-regular {
   transition: 0.1s all linear;
 }
 
+table.roadmap-table {
+  padding: 20px;
+}
+
 table.roadmap-table th,
 table.roadmap-table td {
-  padding: 10px;
+  padding: 20px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  width: 50%;
 }
 
 table.roadmap-table th {
@@ -61,13 +80,14 @@ table.roadmap-table th {
 }
 
 table.roadmap-table tr:hover {
-  background-color: #f2f2f2;
+/*  background-color: #f2f2f2;*/
   cursor: pointer;
 }
 
 .row-details {
   display: none;
-  background-color: #f2f2f2;
+/*  background-color: #f2f2f2;*/
+  margin-left:50px;
 }
 
 .show-details {
@@ -98,15 +118,20 @@ table.roadmap-table tr:hover {
 .footer p {
   font-size: 14px;
 }
+
+span.badge {
+  border-radius:2px;
+}
+
 span.badge.text-bg-in.progress {
-  background-color: blue;
+  background-color: #0B59DE;
   display: inline;
 }
 span.badge.text-bg-todo {
   background-color: darkgrey;
 }
 span.badge.text-bg-completed {
-  background-color: darkgreen;
+  background-color: #49A885;
 }
 span.badge.text-bg-planned {
   background-color: darkgrey;
@@ -114,3 +139,15 @@ span.badge.text-bg-planned {
 span.badge.text-bg-todo {
   background-color: darkred;
 }
+
+.card {
+  margin-bottom: 20px;
+  border-radius:0 !important;
+  border-color: #E6E6E6 !important;
+  box-shadow: 0px 0px 5px 0px rgba(169, 169, 169, 0.25) !important;
+}
+.aux {
+  padding:20px 0;
+  background-color: #f3f5f6;
+}
+
