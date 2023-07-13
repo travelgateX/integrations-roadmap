@@ -92,12 +92,21 @@ const RoadmapPage = ({ data }) => {
 
       </Helmet>
       <div className='container'>
-        <header className='header'>
-          <img
-            className='header-logo'
-            src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
-            alt='Travelgatex Logo'
-          />
+        <header className='header navbar'>
+          <div class="d-flex ">
+            <img
+              className='header-logo'
+              src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
+              alt='Travelgatex Logo'
+            />
+          </div>
+
+
+        <div class="d-md-flex justify-content-md-end">
+          <a class="btn btn-primary" href="https://app.travelgatex.com" role="button">Sign in</a>
+        </div>
+
+
         </header>
       </div>
 
@@ -108,6 +117,11 @@ const RoadmapPage = ({ data }) => {
           </h1>
           <p className='hero-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
         </div>
+        <img
+            className='bg-aux-hero'
+            src='static/bg_hero.svg'
+            alt=''
+          />
       </div>
 
       <div className='container'>
