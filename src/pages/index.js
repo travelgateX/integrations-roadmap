@@ -39,20 +39,23 @@ const RoadmapPage = ({ data }) => {
     });
   });
 
-  const sortedEdges = filteredEdges.sort((a, b) => {
-    const { node: nodeA } = a;
-    const { node: nodeB } = b;
+const sortedEdges = filteredEdges.sort((a, b) => {
+  const { node: nodeA } = a;
+  const { node: nodeB } = b;
 
-    if (sortField && nodeA[sortField] && nodeB[sortField]) {
-      if (sortOrder === 'asc') {
-        return nodeA[sortField] > nodeB[sortField] ? 1 : -1;
-      } else if (sortOrder === 'desc') {
-        return nodeA[sortField] < nodeB[sortField] ? 1 : -1;
-      }
+  if (sortField && nodeA[sortField] && nodeB[sortField]) {
+    const dateA = formatDate(nodeA[sortField]).getTime();
+    const dateB = formatDate(nodeB[sortField]).getTime();
+
+    if (sortOrder === 'asc') {
+      return dateA - dateB;
+    } else if (sortOrder === 'desc') {
+      return dateB - dateA;
     }
+  }
 
-    return 0;
-  });
+  return 0;
+});
 
   const toggleDetails = (index) => {
     const detailsRow = document.getElementById(`row-details-${index}`);
