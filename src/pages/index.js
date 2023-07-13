@@ -43,14 +43,20 @@ const sortedEdges = filteredEdges.sort((a, b) => {
   const { node: nodeA } = a;
   const { node: nodeB } = b;
 
-  if (sortField && nodeA[sortField] && nodeB[sortField]) {
-    const dateA = formatDate(nodeA[sortField]).getTime();
-    const dateB = formatDate(nodeB[sortField]).getTime();
+  if (sortField === 'Due_date' && nodeA[sortField] && nodeB[sortField]) {
+    const dateA = formatDate(nodeA[sortField]);
+    const dateB = formatDate(nodeB[sortField]);
 
     if (sortOrder === 'asc') {
-      return dateA - dateB;
+      return dateA.localeCompare(dateB);
     } else if (sortOrder === 'desc') {
-      return dateB - dateA;
+      return dateB.localeCompare(dateA);
+    }
+  } else {
+    if (sortOrder === 'asc') {
+      return nodeA[sortField].localeCompare(nodeB[sortField]);
+    } else if (sortOrder === 'desc') {
+      return nodeB[sortField].localeCompare(nodeA[sortField]);
     }
   }
 
