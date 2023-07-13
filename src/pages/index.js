@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import { graphql } from 'gatsby';
 import { format, isValid, parse } from 'date-fns';
 import Helmet from 'react-helmet';
@@ -6,9 +6,12 @@ import './index.css';
 
 const RoadmapPage = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [sortField, setSortField] = useState(null);
-  const [sortOrder, setSortOrder] = useState('');
+
+  const [sortBy] = useState('Due_date'); // State to store the sorting field
+  const [sortDirection, setSortDirection] = useState('asc'); // State to store the sorting direction
+
   const [filterStatus, setFilterStatus] = useState('');
+  const [numItems, setNumItems] = useState(0);
 
   const { allRoadmapJson } = data;
   const { edges } = allRoadmapJson;
@@ -43,14 +46,19 @@ const RoadmapPage = ({ data }) => {
     const { node: nodeA } = a;
     const { node: nodeB } = b;
 
-    if (sortField && nodeA[sortField] && nodeB[sortField]) {
-      if (sortOrder === 'asc') {
-        return nodeA[sortField] > nodeB[sortField] ? 1 : -1;
-      } else if (sortOrder === 'desc') {
-        return nodeA[sortField] < nodeB[sortField] ? 1 : -1;
+    // Compare date fields using date-fns parse
+    const dateA = parse(nodeA.Due_date, 'LLLL yyyy', new Date());
+    const dateB = parse(nodeB.Due_date, 'LLLL yyyy', new Date());
+
+    if (sortBy === 'Due_date') {
+      if (sortDirection === 'asc') {
+        return dateA > dateB ? 1 : -1;
+      } else if (sortDirection === 'desc') {
+        return dateA < dateB ? 1 : -1;
       }
     }
 
+    // If a valid sorting field is not provided, maintain the current order
     return 0;
   });
 
@@ -71,6 +79,25 @@ const RoadmapPage = ({ data }) => {
     return format(parsedDate, 'LLL yyyy');
   };
 
+  const handleSortDirection = (event) => {
+    setSortDirection(event.target.value);
+  };
+
+  useEffect(() => {
+    setNumItems(sortedEdges.length);
+  }, [sortedEdges]);
+
+  const handleDownload = () => {
+    const downloadUrl = 'https://raw.githubusercontent.com/travelgateX/integrations-roadmap/main/src/data/roadmap.json';
+    window.open(downloadUrl);
+  };
+
+  const handleShare = () => {
+    // Copy link
+    const pageUrl = window.location.href;
+    navigator.clipboard.writeText(pageUrl);
+    alert('Link to Roadmap copied!');
+  };
   return (
     <>
       <Helmet>
@@ -93,7 +120,7 @@ const RoadmapPage = ({ data }) => {
       </Helmet>
       <div className='container'>
         <header className='header navbar'>
-          <div class="d-flex ">
+          <div className="d-flex ">
             <img
               className='header-logo'
               src='https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg'
@@ -102,20 +129,20 @@ const RoadmapPage = ({ data }) => {
           </div>
 
 
-        <div class="d-md-flex justify-content-md-end">
-          <a class="btn btn-primary" href="https://app.travelgate.com" role="button">Sign in</a>
+        <div className="d-md-flex justify-content-md-end">
+          <a className="btn btn-primary" href="https://app.travelgate.com" role="button">Sign in</a>
         </div>
 
 
         </header>
       </div>
 
-      <div class="aux-hero">
+      <div className="aux-hero">
         <div className='container'>
           <h1 className='hero-title mb-4'>
             Seller API development Roadmap{' '}
           </h1>
-          <p className='hero-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p className='hero-desc'>The Seller API Development within the Travelgate roadmap is dedicated to empowering sellers with cutting-edge tools and features, facilitating seamless and scalable collaboration within the travel industry.</p>
         </div>
         <img
             className='bg-aux-hero'
@@ -148,36 +175,47 @@ const RoadmapPage = ({ data }) => {
             <option value='In Certification'>In Certification</option>
             <option value='ToDo'>ToDo</option>
           </select>
-          <select
-            className='form-select'
-            value={sortField}
-            onChange={(e) => setSortField(e.target.value)}
-          >
-            <option value=''>Sort By</option>
-            <option value='Summary'>Supplier</option>
-            <option value='Status'>Status</option>
-            <option value='Due_date'>Available Date</option>
-          </select>
-          <select
-            className='form-select'
-            value={sortOrder}
-            onChange={(e) => setSortOrder(e.target.value)}
-          >
-            <option value=''>Order</option>
-            <option value='asc'>Ascending</option>
-            <option value='desc'>Descending</option>
-          </select>
+
+          <span className='sort-by-select'>Sort by {sortBy === 'Due_date' ? 'Available Date' : ''}</span>
+            <select className='form-select' id="sort-direction-select" value={sortDirection} onChange={handleSortDirection}>
+              <option value="asc">Oldest to newest</option>
+              <option value="desc">Newest to oldest</option>
+            </select>
+
         </div>
+        <div className='bar'>
+          <div className='items'>
+            <strong>Showing <span id='items'>{numItems}</span> connectors</strong>
+          </div>
+
+          <div className="items-links-container">
+            <button
+                className="croadmap-download-button"
+                onClick={handleDownload}
+            >
+              Download
+            </button>
+            <span>|</span>
+            <button
+                className="roadmap-share-link"
+                onClick={handleShare}
+            >
+              Share
+            </button>
+          </div>
+
+        </div>
+
       </div>
       
 
-      <div class='aux'>
+      <div className='aux'>
         <div className='container'>
           <table className='roadmap-table table-hover'>
             <tbody>
               {sortedEdges.map(({ node }, index) => (
                 <React.Fragment key={node.Summary}>
-                  <div class="card">
+                  <div className="card">
                     <tr onClick={() => toggleDetails(index)}>
                       <td><strong>{node.Summary}</strong></td>
                       
