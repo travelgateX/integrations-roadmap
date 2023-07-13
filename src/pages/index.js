@@ -39,20 +39,20 @@ const RoadmapPage = ({ data }) => {
     });
   });
 
-const sortedEdges = filteredEdges.sort((a, b) => {
-  const { node: nodeA } = a;
-  const { node: nodeB } = b;
+  const sortedEdges = filteredEdges.sort((a, b) => {
+    const { node: nodeA } = a;
+    const { node: nodeB } = b;
 
-  if (sortField && nodeA[sortField] && nodeB[sortField]) {
-    if (sortOrder === 'asc') {
-      return formatDate(nodeA[sortField]) - formatDate(nodeB[sortField]);
-    } else if (sortOrder === 'desc') {
-      return formatDate(nodeB[sortField]) - formatDate(nodeA[sortField]);
+    if (sortField && nodeA[sortField] && nodeB[sortField]) {
+      if (sortOrder === 'asc') {
+        return nodeA[sortField] > nodeB[sortField] ? 1 : -1;
+      } else if (sortOrder === 'desc') {
+        return nodeA[sortField] < nodeB[sortField] ? 1 : -1;
+      }
     }
-  }
 
-  return 0;
-});
+    return 0;
+  });
 
   const toggleDetails = (index) => {
     const detailsRow = document.getElementById(`row-details-${index}`);
@@ -63,13 +63,13 @@ const sortedEdges = filteredEdges.sort((a, b) => {
     }
   };
 
-const formatDate = (dateString) => {
-  const parsedDate = parse(dateString, 'MMM yyyy', new Date());
-  if (!isValid(parsedDate)) {
-    return ''; 
-  }
-  return parsedDate.getTime(); 
-};
+  const formatDate = (dateString) => {
+    const parsedDate = parse(dateString, 'LLLL yyyy', new Date());
+    if (!isValid(parsedDate)) {
+      return ''; // O cualquier otro valor predeterminado en caso de fecha inválida
+     }
+    return format(parsedDate, 'LLL yyyy');
+  };
 
   return (
     <>
