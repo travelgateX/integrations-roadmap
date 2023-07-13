@@ -103,7 +103,7 @@ const RoadmapPage = ({ data }) => {
 
 
         <div class="d-md-flex justify-content-md-end">
-          <a class="btn btn-primary" href="https://app.travelgatex.com" role="button">Sign in</a>
+          <a class="btn btn-primary" href="https://app.travelgate.com" role="button">Sign in</a>
         </div>
 
 
@@ -119,7 +119,7 @@ const RoadmapPage = ({ data }) => {
         </div>
         <img
             className='bg-aux-hero'
-            src='static/bg_hero.svg'
+            src='../../bg_hero.svg'
             alt=''
           />
       </div>
