@@ -39,29 +39,20 @@ const RoadmapPage = ({ data }) => {
     });
   });
 
-const sortedEdges = filteredEdges.sort((a, b) => {
-  const { node: nodeA } = a;
-  const { node: nodeB } = b;
+  const sortedEdges = filteredEdges.sort((a, b) => {
+    const { node: nodeA } = a;
+    const { node: nodeB } = b;
 
-  if (sortField === 'Due_date' && nodeA[sortField] && nodeB[sortField]) {
-    const dateA = formatDate(nodeA[sortField]);
-    const dateB = formatDate(nodeB[sortField]);
-
-    if (sortOrder === 'asc') {
-      return dateA.localeCompare(dateB);
-    } else if (sortOrder === 'desc') {
-      return dateB.localeCompare(dateA);
+    if (sortField && nodeA[sortField] && nodeB[sortField]) {
+      if (sortOrder === 'asc') {
+        return nodeA[sortField] > nodeB[sortField] ? 1 : -1;
+      } else if (sortOrder === 'desc') {
+        return nodeA[sortField] < nodeB[sortField] ? 1 : -1;
+      }
     }
-  } else {
-    if (sortOrder === 'asc') {
-      return nodeA[sortField].localeCompare(nodeB[sortField]);
-    } else if (sortOrder === 'desc') {
-      return nodeB[sortField].localeCompare(nodeA[sortField]);
-    }
-  }
 
-  return 0;
-});
+    return 0;
+  });
 
   const toggleDetails = (index) => {
     const detailsRow = document.getElementById(`row-details-${index}`);
