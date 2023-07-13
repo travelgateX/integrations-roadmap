@@ -119,7 +119,7 @@ const RoadmapPage = ({ data }) => {
         </div>
         <img
             className='bg-aux-hero'
-            src='../../bg_hero.svg'
+            src='bg_hero.svg'
             alt=''
           />
       </div>
