@@ -6910,17 +6910,21 @@ const RoadmapPage = ({
     1: setSearchTerm
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
   const {
-    0: sortField,
-    1: setSortField
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
+    0: sortBy
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('Due_date'); // State to store the sorting field
   const {
-    0: sortOrder,
-    1: setSortOrder
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+    0: sortDirection,
+    1: setSortDirection
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('asc'); // State to store the sorting direction
+
   const {
     0: filterStatus,
     1: setFilterStatus
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: numItems,
+    1: setNumItems
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
   const {
     allRoadmapJson
   } = data;
@@ -6953,13 +6957,19 @@ const RoadmapPage = ({
     const {
       node: nodeB
     } = b;
-    if (sortField && nodeA[sortField] && nodeB[sortField]) {
-      if (sortOrder === 'asc') {
-        return nodeA[sortField] > nodeB[sortField] ? 1 : -1;
-      } else if (sortOrder === 'desc') {
-        return nodeA[sortField] < nodeB[sortField] ? 1 : -1;
+
+    // Compare date fields using date-fns parse
+    const dateA = (0,date_fns__WEBPACK_IMPORTED_MODULE_3__["default"])(nodeA.Due_date, 'LLLL yyyy', new Date());
+    const dateB = (0,date_fns__WEBPACK_IMPORTED_MODULE_3__["default"])(nodeB.Due_date, 'LLLL yyyy', new Date());
+    if (sortBy === 'Due_date') {
+      if (sortDirection === 'asc') {
+        return dateA > dateB ? 1 : -1;
+      } else if (sortDirection === 'desc') {
+        return dateA < dateB ? 1 : -1;
       }
     }
+
+    // If a valid sorting field is not provided, maintain the current order
     return 0;
   });
   const toggleDetails = index => {
@@ -6978,6 +6988,22 @@ const RoadmapPage = ({
 
     return (0,date_fns__WEBPACK_IMPORTED_MODULE_5__["default"])(parsedDate, 'LLL yyyy');
   };
+  const handleSortDirection = event => {
+    setSortDirection(event.target.value);
+  };
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    setNumItems(sortedEdges.length);
+  }, [sortedEdges]);
+  const handleDownload = () => {
+    const downloadUrl = 'https://raw.githubusercontent.com/travelgateX/integrations-roadmap/main/src/data/roadmap.json';
+    window.open(downloadUrl);
+  };
+  const handleShare = () => {
+    // Copy link
+    const pageUrl = window.location.href;
+    navigator.clipboard.writeText(pageUrl);
+    alert('Link to Roadmap copied!');
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
     rel: "stylesheet",
@@ -6995,28 +7021,28 @@ const RoadmapPage = ({
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
     className: "header navbar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "d-flex "
+    className: "d-flex "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "header-logo",
     src: "https://www.travelgate.com/assets/img/logos/logo_travelgate_blue.svg",
     alt: "Travelgatex Logo"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "d-md-flex justify-content-md-end"
+    className: "d-md-flex justify-content-md-end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    class: "btn btn-primary",
+    className: "btn btn-primary",
     href: "https://app.travelgate.com",
     role: "button"
   }, "Sign in")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "aux-hero"
+    className: "aux-hero"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "hero-title mb-4"
   }, "Seller API development Roadmap", ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "hero-desc"
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, "The Seller API Development within the Travelgate roadmap is dedicated to empowering sellers with cutting-edge tools and features, facilitating seamless and scalable collaboration within the travel industry.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "bg-aux-hero",
-    src: "../../bg_hero.svg",
+    src: "bg_hero.svg",
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
@@ -7046,30 +7072,33 @@ const RoadmapPage = ({
     value: "In Certification"
   }, "In Certification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "ToDo"
-  }, "ToDo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+  }, "ToDo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "sort-by-select"
+  }, "Sort by ", sortBy === 'Due_date' ? 'Available Date' : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
     className: "form-select",
-    value: sortField,
-    onChange: e => setSortField(e.target.value)
+    id: "sort-direction-select",
+    value: sortDirection,
+    onChange: handleSortDirection
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
-    value: ""
-  }, "Sort By"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
-    value: "Summary"
-  }, "Supplier"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
-    value: "Status"
-  }, "Status"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
-    value: "Due_date"
-  }, "Available Date")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
-    className: "form-select",
-    value: sortOrder,
-    onChange: e => setSortOrder(e.target.value)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
-    value: ""
-  }, "Order"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "asc"
-  }, "Ascending"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+  }, "Oldest to newest"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
     value: "desc"
-  }, "Descending")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "aux"
+  }, "Newest to oldest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "bar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "items"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Showing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "items"
+  }, numItems), " connectors")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "items-links-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "croadmap-download-button",
+    onClick: handleDownload
+  }, "Download"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "|"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "roadmap-share-link",
+    onClick: handleShare
+  }, "Share")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "aux"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", {
@@ -7079,7 +7108,7 @@ const RoadmapPage = ({
   }, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: node.Summary
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "card"
+    className: "card"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", {
     onClick: () => toggleDetails(index)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, node.Summary)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "                    ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {

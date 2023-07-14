@@ -130,7 +130,7 @@ const RoadmapPage = ({ data }) => {
 
 
         <div className="d-md-flex justify-content-md-end">
-          <a className="btn btn-primary" href="https://app.travelgate.com" role="button">Sign in</a>
+          <a className="btn btn-primary" href="https://app.travelgatex.com" role="button">Sign in</a>
         </div>
 
 
@@ -183,21 +183,21 @@ const RoadmapPage = ({ data }) => {
             </select>
 
         </div>
-        <div className='bar'>
-          <div className='items'>
-            <strong>Showing <span id='items'>{numItems}</span> connectors</strong>
+        <div className='navbar'>
+          <div className='d-flex'>
+            <strong>Showing <span id='items'>{numItems}</span> connectors:</strong>
           </div>
 
-          <div className="items-links-container">
+          <div className="d-md-flex justify-content-md-end items-links-container">
             <button
-                className="croadmap-download-button"
+                className="btn btn-secondary roadmap-download-button btn-sm me-2"
                 onClick={handleDownload}
             >
               Download
             </button>
-            <span>|</span>
+            
             <button
-                className="roadmap-share-link"
+                className="btn btn-light roadmap-share-link btn-sm"
                 onClick={handleShare}
             >
               Share
@@ -217,21 +217,24 @@ const RoadmapPage = ({ data }) => {
                 <React.Fragment key={node.Summary}>
                   <div className="card">
                     <tr onClick={() => toggleDetails(index)}>
-                      <td><strong>{node.Summary}</strong></td>
-                      
-                      <td>                    <span className='me-2'>Status:</span>
-                        <span
-                          className={`badge text-bg-${node.Status.toLowerCase()}`}
-                        >
-                          {node.Status}
-                        </span><br/>
-                          <span className='me-2'>Available: </span>{formatDate(node.Due_date)}</td>
-                      <td className='text-end'>
-                        <i
-                          className='fa-regular fa-chevron-up'
-                          id={`fa-chevron-down-${index}`}
-                        ></i>
-                      </td>
+                      <div class="d-flex justify-content-between">
+                        <td class="partner">
+                            <i
+                            className='fa-regular fa-chevron-up me-2'
+                            id={`fa-chevron-down-${index}`}
+                          ></i> <strong>{node.Summary}</strong></td>
+                        
+                        <td class="status">
+                          <span className='me-2'>Status:</span>
+                          <span
+                            className={`badge text-bg-${node.Status.toLowerCase()}`}
+                          >
+                            {node.Status}
+                          </span><br/>
+                            <span className='me-2'>Available: </span>{formatDate(node.Due_date)}
+                        </td>
+                      </div>
+
                     </tr>
                     <tr id={`row-details-${index}`} className='row-details'>
                       <td colSpan='5'>
