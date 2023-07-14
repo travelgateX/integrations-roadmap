@@ -419,7 +419,7 @@ function useScrollRestoration(identifier) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createServerOrClientContext": () => (/* binding */ createServerOrClientContext)
+/* harmony export */   createServerOrClientContext: () => (/* binding */ createServerOrClientContext)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -652,11 +652,11 @@ const emitter = (0,mitt__WEBPACK_IMPORTED_MODULE_0__["default"])();
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "cleanPath": () => (/* binding */ cleanPath),
-/* harmony export */   "findMatchPath": () => (/* binding */ findMatchPath),
-/* harmony export */   "findPath": () => (/* binding */ findPath),
-/* harmony export */   "grabMatchParams": () => (/* binding */ grabMatchParams),
-/* harmony export */   "setMatchPaths": () => (/* binding */ setMatchPaths)
+/* harmony export */   cleanPath: () => (/* binding */ cleanPath),
+/* harmony export */   findMatchPath: () => (/* binding */ findMatchPath),
+/* harmony export */   findPath: () => (/* binding */ findPath),
+/* harmony export */   grabMatchParams: () => (/* binding */ grabMatchParams),
+/* harmony export */   setMatchPaths: () => (/* binding */ setMatchPaths)
 /* harmony export */ });
 /* harmony import */ var _gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @gatsbyjs/reach-router */ "./node_modules/@gatsbyjs/reach-router/dist/index.modern.mjs");
 /* harmony import */ var _strip_prefix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./strip-prefix */ "./.cache/strip-prefix.js");
@@ -808,24 +808,24 @@ const cleanPath = rawPathname => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Link": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.Link),
-/* harmony export */   "PageRenderer": () => (/* reexport default from dynamic */ _public_page_renderer__WEBPACK_IMPORTED_MODULE_1___default.a),
-/* harmony export */   "Script": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.Script),
-/* harmony export */   "ScriptStrategy": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.ScriptStrategy),
-/* harmony export */   "Slice": () => (/* reexport safe */ _slice__WEBPACK_IMPORTED_MODULE_5__.Slice),
-/* harmony export */   "StaticQuery": () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.StaticQuery),
-/* harmony export */   "StaticQueryContext": () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.StaticQueryContext),
-/* harmony export */   "collectedScriptsByPage": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.collectedScriptsByPage),
-/* harmony export */   "graphql": () => (/* binding */ graphql),
-/* harmony export */   "navigate": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.navigate),
-/* harmony export */   "parsePath": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.parsePath),
-/* harmony export */   "prefetchPathname": () => (/* binding */ prefetchPathname),
-/* harmony export */   "scriptCache": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCache),
-/* harmony export */   "scriptCallbackCache": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCallbackCache),
-/* harmony export */   "useScrollRestoration": () => (/* reexport safe */ gatsby_react_router_scroll__WEBPACK_IMPORTED_MODULE_2__.useScrollRestoration),
-/* harmony export */   "useStaticQuery": () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.useStaticQuery),
-/* harmony export */   "withAssetPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.withAssetPrefix),
-/* harmony export */   "withPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.withPrefix)
+/* harmony export */   Link: () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.Link),
+/* harmony export */   PageRenderer: () => (/* reexport default from dynamic */ _public_page_renderer__WEBPACK_IMPORTED_MODULE_1___default.a),
+/* harmony export */   Script: () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.Script),
+/* harmony export */   ScriptStrategy: () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.ScriptStrategy),
+/* harmony export */   Slice: () => (/* reexport safe */ _slice__WEBPACK_IMPORTED_MODULE_5__.Slice),
+/* harmony export */   StaticQuery: () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.StaticQuery),
+/* harmony export */   StaticQueryContext: () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.StaticQueryContext),
+/* harmony export */   collectedScriptsByPage: () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.collectedScriptsByPage),
+/* harmony export */   graphql: () => (/* binding */ graphql),
+/* harmony export */   navigate: () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.navigate),
+/* harmony export */   parsePath: () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.parsePath),
+/* harmony export */   prefetchPathname: () => (/* binding */ prefetchPathname),
+/* harmony export */   scriptCache: () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCache),
+/* harmony export */   scriptCallbackCache: () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCallbackCache),
+/* harmony export */   useScrollRestoration: () => (/* reexport safe */ gatsby_react_router_scroll__WEBPACK_IMPORTED_MODULE_2__.useScrollRestoration),
+/* harmony export */   useStaticQuery: () => (/* reexport safe */ _static_query__WEBPACK_IMPORTED_MODULE_4__.useStaticQuery),
+/* harmony export */   withAssetPrefix: () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.withAssetPrefix),
+/* harmony export */   withPrefix: () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_3__.withPrefix)
 /* harmony export */ });
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./public-page-renderer */ "./.cache/public-page-renderer.js");
@@ -859,14 +859,14 @@ function graphql() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "BaseLoader": () => (/* binding */ BaseLoader),
-/* harmony export */   "PageResourceStatus": () => (/* binding */ PageResourceStatus),
-/* harmony export */   "ProdLoader": () => (/* binding */ ProdLoader),
+/* harmony export */   BaseLoader: () => (/* binding */ BaseLoader),
+/* harmony export */   PageResourceStatus: () => (/* binding */ PageResourceStatus),
+/* harmony export */   ProdLoader: () => (/* binding */ ProdLoader),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getSliceResults": () => (/* binding */ getSliceResults),
-/* harmony export */   "getStaticQueryResults": () => (/* binding */ getStaticQueryResults),
-/* harmony export */   "publicLoader": () => (/* binding */ publicLoader),
-/* harmony export */   "setLoader": () => (/* binding */ setLoader)
+/* harmony export */   getSliceResults: () => (/* binding */ getSliceResults),
+/* harmony export */   getStaticQueryResults: () => (/* binding */ getStaticQueryResults),
+/* harmony export */   publicLoader: () => (/* binding */ publicLoader),
+/* harmony export */   setLoader: () => (/* binding */ setLoader)
 /* harmony export */ });
 /* harmony import */ var react_server_dom_webpack__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-server-dom-webpack */ "./node_modules/react-server-dom-webpack/index.js");
 /* harmony import */ var _prefetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./prefetch */ "./.cache/prefetch.js");
@@ -1829,7 +1829,7 @@ if (false) {} else if (false) {} else {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "maybeGetBrowserRedirect": () => (/* binding */ maybeGetBrowserRedirect)
+/* harmony export */   maybeGetBrowserRedirect: () => (/* binding */ maybeGetBrowserRedirect)
 /* harmony export */ });
 /* harmony import */ var _redirects_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./redirects.json */ "./.cache/redirects.json");
 
@@ -1864,7 +1864,7 @@ function maybeGetBrowserRedirect(pathname) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Slice": () => (/* binding */ Slice)
+/* harmony export */   Slice: () => (/* binding */ Slice)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -1984,10 +1984,10 @@ const validateSliceProps = (props, errors = {}, seenObjects = [], path = null) =
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "SlicesContext": () => (/* binding */ SlicesContext),
-/* harmony export */   "SlicesMapContext": () => (/* binding */ SlicesMapContext),
-/* harmony export */   "SlicesPropsContext": () => (/* binding */ SlicesPropsContext),
-/* harmony export */   "SlicesResultsContext": () => (/* binding */ SlicesResultsContext)
+/* harmony export */   SlicesContext: () => (/* binding */ SlicesContext),
+/* harmony export */   SlicesMapContext: () => (/* binding */ SlicesMapContext),
+/* harmony export */   SlicesPropsContext: () => (/* binding */ SlicesPropsContext),
+/* harmony export */   SlicesResultsContext: () => (/* binding */ SlicesResultsContext)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2009,7 +2009,7 @@ const SlicesPropsContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___defau
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "InlineSlice": () => (/* binding */ InlineSlice)
+/* harmony export */   InlineSlice: () => (/* binding */ InlineSlice)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2050,7 +2050,7 @@ const InlineSlice = ({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ServerSliceRenderer": () => (/* binding */ ServerSliceRenderer)
+/* harmony export */   ServerSliceRenderer: () => (/* binding */ ServerSliceRenderer)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2088,7 +2088,7 @@ const ServerSliceRenderer = ({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ServerSlice": () => (/* binding */ ServerSlice)
+/* harmony export */   ServerSlice: () => (/* binding */ ServerSlice)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2153,9 +2153,9 @@ const ServerSlice = ({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "StaticQuery": () => (/* binding */ StaticQuery),
-/* harmony export */   "StaticQueryContext": () => (/* binding */ StaticQueryContext),
-/* harmony export */   "useStaticQuery": () => (/* binding */ useStaticQuery)
+/* harmony export */   StaticQuery: () => (/* binding */ StaticQuery),
+/* harmony export */   StaticQueryContext: () => (/* binding */ StaticQueryContext),
+/* harmony export */   useStaticQuery: () => (/* binding */ useStaticQuery)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2198,7 +2198,7 @@ const StaticQuery = props => {
 };
 StaticQuery.propTypes = {
   data: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object),
-  query: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  query: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string).isRequired,
   render: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
   children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func)
 };
@@ -4268,7 +4268,7 @@ module.exports = _setPrototypeOf, module.exports.__esModule = true, module.expor
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createContentDigest": () => (/* binding */ createContentDigest)
+/* harmony export */   createContentDigest: () => (/* binding */ createContentDigest)
 /* harmony export */ });
 /* harmony import */ var crypto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! crypto */ "crypto");
 /* harmony import */ var node_object_hash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! node-object-hash */ "./node_modules/node-object-hash/dist/hasher.js");
@@ -4312,11 +4312,11 @@ const createContentDigest = input => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Link": () => (/* binding */ E),
-/* harmony export */   "navigate": () => (/* binding */ g),
-/* harmony export */   "parsePath": () => (/* binding */ a),
-/* harmony export */   "withAssetPrefix": () => (/* binding */ v),
-/* harmony export */   "withPrefix": () => (/* binding */ f)
+/* harmony export */   Link: () => (/* binding */ E),
+/* harmony export */   navigate: () => (/* binding */ g),
+/* harmony export */   parsePath: () => (/* binding */ a),
+/* harmony export */   withAssetPrefix: () => (/* binding */ v),
+/* harmony export */   withPrefix: () => (/* binding */ f)
 /* harmony export */ });
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");

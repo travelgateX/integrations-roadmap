@@ -117,8 +117,8 @@ exports.head = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "apiRunner": () => (/* binding */ apiRunner),
-/* harmony export */   "apiRunnerAsync": () => (/* binding */ apiRunnerAsync)
+/* harmony export */   apiRunner: () => (/* binding */ apiRunner),
+/* harmony export */   apiRunnerAsync: () => (/* binding */ apiRunnerAsync)
 /* harmony export */ });
 var plugins = [{
   name: 'default-site-plugin',
@@ -4948,24 +4948,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!**************************************************************************************!*\
-  !*** external "C:\\Front\\integrations-roadmap\\node_modules\\react-dom\\server.js" ***!
-  \**************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** external "/Users/adriagarcia/Documents/devel/integrations-roadmap/node_modules/react-dom/server.js" ***!
+  \***********************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Front\\integrations-roadmap\\node_modules\\react-dom\\server.js");
+module.exports = require("/Users/adriagarcia/Documents/devel/integrations-roadmap/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!*********************************************************************************!*\
-  !*** external "C:\\Front\\integrations-roadmap\\node_modules\\react\\index.js" ***!
-  \*********************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** external "/Users/adriagarcia/Documents/devel/integrations-roadmap/node_modules/react/index.js" ***!
+  \******************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Front\\integrations-roadmap\\node_modules\\react\\index.js");
+module.exports = require("/Users/adriagarcia/Documents/devel/integrations-roadmap/node_modules/react/index.js");
 
 /***/ }),
 
@@ -5072,7 +5072,7 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 
-const PartytownSnippet = "/* Partytown 0.7.5 - MIT builder.io */\n!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,\"/\"==(a=(o.lib||\"/~partytown/\")+(o.debug?\"debug/\":\"\"))[0]&&(s=e.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener(\"pt0\",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||\"partytown-sw.js\"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?\"script\":\"iframe\"),t||(c.setAttribute(\"style\",\"display:block;width:0;height:0;border:0;visibility:hidden\"),c.setAttribute(\"aria-hidden\",!0)),c.src=a+\"partytown-\"+(t?\"atomics.js?v=0.7.5\":\"sandbox-sw.html?\"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(\".\")[0]]})),n=0;n<s.length;n++)(r=e.createElement(\"script\")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(\".\").map((function(e,n,i){p=p[i[n]]=n+1<i.length?\"push\"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),\"complete\"==e.readyState?u():(t.addEventListener(\"DOMContentLoaded\",u),t.addEventListener(\"load\",u))}(window,document,navigator,top,window.crossOriginIsolated);";
+const PartytownSnippet = "/* Partytown 0.7.6 - MIT builder.io */\n!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,\"/\"==(a=(o.lib||\"/~partytown/\")+(o.debug?\"debug/\":\"\"))[0]&&(s=e.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener(\"pt0\",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||\"partytown-sw.js\"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?\"script\":\"iframe\"),t||(c.setAttribute(\"style\",\"display:block;width:0;height:0;border:0;visibility:hidden\"),c.setAttribute(\"aria-hidden\",!0)),c.src=a+\"partytown-\"+(t?\"atomics.js?v=0.7.6\":\"sandbox-sw.html?\"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(\".\")[0]]})),n=0;n<s.length;n++)(r=e.createElement(\"script\")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(\".\").map((function(e,n,i){p=p[i[n]]=n+1<i.length?\"push\"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),\"complete\"==e.readyState?u():(t.addEventListener(\"DOMContentLoaded\",u),t.addEventListener(\"load\",u))}(window,document,navigator,top,window.crossOriginIsolated);";
 
 const createSnippet = (config, snippetCode) => {
     const { forward = [], ...filteredConfig } = config || {};
@@ -5131,34 +5131,34 @@ exports.partytownSnippet = partytownSnippet;
 var react__WEBPACK_IMPORTED_MODULE_0___namespace_cache;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "BaseContext": () => (/* binding */ m),
-/* harmony export */   "Link": () => (/* binding */ A),
-/* harmony export */   "Location": () => (/* binding */ G),
-/* harmony export */   "LocationContext": () => (/* binding */ d),
-/* harmony export */   "LocationProvider": () => (/* binding */ z),
-/* harmony export */   "Match": () => (/* binding */ Q),
-/* harmony export */   "Redirect": () => (/* binding */ R),
-/* harmony export */   "Router": () => (/* binding */ oe),
-/* harmony export */   "ServerLocation": () => (/* binding */ J),
-/* harmony export */   "createHistory": () => (/* binding */ i),
-/* harmony export */   "createMemorySource": () => (/* binding */ c),
-/* harmony export */   "globalHistory": () => (/* binding */ l),
-/* harmony export */   "insertParams": () => (/* binding */ P),
-/* harmony export */   "isRedirect": () => (/* binding */ g),
-/* harmony export */   "match": () => (/* binding */ x),
-/* harmony export */   "navigate": () => (/* binding */ p),
-/* harmony export */   "pick": () => (/* binding */ w),
-/* harmony export */   "redirectTo": () => (/* binding */ v),
-/* harmony export */   "resolve": () => (/* binding */ k),
-/* harmony export */   "shallowCompare": () => (/* binding */ D),
-/* harmony export */   "startsWith": () => (/* binding */ C),
-/* harmony export */   "useBaseContext": () => (/* binding */ f),
-/* harmony export */   "useLocation": () => (/* binding */ se),
-/* harmony export */   "useLocationContext": () => (/* binding */ y),
-/* harmony export */   "useMatch": () => (/* binding */ ue),
-/* harmony export */   "useNavigate": () => (/* binding */ ie),
-/* harmony export */   "useParams": () => (/* binding */ ce),
-/* harmony export */   "validateRedirect": () => (/* binding */ T)
+/* harmony export */   BaseContext: () => (/* binding */ m),
+/* harmony export */   Link: () => (/* binding */ A),
+/* harmony export */   Location: () => (/* binding */ G),
+/* harmony export */   LocationContext: () => (/* binding */ d),
+/* harmony export */   LocationProvider: () => (/* binding */ z),
+/* harmony export */   Match: () => (/* binding */ Q),
+/* harmony export */   Redirect: () => (/* binding */ R),
+/* harmony export */   Router: () => (/* binding */ oe),
+/* harmony export */   ServerLocation: () => (/* binding */ J),
+/* harmony export */   createHistory: () => (/* binding */ i),
+/* harmony export */   createMemorySource: () => (/* binding */ c),
+/* harmony export */   globalHistory: () => (/* binding */ l),
+/* harmony export */   insertParams: () => (/* binding */ P),
+/* harmony export */   isRedirect: () => (/* binding */ g),
+/* harmony export */   match: () => (/* binding */ x),
+/* harmony export */   navigate: () => (/* binding */ p),
+/* harmony export */   pick: () => (/* binding */ w),
+/* harmony export */   redirectTo: () => (/* binding */ v),
+/* harmony export */   resolve: () => (/* binding */ k),
+/* harmony export */   shallowCompare: () => (/* binding */ D),
+/* harmony export */   startsWith: () => (/* binding */ C),
+/* harmony export */   useBaseContext: () => (/* binding */ f),
+/* harmony export */   useLocation: () => (/* binding */ se),
+/* harmony export */   useLocationContext: () => (/* binding */ y),
+/* harmony export */   useMatch: () => (/* binding */ ue),
+/* harmony export */   useNavigate: () => (/* binding */ ie),
+/* harmony export */   useParams: () => (/* binding */ ce),
+/* harmony export */   validateRedirect: () => (/* binding */ T)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
@@ -5178,11 +5178,11 @@ function o(){return o=Object.assign?Object.assign.bind():function(e){for(var t=1
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Script": () => (/* binding */ f),
-/* harmony export */   "ScriptStrategy": () => (/* binding */ c),
-/* harmony export */   "collectedScriptsByPage": () => (/* binding */ l),
-/* harmony export */   "scriptCache": () => (/* binding */ u),
-/* harmony export */   "scriptCallbackCache": () => (/* binding */ d)
+/* harmony export */   Script: () => (/* binding */ f),
+/* harmony export */   ScriptStrategy: () => (/* binding */ c),
+/* harmony export */   collectedScriptsByPage: () => (/* binding */ l),
+/* harmony export */   scriptCache: () => (/* binding */ u),
+/* harmony export */   scriptCallbackCache: () => (/* binding */ d)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var _gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @gatsbyjs/reach-router */ "./node_modules/@gatsbyjs/reach-router/dist/index.modern.mjs");
@@ -5380,7 +5380,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getPageChunk": () => (/* binding */ getPageChunk)
+/* harmony export */   getPageChunk: () => (/* binding */ getPageChunk)
 /* harmony export */ });
 /* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/merge */ "./node_modules/lodash/merge.js");
 /* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_0__);

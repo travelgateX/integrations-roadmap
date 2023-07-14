@@ -2,26 +2,11 @@ body {
   font-family: 'Roboto', sans-serif !important;
 }
 
-/*.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  align-items: center;
-}*/
-
 .header {
-  /*display: flex;
-  align-items: center;*/
-/*  margin-bottom: 20px;*/
-/*  background-color: #0B59DE;*/
   padding: 20px 0;
 }
 
 .header-logo {
-  /*height: 40px;
-  margin-right: 10px;
-  margin-top: 20px;
-  margin-left: 30px;*/
   width: 150px;
   margin:0;
 }
@@ -55,7 +40,6 @@ body {
 
 .hero-title {
   font-size:48px;
-/*  text-align: center;*/
   color:#fff;
 }
 
@@ -103,13 +87,11 @@ table.roadmap-table th {
 }
 
 table.roadmap-table tr:hover {
-/*  background-color: #f2f2f2;*/
   cursor: pointer;
 }
 
 .row-details {
   display: none;
-/*  background-color: #f2f2f2;*/
   margin-left:50px;
 }
 
