@@ -153,38 +153,38 @@ const RoadmapPage = ({ data }) => {
 
       <div className='container'>
         <h4 className='header-subtitle mb-2'>
-          Filter the items below:
+          <i class="fa-regular fa-filter"></i> Filter the items below:
         </h4>
+
         <div className='filters d-flex gap-3'>
-          <input
-            type='text'
-            className='form-control'
-            placeholder='Search'
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-          <select
-            className='form-select'
-            value={filterStatus}
-            onChange={(e) => setFilterStatus(e.target.value)}
-          >
-            <option value=''>All Status</option>
-            <option value='In Progress'>In Progress</option>
-            <option value='Completed'>Completed</option>
-            <option value='Planned'>Planned</option>
-            <option value='In Certification'>In Certification</option>
-            <option value='ToDo'>ToDo</option>
-          </select>
-
-          <span className='sort-by-select'>Sort by {sortBy === 'Due_date' ? 'Available Date' : ''}</span>
-            <select className='form-select' id="sort-direction-select" value={sortDirection} onChange={handleSortDirection}>
-              <option value="asc">Oldest to newest</option>
-              <option value="desc">Newest to oldest</option>
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></span>
+            <input
+              type='text'
+              className='form-control'
+              placeholder='Search connector name ...'
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </div>
+          <div class="input-group">
+            <select
+              className='form-select'
+              value={filterStatus}
+              onChange={(e) => setFilterStatus(e.target.value)}
+            >
+              <option value=''>All Status</option>
+              <option value='In Progress'>In Progress</option>
+              <option value='Completed'>Completed</option>
+              <option value='Planned'>Planned</option>
+              <option value='In Certification'>In Certification</option>
+              <option value='ToDo'>ToDo</option>
             </select>
-
+          </div>
         </div>
-        <div className='navbar'>
-          <div className='d-flex'>
+
+        <div className='navbar mb-2'>
+          <div className='connectors-title d-flex'>
             <strong>Showing <span id='items'>{numItems}</span> connectors:</strong>
           </div>
 
@@ -209,8 +209,23 @@ const RoadmapPage = ({ data }) => {
       </div>
       
 
+
+
       <div className='aux'>
         <div className='container'>
+
+        <div class="row">
+          <div class="input-group input-group-sm d-flex justify-content-end">
+              <div class="mb-3">
+                <select className='form-select form-control form-control-sm' id="sort-direction-select" value={sortDirection} onChange={handleSortDirection}>
+                  <option value="asc">Oldest to newest</option>
+                  <option value="desc">Newest to oldest</option>
+                </select>
+              </div>
+          </div>
+        </div>
+          
+
           <table className='roadmap-table table-hover'>
             <tbody>
               {sortedEdges.map(({ node }, index) => (
