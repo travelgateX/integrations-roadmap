@@ -246,7 +246,9 @@ const RoadmapPage = ({ data }) => {
                           >
                             {node.Status}
                           </span><br/>
-                            <span className='me-2'>Available: </span>{formatDate(node.Due_date)}
+                            <span className='me-2'>Available: </span>{formatDate(node.Due_date)}<br />
+                            <span className='me-2 fw-bold'>Progress:</span>
+                        <span>{node.Percentage_Total}%</span> <br/>
                         </td>
                       </div>
 
@@ -256,7 +258,8 @@ const RoadmapPage = ({ data }) => {
                         <div className='mb-3'>
                           <p>{node.External_Description}</p>
                         </div>
-                        <p><span className='me-2 fw-bold'>Profile Link:</span>
+                        <p>
+                        <span className='me-2 fw-bold'>Profile Link:</span>
                         <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br/>
                         <span className='me-2 fw-bold'>Status:</span>
                         <span>{node.Status}</span><br/>
@@ -270,6 +273,20 @@ const RoadmapPage = ({ data }) => {
                         <span>{formatDate(node.Start_date)}</span><br/>
                         <span className='me-2 fw-bold'>Last Update:</span>
                         <span>{formatDate(node.Updated)}</span><br/>
+                        </p>
+                        <p>
+                        <span className='me-2 fw-bold'>Analisys:</span>
+                        <span>{node.Analisys}</span> <br/>
+                        <span className='me-2 fw-bold'>Content:</span>
+                        <span>{node.Content}</span> <br/>
+                        <span className='me-2 fw-bold'>Search:</span>
+                        <span>{node.Search}</span> <br/>
+                        <span className='me-2 fw-bold'>Management:</span>
+                        <span>{node.Management}</span> <br/>
+                        <span className='me-2 fw-bold'>Configuration:</span>
+                        <span>{node.Configuration_Dev}</span> <br/>
+                        <span className='me-2 fw-bold'>Validation:</span>
+                        <span>{node.Validation}</span> <br/>
                         </p>
 
                       </td>
@@ -302,6 +319,14 @@ export const query = graphql`
           Start_date
           Profile_Link
           External_Description
+          Analisys
+          Content
+          Search
+          Booking_Flow
+          Management
+          Configuration_Dev
+          Validation
+          Percentage_Total
         }
       }
     }
