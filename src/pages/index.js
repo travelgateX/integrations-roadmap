@@ -247,7 +247,7 @@ const RoadmapPage = ({ data }) => {
                             {node.Status}
                           </span><br/>
                             <span className='me-2'>Available: </span>{formatDate(node.Due_date)}<br />
-                            <span className='me-2 fw-bold'>Progress:</span>
+                            <span className='me-2'>Progress:</span>
                         <span>{node.Percentage_Total}%</span> <br/>
                         </td>
                       </div>
