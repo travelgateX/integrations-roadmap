@@ -31,10 +31,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "100%",
+    "Management": "50%",
     "Configuration Dev": "100%",
     "Validation": "0%",
-    "Percentage Total": 92
+    "Percentage Total": 82
   },
   {
     "Summary": "Conextur DMC Argentina",
@@ -376,11 +376,11 @@
     "Profile Link": "https://www.sabre.com/",
     "Analisys": "100%",
     "Content": "50%",
-    "Search": "50%",
+    "Search": "100%",
     "Booking Flow": "50%",
-    "Management": "50%",
-    "Configuration Dev": "0%",
+    "Management": "100%",
+    "Configuration Dev": "50%",
     "Validation": "0%",
-    "Percentage Total": 55
+    "Percentage Total": 74
   }
 ]
