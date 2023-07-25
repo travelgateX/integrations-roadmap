@@ -230,7 +230,15 @@ const RoadmapPage = ({ data }) => {
             <tbody>
               {sortedEdges.map(({ node }, index) => (
                 <React.Fragment key={node.Summary}>
-                  <div className="card">
+
+                  <div className="aux-progress">
+                    <p><span>Progress completed: {node.Percentage_Total}%</span></p>
+                    <div className='progress' role="progressbar" aria-label="" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height: 2}}>
+                      <div className='progress-bar' style={{width: `${node.Percentage_Total}%`}}></div>
+                    </div>
+                  </div>
+
+                  <div className="card">  
                     <tr onClick={() => toggleDetails(index)}>
                       <div class="d-flex justify-content-between">
                         <td class="partner">
@@ -246,13 +254,12 @@ const RoadmapPage = ({ data }) => {
                           >
                             {node.Status}
                           </span><br/>
-                            <span className='me-2'>Available: </span>{formatDate(node.Due_date)}<br />
-                            <span className='me-2'>Progress:</span>
-                        <span>{node.Percentage_Total}%</span> <br/>
+                            <span className='me-2'>Available: </span>{formatDate(node.Due_date)}
                         </td>
                       </div>
-
                     </tr>
+
+
                     <tr id={`row-details-${index}`} className='row-details'>
                       <td colSpan='5'>
                         <div className='mb-3'>
