@@ -195,14 +195,14 @@
     "Start date": "June 2023",
     "External Description": "With over 250,000 hotels in more than 1,000 countries, hand-picked directly by our procurement team, TTJ?s platform provides unbeatable breadth of product.\nOur range currently extends from hostels though to 5+ star luxury hotels worldwide, meaning there?s nowhere you can?t take your client. Plus, with incredible room allotments and ?last room availability?, you can feel confident you?re getting your client a booking they couldn?t get elsewhere.\nOur range of hotels include: ",
     "Profile Link": "https://app.travelgatex.com/network/the-travel-junction",
-    "Analisys": "50%",
+    "Analisys": "100%",
     "Content": "0%",
     "Search": "50%",
     "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 33
+    "Percentage Total": 37
   },
   {
     "Summary": "MTS City Breaks",
@@ -270,11 +270,11 @@
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
-    "Booking Flow": "50%",
+    "Booking Flow": "100%",
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 71
+    "Percentage Total": 82
   },
   {
     "Summary": "Ezlink",
@@ -358,12 +358,12 @@
     "Profile Link": "https://app.travelgatex.com/network/travel-compositor",
     "Analisys": "100%",
     "Content": "100%",
-    "Search": "50%",
+    "Search": "100%",
     "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "50%",
     "Validation": "0%",
-    "Percentage Total": 51
+    "Percentage Total": 60
   },
   {
     "Summary": "Sabre CSL",
