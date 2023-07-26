@@ -281,6 +281,20 @@ const RoadmapPage = ({ data }) => {
                         <span className='me-2 fw-bold'>Last Update:</span>
                         <span>{formatDate(node.Updated)}</span><br/>
                         </p>
+                        <p>
+                        <span className='me-2 fw-bold'>Analisys:</span>
+                        <span>{node.Analisys}</span> <br/>
+                        <span className='me-2 fw-bold'>Content:</span>
+                        <span>{node.Content}</span> <br/>
+                        <span className='me-2 fw-bold'>Search:</span>
+                        <span>{node.Search}</span> <br/>
+                        <span className='me-2 fw-bold'>Management:</span>
+                        <span>{node.Management}</span> <br/>
+                        <span className='me-2 fw-bold'>Configuration:</span>
+                        <span>{node.Configuration_Dev}</span> <br/>
+                        <span className='me-2 fw-bold'>Validation:</span>
+                        <span>{node.Validation}</span> <br/>
+                        </p>
                       </td>
                     </tr>
                   </div>
