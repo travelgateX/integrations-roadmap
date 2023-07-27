@@ -31,10 +31,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
+    "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "0%",
-    "Percentage Total": 82
+    "Percentage Total": 92
   },
   {
     "Summary": "Conextur DMC Argentina",
@@ -199,10 +199,10 @@
     "Content": "0%",
     "Search": "50%",
     "Booking Flow": "50%",
-    "Management": "0%",
+    "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 37
+    "Percentage Total": 48
   },
   {
     "Summary": "MTS City Breaks",
