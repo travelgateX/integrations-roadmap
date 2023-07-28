@@ -271,10 +271,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
+    "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total": 82
+    "Validation": "50%",
+    "Percentage Total": 96
   },
   {
     "Summary": "Ezlink",
