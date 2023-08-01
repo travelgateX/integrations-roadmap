@@ -2,7 +2,7 @@
   {
     "Summary": "Canarias New Travel",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "July 2023",
     "Status": "Completed",
     "Due date": "July 2023",
@@ -21,7 +21,7 @@
   {
     "Summary": "E-htl Viagens Online",
     "Created": "April 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "May 2023",
@@ -39,7 +39,7 @@
   {
     "Summary": "Conextur DMC Argentina",
     "Created": "April 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -58,7 +58,7 @@
   {
     "Summary": "AllBeds (Grupocdv)",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -77,7 +77,7 @@
   {
     "Summary": "Saltour",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "February 2023",
@@ -114,7 +114,7 @@
   {
     "Summary": "RTS.net",
     "Created": "April 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -133,7 +133,7 @@
   {
     "Summary": "Trip.com",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -152,7 +152,7 @@
   {
     "Summary": "TBO.com",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -171,7 +171,7 @@
   {
     "Summary": "Seera Group",
     "Created": "December 2022",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "March 2023",
@@ -189,7 +189,7 @@
   {
     "Summary": "The Travel Junction",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "June 2023",
@@ -207,7 +207,7 @@
   {
     "Summary": "MTS City Breaks",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "July 2023",
@@ -215,17 +215,17 @@
     "Profile Link": "https://app.travelgatex.com/network/mts-city-breaks",
     "Analisys": "100%",
     "Content": "50%",
-    "Search": "50%",
+    "Search": "100%",
     "Booking Flow": "50%",
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 55
+    "Percentage Total": 64
   },
   {
     "Summary": "NextPax",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "September 2023",
     "Start date": "July 2023",
@@ -243,7 +243,7 @@
   {
     "Summary": "Booking Agora",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "June 2023",
@@ -279,7 +279,7 @@
   {
     "Summary": "Ezlink",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "May 2023",
@@ -308,14 +308,14 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "50%",
+    "Configuration Dev": "100%",
     "Validation": "50%",
     "Percentage Total": 96
   },
   {
     "Summary": "Atharva Infotech",
     "Created": "May 2023",
-    "Updated": "July 2023",
+    "Updated": "August 2023",
     "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "June 2023",
