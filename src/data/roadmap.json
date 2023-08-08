@@ -339,13 +339,14 @@
     "Start date": "August 2023",
     "External Description": "Established in 2018, Vervotech was founded with the vision of Organizing the World's Accommodation Data. With 100% accuracy and completeness, Vervotech- Hotel Mapping and Room Mapping platforms use large-scale aggregation, AI-based processing, and ever-evolving ML models.\n\nVervotech Mappings de-duplicates and helps you show unified hotels and rooms coming from multiple suppliers. Built using Artificial Intelligence, Vervotech- Hotel Mapping and Room Mapping is a SaaS offering that accelerates travel businesses across the globe.",
     "Profile Link": "https://app.travelgatex.com/network/vervotech",
-    "Analisys": "0%",
+    "Analisys": "50%",
     "Content": "0%",
-    "Search": "0%",
-    "Booking Flow": "0%",
-    "Management": "0%",
+    "Search": "100%",
+    "Booking Flow": "100%",
+    "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "0%"
+    "Validation": "0%",
+    "Percentage Total": 74
   },
   {
     "Summary": "Travel Compositor",
