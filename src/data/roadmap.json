@@ -22,7 +22,7 @@
     "Summary": "E-htl Viagens Online",
     "Created": "April 2023",
     "Updated": "August 2023",
-    "Status": "In Certification",
+    "Status": "In Progress",
     "Due date": "August 2023",
     "Start date": "May 2023",
     "External Description": "e-HTL Reservas Online de Hoteis Ltda provides travel services. The Company offers hotel booking and reservation services for traveling purposes, as well as discounts on hotel prices. e-HTL Reservas operates out of Brazil.",
@@ -272,7 +272,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "0%",
+    "Configuration Dev": "50%",
     "Validation": "0%",
     "Percentage Total": 92
   },
@@ -309,8 +309,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total": 96
+    "Validation": "100%",
+    "Percentage Total": 100
   },
   {
     "Summary": "Atharva Infotech",
