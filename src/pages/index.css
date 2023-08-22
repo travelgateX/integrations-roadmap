@@ -145,20 +145,21 @@ span.badge {
 }
 
 span.badge.text-bg-in {
-  background-color: #F2B109;
+  background-color: #0B59DE;
   display: inline;
 }
 span.badge.text-bg-todo {
-  background-color: darkgrey;
+  background-color: #ffc107;
 }
 span.badge.text-bg-completed {
   background-color: #49A885;
 }
 span.badge.text-bg-planned {
-  background-color: darkgrey;
+  background-color: darkgray;
 }
-span.badge.text-bg-todo {
-  background-color: #0B59DE;
+span.badge.certification {
+  background-color: #17a2b8 !important;
+  display: inline;
 }
 
 .aux-progress {}
