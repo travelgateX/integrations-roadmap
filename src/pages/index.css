@@ -144,7 +144,7 @@ span.badge {
   border-radius:2px;
 }
 
-span.badge.text-bg-in.progress {
+span.badge.text-bg-in {
   background-color: #F2B109;
   display: inline;
 }

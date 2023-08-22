@@ -1,10 +1,10 @@
 var plugins = [{
       name: 'default-site-plugin',
-      plugin: require('/Users/adriagarcia/Documents/devel/integrations-roadmap/gatsby-ssr.js'),
+      plugin: require('C:/TravelgateX/integrations-roadmap/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'partytown',
-      plugin: require('/Users/adriagarcia/Documents/devel/integrations-roadmap/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('C:/TravelgateX/integrations-roadmap/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */
