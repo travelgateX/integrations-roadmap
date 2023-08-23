@@ -272,7 +272,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "50%",
+    "Configuration Dev": "100%",
     "Validation": "0%",
     "Percentage Total": 92
   },
@@ -328,8 +328,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total": 96
+    "Validation": "100%",
+    "Percentage Total": 100
   },
   {
     "Summary": "Vervotech",
@@ -362,10 +362,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
-    "Configuration Dev": "50%",
+    "Management": "100%",
+    "Configuration Dev": "100%",
     "Validation": "0%",
-    "Percentage Total": 82
+    "Percentage Total": 92
   },
   {
     "Summary": "Sabre CSL",
