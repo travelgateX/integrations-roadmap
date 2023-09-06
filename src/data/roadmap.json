@@ -29,11 +29,11 @@
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
-    "Booking Flow": "0%",
+    "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 48
+    "Percentage Total": 60
   },
   {
     "Summary": "GIATA - New Deal",
@@ -169,8 +169,8 @@
     "Summary": "Gekko Group",
     "Created": "March 2023",
     "Updated": "September 2023",
-    "Status": "In Certification",
-    "Due date": "August 2023",
+    "Status": "In Progress",
+    "Due date": "September 2023",
     "Start date": "June 2023",
     "External Description": "Created in France in 2009, Gekko brings together experts and technology to deliver renowned IT solutions, developed for the leisure & corporate travel industry and its different actors",
     "Profile Link": "https://app.travelgatex.com/network/gekko-group",
@@ -390,7 +390,7 @@
     "Created": "May 2023",
     "Updated": "September 2023",
     "Resolved": "August 2023",
-    "Status": "In Progress",
+    "Status": "In Certification",
     "Due date": "August 2023",
     "Start date": "June 2023",
     "External Description": "Atharva Infotech is a dynamic software company providing a new range of open, enterprise-wide business solutions to the travel industry based on .Net technology. Our solutions are both flexible and modular in design and can be easily integrated with your existing front or back office systems.",
