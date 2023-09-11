@@ -45,10 +45,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
+    "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 82
+    "Percentage Total": 92
   },
   {
     "Summary": "GIATA - New Deal",
@@ -405,7 +405,7 @@
     "Created": "May 2023",
     "Updated": "September 2023",
     "Resolved": "August 2023",
-    "Status": "In Progress",
+    "Status": "In Certification",
     "Due date": "August 2023",
     "Start date": "June 2023",
     "External Description": "Atharva Infotech is a dynamic software company providing a new range of open, enterprise-wide business solutions to the travel industry based on .Net technology. Our solutions are both flexible and modular in design and can be easily integrated with your existing front or back office systems.",
@@ -442,7 +442,7 @@
     "Created": "May 2023",
     "Updated": "September 2023",
     "Status": "In Certification",
-    "Due date": "July 2023",
+    "Due date": "August 2023",
     "Start date": "May 2023",
     "External Description": "After two years of R & D, the software TRAVEL C will be released in different models, to cover the differences and needs of each tourist segment.",
     "Profile Link": "https://app.travelgatex.com/network/travel-compositor",
