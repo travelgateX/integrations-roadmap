@@ -21,7 +21,7 @@
     "Summary": "bj.meituan.com",
     "Created": "July 2023",
     "Updated": "September 2023",
-    "Status": "ToDo",
+    "Status": "Planned",
     "External Description": "We help people, eat better, live better",
     "Profile Link": "https://app.travelgatex.com/network/meituan-dianping",
     "Analisys": "0%",
@@ -30,7 +30,8 @@
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
-    "Validation": "0%"
+    "Validation": "0%",
+    "Percentage Total": 7
   },
   {
     "Summary": "hikaritour.com",
@@ -47,8 +48,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total": 92
+    "Validation": "50%",
+    "Percentage Total": 96
   },
   {
     "Summary": "GIATA - New Deal",
@@ -285,11 +286,11 @@
     "Analisys": "100%",
     "Content": "100%",
     "Search": "50%",
-    "Booking Flow": "50%",
+    "Booking Flow": "100%",
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 62
+    "Percentage Total": 73
   },
   {
     "Summary": "MTS City Breaks",
@@ -416,8 +417,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "0%",
-    "Percentage Total": 92
+    "Validation": "100%",
+    "Percentage Total": 100
   },
   {
     "Summary": "Vervotech",
