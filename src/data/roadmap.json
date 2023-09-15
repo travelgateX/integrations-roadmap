@@ -21,7 +21,9 @@
     "Summary": "bj.meituan.com",
     "Created": "July 2023",
     "Updated": "September 2023",
-    "Status": "Planned",
+    "Status": "In Progress",
+    "Due date": "October 2023",
+    "Start date": "September 2023",
     "External Description": "We help people, eat better, live better",
     "Profile Link": "https://app.travelgatex.com/network/meituan-dianping",
     "Analisys": "0%",
@@ -48,7 +50,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 96
+    "Percentage Total Pull": 92
   },
   {
     "Summary": "GIATA - New Deal",
