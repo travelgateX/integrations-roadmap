@@ -30,8 +30,7 @@
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total Pull": 7
+    "Validation": "0%"
   },
   {
     "Summary": "hikaritour.com",
@@ -48,7 +47,7 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "50%",
+    "Validation": "0%",
     "Percentage Total Pull": 96
   },
   {
