@@ -462,7 +462,7 @@
     "Created": "May 2023",
     "Updated": "September 2023",
     "Status": "In Progress",
-    "Due date": "September 2023",
+    "Due date": "October 2023",
     "Start date": "June 2023",
     "External Description": "The Content Services for Lodging (CSL) product collection houses APIs to help you find properties, get information about properties, check prices, and much more.\nEnhance your booking tool with the value that CSL delivers, including:\nMore Content: Integrating over a million lodging property and rate options from GDS and aggregator sources through modern, flexible APIs, allowing you to compare rates from different sources side-by-side.\nNew Search and Preferencing Capabilities: Delivering enhanced capabilities such as polygon searching and agency preferencing, enabling new shopping experiences and more efficient workflows\nProduct Normalization: Supporting attribute-based rate comparison across content sources allowing your agents and travelers to easily and efficiently find the best rate that meets their needs \nModern APIs: CSL offers a modern set of SOAP/XML and REST/JSON APIs that leverage improved data structures and are supported by robust documentation.",
     "Profile Link": "https://www.sabre.com/",
