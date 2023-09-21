@@ -335,7 +335,8 @@
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
-    "Validation": "0%"
+    "Validation": "0%",
+    "Percentage Total Pull": 7
   },
   {
     "Summary": "hikaritour.com",
@@ -630,17 +631,17 @@
     "Profile Link": "2023-06-14T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "50%",
-    "Search": "0%",
+    "Search": "50%",
     "Booking Flow": "50%",
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 45
+    "Percentage Total Pull": 55
   },
   {
     "Created": "May 2023",
     "Updated": "September 2023",
-    "Status": "In Progress",
+    "Status": "In Certification",
     "Due date": "September 2023",
     "Start date": "May 2023",
     "External Description": "2023-07-13T22:00:00.000Z",
@@ -710,7 +711,7 @@
   {
     "Created": "May 2023",
     "Updated": "September 2023",
-    "Status": "In Progress",
+    "Status": "In Certification",
     "Due date": "October 2023",
     "Start date": "August 2023",
     "External Description": "2023-09-03T22:00:00.000Z",
@@ -728,9 +729,9 @@
     "Created": "May 2023",
     "Updated": "September 2023",
     "Resolved": "September 2023",
-    "Status": "Completed",
-    "Due date": "August 2023",
-    "Start date": "May 2023",
+    "Status": "In Progress",
+    "Due date": "November 2023",
+    "Start date": "September 2023",
     "External Description": "2023-06-25T22:00:00.000Z",
     "Profile Link": "2023-05-30T22:00:00.000Z",
     "Analisys": "100%",
@@ -739,8 +740,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Validation": "100%",
+    "Percentage Total Pull": 100
   },
   {
     "Created": "May 2023",
