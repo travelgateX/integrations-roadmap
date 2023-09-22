@@ -580,12 +580,12 @@
     "Profile Link": "2023-06-20T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
-    "Search": "50%",
+    "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
+    "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "50%",
-    "Percentage Total Pull": 77
+    "Percentage Total Pull": 96
   },
   {
     "Created": "May 2023",
@@ -601,8 +601,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total Pull": 92
+    "Validation": "50%",
+    "Percentage Total Pull": 96
   },
   {
     "Created": "May 2023",
@@ -653,8 +653,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "0%",
-    "Percentage Total Pull": 92
+    "Validation": "100%",
+    "Percentage Total Pull": 100
   },
   {
     "Created": "May 2023",
