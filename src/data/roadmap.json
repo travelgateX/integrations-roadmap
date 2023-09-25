@@ -1,5 +1,22 @@
 [
   {
+    "Summary": "Payment integration development request for BUYER INTEREP (MONDEE)",
+    "Created": "September 2023",
+    "Updated": "September 2023",
+    "Status": "Planned",
+    "Due date": "September 2023",
+    "External Description": "none",
+    "Profile Link": "none"
+  },
+  {
+    "Summary": "Mondee",
+    "Created": "September 2023",
+    "Updated": "September 2023",
+    "Status": "ToDo",
+    "External Description": "none",
+    "Profile Link": "none"
+  },
+  {
     "Summary": "Booklogic",
     "Created": "September 2023",
     "Updated": "September 2023",
@@ -375,7 +392,6 @@
     "Percentage Total Pull": 100
   },
   {
-    "Summary": "Palladium Hotel Group",
     "Created": "June 2023",
     "Updated": "September 2023",
     "Status": "Completed",
@@ -393,7 +409,6 @@
     "Percentage Total Pull": 100
   },
   {
-    "Summary": "Canarias New Travel",
     "Created": "December 2022",
     "Updated": "September 2023",
     "Resolved": "July 2023",
@@ -471,7 +486,7 @@
     "Status": "Completed",
     "Due date": "February 2023",
     "Start date": "January 2023",
-    "External Description": "Saltours International holds the unrivalled distinction of introducing the concept of wholesale tourism worldwide. As a leader in this field, the company has grown from strength to strength and today holds a lion?s share of the market. With unrivaled efficiency, innovation, and above all a passion for detail, the name Saltours has become synonymous with excellence and a holiday worth remembering!",
+    "External Description": "2023-03-05T23:00:00.000Z",
     "Profile Link": "https://app.travelgatex.com/network/saltours",
     "Analisys": "100%",
     "Content": "100%",
@@ -488,7 +503,7 @@
     "Status": "In Progress",
     "Due date": "September 2023",
     "Start date": "June 2023",
-    "External Description": "Created in France in 2009, Gekko brings together experts and technology to deliver renowned IT solutions, developed for the leisure & corporate travel industry and its different actors",
+    "External Description": "2023-06-26T22:00:00.000Z",
     "Profile Link": "https://app.travelgatex.com/network/gekko-group",
     "Analisys": "100%",
     "Content": "100%",
@@ -507,7 +522,7 @@
     "Due date": "May 2023",
     "Start date": "April 2023",
     "External Description": "2023-06-13T22:00:00.000Z",
-    "Profile Link": "https://app.travelgatex.com/network/rts-net",
+    "Profile Link": "2023-04-18T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
@@ -525,7 +540,7 @@
     "Due date": "May 2023",
     "Start date": "February 2023",
     "External Description": "2023-03-27T22:00:00.000Z",
-    "Profile Link": "https://app.travelgatex.com/network/trip-com",
+    "Profile Link": "2023-01-31T23:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
