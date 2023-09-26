@@ -336,7 +336,7 @@
     "Management": "0",
     "Configuration Dev": "0",
     "Validation": "0",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "bj.meituan.com",
@@ -354,7 +354,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 7
+    "Sabre CSL": 7
   },
   {
     "Summary": "hikaritour.com",
@@ -372,7 +372,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 92
+    "Sabre CSL": 92
   },
   {
     "Summary": "GIATA - New Deal",
@@ -390,7 +390,7 @@
     "Management": "0",
     "Configuration Dev": "0",
     "Validation": "0",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Palladium Hotel Group",
@@ -408,7 +408,7 @@
     "Management": "0",
     "Configuration Dev": "0",
     "Validation": "0",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Canarias New Travel",
@@ -427,7 +427,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "E-htl Viagens Online",
@@ -445,7 +445,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Sabre CSL": 96
   },
   {
     "Summary": "Conextur DMC Argentina",
@@ -464,7 +464,7 @@
     "Management": "0",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "AllBeds (Grupocdv)",
@@ -483,7 +483,7 @@
     "Management": "100%",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Saltour",
@@ -502,7 +502,7 @@
     "Management": "100%",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Gekko Group",
@@ -520,7 +520,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Sabre CSL": 96
   },
   {
     "Summary": "RTS.net",
@@ -539,7 +539,7 @@
     "Management": "100%",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Trip.com",
@@ -558,7 +558,7 @@
     "Management": "100%",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "TBO.com",
@@ -577,7 +577,7 @@
     "Management": "100%",
     "Configuration Dev": "0",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Seera Group",
@@ -595,7 +595,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "The Travel Junction",
@@ -613,7 +613,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Sabre CSL": 96
   },
   {
     "Summary": "MTS City Breaks",
@@ -631,7 +631,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Sabre CSL": 96
   },
   {
     "Summary": "NextPax",
@@ -649,7 +649,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 39
+    "Sabre CSL": 39
   },
   {
     "Summary": "Booking Agora",
@@ -667,7 +667,7 @@
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 55
+    "Sabre CSL": 55
   },
   {
     "Summary": "Eurotours",
@@ -686,7 +686,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Ezlink",
@@ -704,7 +704,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "EverRooms",
@@ -723,7 +723,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Atharva Infotech",
@@ -742,7 +742,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Vervotech",
@@ -760,7 +760,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total Pull": 92
+    "Sabre CSL": 92
   },
   {
     "Summary": "Travel Compositor",
@@ -779,7 +779,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total Pull": 100
+    "Sabre CSL": 100
   },
   {
     "Summary": "Sabre CSL",
@@ -797,6 +797,6 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "50%",
-    "Percentage Total Pull": 96
+    "Sabre CSL": 96
   }
 ]
