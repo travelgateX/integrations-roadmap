@@ -660,7 +660,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "EXT-FDSA;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "E-htl Viagens Online",
@@ -681,7 +681,7 @@
     "Configuration Dev": "100%",
     "Validation": "50%",
     "Percentage Total": 96,
-    "Product": "EXT-1;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "Conextur DMC Argentina",
@@ -705,7 +705,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "EXT-1;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "AllBeds (Grupocdv)",
@@ -890,7 +890,7 @@
     "Configuration Dev": "0%",
     "Validation": "50%",
     "Percentage Total": 96,
-    "Product": "EXT-FDSA;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "MTS City Breaks",
@@ -911,7 +911,7 @@
     "Configuration Dev": "0%",
     "Validation": "50%",
     "Percentage Total": 96,
-    "Product": "EXT-FDSA;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "NextPax",
@@ -932,7 +932,7 @@
     "Configuration Dev": "0%",
     "Validation": "0%",
     "Percentage Total": 39,
-    "Product": "EXT-1;PULL;PUSH"
+    "Product": "PULL;PUSH"
   },
   {
     "Summary": "Booking Agora",
@@ -953,7 +953,7 @@
     "Configuration Dev": "0%",
     "Validation": "0%",
     "Percentage Total": 55,
-    "Product": "CONECTORS-TMP;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "Eurotours",
@@ -1000,7 +1000,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "EXT-1;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "EverRooms",
@@ -1024,7 +1024,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "EXT-FDSA;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "Atharva Infotech",
@@ -1048,7 +1048,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "CONECTORS-TMP;EXT-1;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "Vervotech",
@@ -1093,7 +1093,7 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "CONECTORS-TMP;PULL"
+    "Product": "PULL"
   },
   {
     "Summary": "Sabre CSL",
