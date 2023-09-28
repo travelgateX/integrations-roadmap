@@ -950,7 +950,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 92
+    "Percentage Total": 22
   },
   {
     "Summary": "Travel Compositor",
@@ -971,7 +971,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 100
+    "Percentage Total": 41
   },
   {
     "Summary": "Sabre CSL",
@@ -989,6 +989,6 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "50%",
-    "Percentage Total": 96
+    "Percentage Total": 92
   }
 ]
