@@ -1067,7 +1067,7 @@
     "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 22,
+    "Percentage Total": 92,
     "Product": "PULL"
   },
   {
@@ -1089,7 +1089,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 41,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "CONECTORS-TMP;PULL"
@@ -1110,7 +1110,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "50%",
-    "Percentage Total": 92,
+    "Percentage Total": 96,
     "Product": "PULL"
   }
 ]
