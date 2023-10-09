@@ -1,5 +1,14 @@
 [
   {
+    "Summary": "DCS+",
+    "Created": "October 2023",
+    "Updated": "October 2023",
+    "Status": "ToDo",
+    "External Description": "With an experience of over 19 years, dcs plus is a technology company that provides business critical enterprise software for the travel and tourism industry.<br />Backed up by passion and years of insights gathered while working closely with travel professionals, dcs plus provides a full software stack of  solutions, addressing the complex needs of all types of travel companies. dcs plus? software perform across the travel distribution chain, helping travel agencies maximize revenue and improve process efficiency while optimizing operating costs.  <br /><br />Headquartered in Europe, dcs plus has regional offices in:<br />?\tBucharest ? Romania ? for European markets<br />?\tDubai ? United Arab Emirates ? for Middle East and Africa markets<br />?\tSingapore ? for Asia Pacific markets<br />?\tSao Paolo ? Brazil for Latin American markets<br />?\tGurgaon ? India<br /><br />Having 2 of the largest European Venture Capital Funds, EarlyBird and Credo Venture, as shareholders reconfirms the sustained dedication and drive of the dcs plus team.<br /><br />The travel technology ecosystem provided by dcs plus is designed in house and consists of a mid-back office (TINA), a booking engine/ agent desktop (IRIX), an OBT (NOVA), a B2C online solution (TRIP) and an inventory management application (AIDA). This software suite allows the agencies to maximize their revenue through the sales channels (IRIX/NOVA/TRIP/AIDA), while the mid-back office (TINA) optimizes operational processes making the travel agency more efficient and thereby reducing costs and increasing profit.   <br /><br />The company?s portfolio of customers is spread across more than 50 markets worldwide consisting of some of the global leaders in each of their segments: Travel Management Companies (Amex GBT, BCD, Egencia, GlobalStar, Radius, Reed&MacKay, Uniglobe, ATPI, Lufthansa City Center, HRG, FCM, Travel Leaders Group etc.), Professional Congress Organizers and Destination Management Companies, Online Travel Agents, Wholesalers, Tour Operators etc.",
+    "Profile Link": "https://app.travelgatex.com/network/dcs",
+    "Product": "PULL"
+  },
+  {
     "Summary": "3Full Steps PUSH",
     "Created": "September 2023",
     "Updated": "September 2023",
@@ -29,8 +38,10 @@
   {
     "Summary": "Booklogic",
     "Created": "September 2023",
-    "Updated": "September 2023",
-    "Status": "In Certification",
+    "Updated": "October 2023",
+    "Resolved": "October 2023",
+    "Status": "Completed",
+    "Due date": "October 2023",
     "Start date": "September 2023",
     "External Description": "Revenue Maximizing Solutions for Hotels & Online Reservation Systems<br /><br />BookLogic provides Revenue Maximizing Solutions for Hotels & Online Reservation Systems for the Travel industry. BookLogic enables you to easily maximize your hotels? bookings and revenue and to increase your sales by your online distribution channels.<br /><br />BookLogic maximizes your hotels? yearly RevPAR ratio, automate your hotel reservation management process, and connect your hotel to 650.000+ travel agencies and 150+ online hotel portals worldwide through our one-stop-distribution solution.<br /><br />For Travel Agencies and Tour Operators, BookLogic provides Automation System and Online Reservation Systems for the management and sales of tourism services such as hotels, flights, car rentals, excursions, transfers, cruises, boat rentals, yachting, packages, dynamic packages and so on.<br /><br />BookLogic provides Complete Hotel Solutions and Online Reservation Systems for hotels and hotel chains.",
     "Profile Link": "https://app.travelgatex.com/network/booklogic",
@@ -1104,10 +1115,8 @@
     "Status": "In Progress",
     "Due date": "October 2023",
     "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "August 2023",
-    "External Description": "The Content Services for Lodging (CSL) product collection houses APIs to help you find properties, get information about properties, check prices, and much more.\nEnhance your booking tool with the value that CSL delivers, including:\nMore Content: Integrating over a million lodging property and rate options from GDS and aggregator sources through modern, flexible APIs, allowing you to compare rates from different sources side-by-side.\nNew Search and Preferencing Capabilities: Delivering enhanced capabilities such as polygon searching and agency preferencing, enabling new shopping experiences and more efficient workflows\nProduct Normalization: Supporting attribute-based rate comparison across content sources allowing your agents and travelers to easily and efficiently find the best rate that meets their needs \nModern APIs: CSL offers a modern set of SOAP/XML and REST/JSON APIs that leverage improved data structures and are supported by robust documentation.",
-    "Profile Link": "https://www.sabre.com/",
+    "External Description": "2023-08-06T22:00:00.000Z",
+    "Profile Link": "2023-06-18T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
