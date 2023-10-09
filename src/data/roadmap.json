@@ -605,6 +605,19 @@
     "Product": "PULL"
   },
   {
+    "Summary": "Mason's Travel Pvt Ltd - SQL initialization",
+    "Created": "June 2023",
+    "Updated": "October 2023",
+    "Status": "ToDo",
+    "Due date": "October 2023",
+    "Start date": "July 2023",
+    "Target start": "July 2023",
+    "Target end": "October 2023",
+    "External Description": "No description",
+    "Profile Link": "https://app.travelgatex.com/network/masons-travel-pvt-ltd",
+    "Product": "PULL"
+  },
+  {
     "Summary": "GIATA",
     "Created": "June 2023",
     "Updated": "October 2023",
@@ -1092,10 +1105,8 @@
     "Status": "Completed",
     "Due date": "September 2023",
     "Start date": "September 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "External Description": "After two years of R & D, the software TRAVEL C will be released in different models, to cover the differences and needs of each tourist segment.",
-    "Profile Link": "https://app.travelgatex.com/network/travel-compositor",
+    "External Description": "2023-06-25T22:00:00.000Z",
+    "Profile Link": "2023-05-30T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
