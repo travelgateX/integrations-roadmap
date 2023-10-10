@@ -22,7 +22,7 @@
     "Summary": "Mondee",
     "Created": "September 2023",
     "Updated": "October 2023",
-    "Status": "ToDo",
+    "Status": "Planned",
     "Start date": "October 2023",
     "External Description": "none",
     "Profile Link": "none",
@@ -600,8 +600,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total": 92,
+    "Validation": "50%",
+    "Percentage Total": 96,
     "Product": "PULL"
   },
   {
@@ -705,8 +705,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total": 96,
+    "Validation": "100%",
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
