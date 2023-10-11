@@ -31,13 +31,14 @@
     "Target start": "October 2023",
     "External Description": "none",
     "Profile Link": "none",
-    "Analisys": "0%",
+    "Analisys": "50%",
     "Content": "0%",
     "Search": "0%",
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
+    "Percentage Total": 11,
     "Product": "PULL"
   },
   {
@@ -546,17 +547,23 @@
     "External Description": "PHOBS is a supplier of advanced reservation technology for hotels, resorts, campsites, hotel chains, and virtually any overnight accommodation world wide.<br /><br />The philosophy of PHOBS is total flexibility in creating prices, packages and sales policy by applying innovative sales tools and an extremely user-friendly interface.<br /><br />Specialized in sales of resorts and remote seasonal properties, it offers a set of tour-operator like tools which can easily convert your own web page into best performing sales channel.<br /><br />The PHOBS suite includes a fully integrated CRS, a multilingual Booking engine, distribution hub, reservation application, Fax&SMS gateway, PMS switch, Credit Card processing switch and much more...<br /><br />Whether you are a small inn, with just a few rooms or global hotel chain with properties on different continents, PHOBS will boost your sales, reduce costs and save time.",
     "Profile Link": "https://app.travelgatex.com/network/phobs",
     "Analisys": "100%",
-    "Booking Flow": "50%",
-    "Percentage Total": 18,
+    "Booking Flow": "100%",
+    "Percentage Total": 30,
     "Product": "PUSH"
   },
   {
     "Summary": "STAAH Limited - NEW SELLER API",
     "Created": "August 2023",
     "Updated": "October 2023",
-    "Status": "Planned",
+    "Status": "In Progress",
+    "Due date": "December 2023",
+    "Start date": "October 2023",
+    "Target start": "October 2023",
+    "Target end": "January 2024",
     "External Description": "none",
     "Profile Link": "none",
+    "Booking Flow": "0%",
+    "Percentage Total": 0,
     "Product": "PUSH"
   },
   {
