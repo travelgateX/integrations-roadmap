@@ -33,13 +33,13 @@
     "External Description": "none",
     "Profile Link": "none",
     "Analisys": "50%",
-    "Content": "0%",
+    "Content": "50%",
     "Search": "0%",
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 11,
+    "Percentage Total": 18,
     "Product": "PULL"
   },
   {
@@ -623,7 +623,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "0%",
+    "Configuration Dev": "50%",
     "Validation": "50%",
     "Percentage Total": 96,
     "Product": "PULL"
@@ -639,6 +639,14 @@
     "Target end": "October 2023",
     "External Description": "No description",
     "Profile Link": "https://app.travelgatex.com/network/masons-travel-pvt-ltd",
+    "Analisys": "0%",
+    "Content": "0%",
+    "Search": "0%",
+    "Booking Flow": "0%",
+    "Management": "0%",
+    "Configuration Dev": "0%",
+    "Validation": "0%",
+    "Percentage Total": 7,
     "Product": "PULL"
   },
   {
