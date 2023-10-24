@@ -565,7 +565,7 @@
     "Product": "PUSH"
   },
   {
-    "Summary": "STAAH Limited - NEW SELLER API",
+    "Summary": "STAAH Limited",
     "Created": "August 2023",
     "Updated": "October 2023",
     "Status": "In Progress",
@@ -573,7 +573,7 @@
     "Start date": "October 2023",
     "Target start": "October 2023",
     "Target end": "January 2024",
-    "External Description": "STAAH Ltd. is a New Zealand-based technology company that specialises in cloud-based channel management and booking engine for accommodation providers helping them maximise their online revenue. Founded by Gavin Jeddo in 2008, a pioneer in the field of distribution technology, STAAH?s industry-leading technology powers a property?s distribution through online travel agencies (OTA) and direct bookings.\n\nSTAAH works with more than 18,000+ properties across 90 countries through its operations in New Zealand, Australia, India, Malaysia, Indonesia, Philippines, Thailand, UK and Europe.",
+    "External Description": "STAAH Ltd. is a New Zealand-based technology company that specialises in cloud-based channel management and booking engine for accommodation providers helping them maximise their online revenue. Founded by Gavin Jeddo in 2008, a pioneer in the field of distribution technology, STAAH's industry-leading technology powers a property's distribution through online travel agencies (OTA) and direct bookings.\n\nSTAAH works with more than 18,000+ properties across 90 countries through its operations in New Zealand, Australia, India, Malaysia, Indonesia, Philippines, Thailand, UK and Europe.",
     "Profile Link": "none",
     "Booking Flow": "0%",
     "Percentage Total": 0,
@@ -614,7 +614,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 7,
+    "Percentage Total": 14,
     "Product": "PULL"
   },
   {
@@ -647,7 +647,7 @@
     "Start date": "October 2023",
     "Target start": "July 2023",
     "Target end": "October 2023",
-    "External Description": "Mason?s Travel is Seychelles? leading DMC and an experienced travel specialist, renowned for crafting bespoke private tours, unique excursions, group events and island-hopping holidays in Seychelles.",
+    "External Description": "Mason's Travel is Seychelles' leading DMC and an experienced travel specialist, renowned for crafting bespoke private tours, unique excursions, group events and island-hopping holidays in Seychelles.",
     "Profile Link": "https://app.travelgatex.com/network/masons-travel-pvt-ltd",
     "Analisys": "100%",
     "Content": "100%",
@@ -656,7 +656,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 22,
+    "Percentage Total": 39,
     "Product": "PULL"
   },
   {
