@@ -234,7 +234,7 @@
     "Status": "Completed",
     "Due date": "September 2023",
     "Start date": "September 2023",
-    "External Description": "A brand of Ets Ersoy Turistik Servisleri A.S., Etstur is a leading travel agency and tour operator in T?rkiye and the first company that established the chain of Agency ? Transportation ? Guidance ? Accommodation. \n\nWith its wide range of products including flights, transportation, and accommodations from holiday villages to city hotels, apart hotels, bungalows and bed & breakfasts, Etstur caters to every segment of the market, ensuring that every traveller has a memorable journey. \n\nEtsgroup also hosts many brands under its roof: Etscore ; a online B2B travel and tourism platform for a tourism agencies with an easy, fast, and effortless experience for purchasing hotel reservations.\nWith Etscore, you can easily and reliably access more than 10,000 directly contracted properties in T?rkiye and enjoy quality service all around the world.\n\nOdamax; a digital platform that provides online booking services worldwide,\nJetset; a boutique travel agency preparing personal and luxury travel programs, Ucuzabilet.com; a web site selling affordable domestic and international flight tickets, \nOtelpuan.com; a web site featuring objective reviews of the guests about the properties, LetsGo; online journal of Etstur covering articles and posts on travel trends and culture, \nHotel Agent; a solution partner for hotel managements in sales and marketing activities.",
+    "External Description": "A brand of Ets Ersoy Turistik Servisleri A.S., Etstur is a leading travel agency and tour operator in T?rkiye and the first company that established the chain of Agency - Transportation - Guidance - Accommodation. \n\nWith its wide range of products including flights, transportation, and accommodations from holiday villages to city hotels, apart hotels, bungalows and bed & breakfasts, Etstur caters to every segment of the market, ensuring that every traveller has a memorable journey. \n\nEtsgroup also hosts many brands under its roof: Etscore ; a online B2B travel and tourism platform for a tourism agencies with an easy, fast, and effortless experience for purchasing hotel reservations.\nWith Etscore, you can easily and reliably access more than 10,000 directly contracted properties in T?rkiye and enjoy quality service all around the world.\n\nOdamax; a digital platform that provides online booking services worldwide,\nJetset; a boutique travel agency preparing personal and luxury travel programs, Ucuzabilet.com; a web site selling affordable domestic and international flight tickets, \nOtelpuan.com; a web site featuring objective reviews of the guests about the properties, LetsGo; online journal of Etstur covering articles and posts on travel trends and culture, \nHotel Agent; a solution partner for hotel managements in sales and marketing activities.",
     "Profile Link": "https://app.travelgatex.com/network/etstur",
     "Analisys": "100%",
     "Content": "100%",
@@ -246,16 +246,6 @@
     "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
-    "Product": "PULL GENERIC"
-  },
-  {
-    "Summary": "Tournate ",
-    "Created": "September 2023",
-    "Updated": "October 2023",
-    "Status": "In Progress",
-    "Start date": "September 2023",
-    "External Description": "Please, fill your description.",
-    "Profile Link": "https://app.travelgatex.com/network/tournate",
     "Product": "PULL GENERIC"
   },
   {
@@ -656,7 +646,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 39,
+    "Percentage Total": 60,
     "Product": "PULL"
   },
   {
@@ -1127,8 +1117,10 @@
     "Status": "Completed",
     "Due date": "September 2023",
     "Start date": "September 2023",
-    "External Description": "2023-06-25T22:00:00.000Z",
-    "Profile Link": "2023-05-30T22:00:00.000Z",
+    "Target start": "May 2023",
+    "Target end": "June 2023",
+    "External Description": "After two years of R & D, the software TRAVEL C will be released in different models, to cover the differences and needs of each tourist segment.",
+    "Profile Link": "https://app.travelgatex.com/network/travel-compositor",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
