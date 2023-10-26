@@ -564,6 +564,15 @@
     "Product": "PUSH"
   },
   {
+    "Summary": "City Tours USA - SQL initialization",
+    "Created": "August 2023",
+    "Updated": "October 2023",
+    "Status": "ToDo",
+    "External Description": "No description",
+    "Profile Link": "https://app.travelgatex.com/network/city-tours-usa",
+    "Product": "PULL"
+  },
+  {
     "Summary": "STAAH Limited",
     "Created": "August 2023",
     "Updated": "October 2023",
@@ -1102,10 +1111,8 @@
     "Status": "Completed",
     "Due date": "September 2023",
     "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "External Description": "Atharva Infotech is a dynamic software company providing a new range of open, enterprise-wide business solutions to the travel industry based on .Net technology. Our solutions are both flexible and modular in design and can be easily integrated with your existing front or back office systems.",
-    "Profile Link": "https://app.travelgatex.com/network/atharva-infotech",
+    "External Description": "2023-07-09T22:00:00.000Z",
+    "Profile Link": "2023-05-31T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
