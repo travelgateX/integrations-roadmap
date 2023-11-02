@@ -1,5 +1,14 @@
 [
   {
+    "Summary": "Synxis (Sabre) - New Deal",
+    "Created": "November 2023",
+    "Updated": "November 2023",
+    "Status": "ToDo",
+    "External Description": "No description",
+    "Profile Link": "https://app.travelgatex.com/network/synxis-sabre",
+    "Product": "PULL"
+  },
+  {
     "Summary": "DCS+",
     "Created": "October 2023",
     "Updated": "November 2023",
@@ -1087,10 +1096,8 @@
     "Status": "Completed",
     "Due date": "July 2023",
     "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "External Description": "EverRooms is a dynamic technology company focussing on global distribution of hotel rates.\nEverRooms was founded in Germany by tech enthusiasts and travel experts. We combine deep knowledge of the travel industry with analytical skills, sourcing knowledge, and tech know-how. We have been distributing hotel rates since 2012 in B2B and B2C environments. Due to a decade of experience in metasearch distribution, our offerings incorporates sophisticated rate caching, room type matching, a specialized server structure for high-traffic schemes, and elaborated rate distribution.",
-    "Profile Link": "https://app.travelgatex.com/network/everrooms",
+    "External Description": "2023-06-11T22:00:00.000Z",
+    "Profile Link": "2023-05-16T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
