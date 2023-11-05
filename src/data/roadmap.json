@@ -647,6 +647,15 @@
     "Product": "PULL"
   },
   {
+    "Summary": "ctsturismo.com",
+    "Created": "July 2023",
+    "Updated": "November 2023",
+    "Status": "ToDo",
+    "External Description": "No description",
+    "Profile Link": "https://app.travelgatex.com/network/cts",
+    "Product": "PULL"
+  },
+  {
     "Summary": "hikaritour.com",
     "Created": "July 2023",
     "Updated": "November 2023",
@@ -1084,10 +1093,8 @@
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "May 2023",
-    "Target start": "May 2023",
-    "Target end": "June 2023",
-    "External Description": "EZLINK is the first genuinely Brazilian Broker, with direct hotel contracts. We also act as multibrokers, to serve our partners with the greatest possible availability. Our customers are made up exclusively of Tour Operators throughout the Americas. Our main objective is to improve the profitability and agility of these partners, with the connection of the best treatment that each reservation can have.",
-    "Profile Link": "https://app.travelgatex.com/network/ezlink",
+    "External Description": "2023-06-11T22:00:00.000Z",
+    "Profile Link": "2023-05-14T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
