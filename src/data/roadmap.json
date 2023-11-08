@@ -72,12 +72,12 @@
     "Profile Link": "none",
     "Analisys": "100%",
     "Content": "100%",
-    "Search": "50%",
+    "Search": "100%",
     "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 51,
+    "Percentage Total": 60,
     "Product": "PULL"
   },
   {
@@ -694,7 +694,7 @@
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 82,
+    "Percentage Total": 71,
     "Product": "PULL"
   },
   {
@@ -995,9 +995,9 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "0%",
-    "Validation": "50%",
-    "Percentage Total": 96,
+    "Configuration Dev": "100%",
+    "Validation": "100%",
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
