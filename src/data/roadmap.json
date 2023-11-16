@@ -36,7 +36,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "50%",
-    "Configuration Dev": "0%",
+    "Configuration Dev": "50%",
     "Validation": "0%",
     "Percentage Total": 82,
     "Product": "PULL"
@@ -640,11 +640,11 @@
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
-    "Booking Flow": "50%",
+    "Booking Flow": "100%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 60,
+    "Percentage Total": 71,
     "Product": "PULL"
   },
   {
@@ -1015,7 +1015,8 @@
     "Summary": "MTS City Breaks",
     "Created": "May 2023",
     "Updated": "November 2023",
-    "Status": "In Progress",
+    "Resolved": "November 2023",
+    "Status": "Completed",
     "Due date": "August 2023",
     "Start date": "July 2023",
     "Target start": "June 2023",
