@@ -13,11 +13,11 @@
     "Analisys": "100%",
     "Content": "0%",
     "Search": "50%",
-    "Booking Flow": "50%",
+    "Booking Flow": "100%",
     "Management": "50%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 48,
+    "Percentage Total": 59,
     "Product": "PULL"
   },
   {
@@ -1029,8 +1029,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total": 96,
+    "Validation": "100%",
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
