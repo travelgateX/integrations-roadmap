@@ -594,6 +594,15 @@
     "Product": "PULL"
   },
   {
+    "Summary": "HALLTELS - New Seller",
+    "Created": "August 2023",
+    "Updated": "November 2023",
+    "Status": "ToDo",
+    "External Description": "El nuevo marketplace que transformar? el sector tur?stico, donde todos los hoteles estan conectados directamente con sus partners Travel Sellers y proveedores de serivicios digitales en un ?nico marketplace.\n\nPara establecer relaciones comerciales personalizadas.\nSin intermediarios.\nTrazabilidad y transparencia en todos los procesos. Reducci?n del riesgo de impagos y aumento del control del cash-flow.\nPara vender directamente a cualquier segmento de clientes.\nY mejorar la rentabilidad en toda la cadena de valor.\nPara acceder a programas de marketing personalizados.\nQue permitan alcanzar los objetivos comerciales que se persiguen y mejorar la experiencia de compra de sus clientes.",
+    "Profile Link": "https://app.travelgatex.com/network/halltels",
+    "Product": "PULL"
+  },
+  {
     "Summary": "STAAH Limited",
     "Created": "August 2023",
     "Updated": "November 2023",
@@ -1061,10 +1070,8 @@
     "Status": "In Progress",
     "Due date": "October 2023",
     "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "External Description": "BookingAgora is a leading B2B marketplace with the fastest access to best deals.\nOur partners enjoy from a large variety of accommodation options, in-house developed technology products, flight ticketing and 24/7 customer service support.",
-    "Profile Link": "https://app.travelgatex.com/network/booking-agora",
+    "External Description": "2023-07-23T22:00:00.000Z",
+    "Profile Link": "2023-06-14T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "50%",
     "Search": "50%",
