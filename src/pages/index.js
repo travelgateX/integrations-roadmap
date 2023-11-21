@@ -102,6 +102,19 @@ const RoadmapPage = ({ data }) => {
     return (
         <>
             <Helmet>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFX786J1YL"></script>
+                <script>
+                    {`
+                   window.dataLayer = window.dataLayer || [];
+                   function gtag(){dataLayer.push(arguments);}
+                   gtag('js', new Date());
+
+                   gtag('config', 'G-TFX786J1YL');
+                   `} 
+                </script>
+                <title>Travelgate Integrations Roadmap (beta)</title>
+                <meta name="description" content="The Seller API Development within the Travelgate roadmap is dedicated to empowering sellers with cutting-edge tools and features, facilitating seamless and scalable collaboration within the travel industry." />
+
                 <link
                     href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'
                     rel='stylesheet'
