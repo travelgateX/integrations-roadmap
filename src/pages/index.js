@@ -112,7 +112,7 @@ const RoadmapPage = ({ data }) => {
                    gtag('config', 'G-TFX786J1YL');
                    `} 
                 </script>
-                <title>Travelgate Integrations Roadmap (beta)</title>
+                <title>Travelgate Integrations Roadmap</title>
                 <meta name="description" content="The Seller API Development within the Travelgate roadmap is dedicated to empowering sellers with cutting-edge tools and features, facilitating seamless and scalable collaboration within the travel industry." />
 
                 <link
