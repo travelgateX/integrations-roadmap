@@ -37,8 +37,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "50%",
-    "Validation": "0%",
-    "Percentage Total": 92,
+    "Validation": "50%",
+    "Percentage Total": 96,
     "Product": "PULL"
   },
   {
@@ -600,6 +600,13 @@
     "Status": "ToDo",
     "External Description": "El nuevo marketplace que transformar? el sector tur?stico, donde todos los hoteles estan conectados directamente con sus partners Travel Sellers y proveedores de serivicios digitales en un ?nico marketplace.\n\nPara establecer relaciones comerciales personalizadas.\nSin intermediarios.\nTrazabilidad y transparencia en todos los procesos. Reducci?n del riesgo de impagos y aumento del control del cash-flow.\nPara vender directamente a cualquier segmento de clientes.\nY mejorar la rentabilidad en toda la cadena de valor.\nPara acceder a programas de marketing personalizados.\nQue permitan alcanzar los objetivos comerciales que se persiguen y mejorar la experiencia de compra de sus clientes.",
     "Profile Link": "https://app.travelgatex.com/network/halltels",
+    "Analisys": "50%",
+    "Content": "0%",
+    "Search": "0%",
+    "Booking Flow": "0%",
+    "Management": "0%",
+    "Configuration Dev": "0%",
+    "Validation": "0%",
     "Product": "PULL"
   },
   {
