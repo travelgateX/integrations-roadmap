@@ -14,10 +14,10 @@
     "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
-    "Management": "50%",
-    "Configuration Dev": "50%",
+    "Management": "100%",
+    "Configuration Dev": "100%",
     "Validation": "0%",
-    "Percentage Total": 82,
+    "Percentage Total": 92,
     "Product": "PULL"
   },
   {
@@ -695,6 +695,17 @@
     "Product": "PULL"
   },
   {
+    "Summary": "NETSEMANTICS",
+    "Created": "July 2023",
+    "Updated": "November 2023",
+    "Status": "In Progress",
+    "Due date": "January 2024",
+    "Start date": "November 2023",
+    "External Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit urna arcu, nec feugiat eros rhoncus vitae. Quisque ultrices elementum augue, quis dapibus diam egestas sed. Maecenas bibendum augue augue, in consectetur felis dictum tristique. Curabitur velit diam, mattis sit amet convallis eu, sagittis at urna. Morbi porta mauris id leo condimentum malesuada. In rhoncus laoreet porta. Ut facilisis enim sed turpis consectetur, id sodales ante porttitor. Aliquam erat volutpat. Curabitur euismod urna quis vestibulum scelerisque. Quisque eget felis viverra, tincidunt tellus sed, sagittis neque. Nam vulputate ligula eros, ac rhoncus purus porta nec. Ut eu libero ac eros euismod molestie a eget augue.",
+    "Profile Link": "https://app.travelgatex.com/network",
+    "Product": "PULL"
+  },
+  {
     "Summary": "jalan.net",
     "Created": "June 2023",
     "Updated": "November 2023",
@@ -1056,10 +1067,8 @@
     "Status": "In Progress",
     "Due date": "September 2023",
     "Start date": "July 2023",
-    "Target start": "July 2023",
-    "Target end": "September 2023",
-    "External Description": "NextPax is the most advanced channel management technology provider for hotels, resorts and vacation rentals worldwide, recognised for delivering the most advanced full-service solutions between property management systems and distribution channels worldwide. Connect your vacation rentals, hotels and/or vacation parks to over 100+ booking channels around the world.",
-    "Profile Link": "https://app.travelgatex.com/network/nextpax",
+    "External Description": "2023-09-05T22:00:00.000Z",
+    "Profile Link": "2023-07-02T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "50%",
