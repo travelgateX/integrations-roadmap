@@ -19,9 +19,13 @@ const RoadmapPage = ({ data }) => {
 
     const filteredEdges = edges.filter((edge) => {
         const { node } = edge;
-
-        // Filtrar por el campo Summary y Status
+        // Filtrar por el campo Summary y Status en caso Blocked
         if (
+            node.Summary.toLowerCase().includes(searchTerm.toLowerCase()) &&
+            (filterStatus === '' || filterStatus.toLowerCase()=== 'blocked') && ((node.Status.toLowerCase()==='blocked by partner') || (node.Status.toLowerCase()==='slowed down by partner'))
+        ) {
+            return true;
+        } else if (
             node.Summary.toLowerCase().includes(searchTerm.toLowerCase()) &&
             (filterStatus === '' ||
                 node.Status.toLowerCase() === filterStatus.toLowerCase()) //|| (filterProduct === '') || (node.Product.toLowerCase() === filterProduct.toLowerCase())
@@ -193,7 +197,7 @@ const RoadmapPage = ({ data }) => {
                             <option value='Planned'>Planned</option>
                             <option value='In Certification'>In Certification</option>
                             <option value='ToDo'>ToDo</option>
-
+                            <option value='Blocked'>Blocked</option>
                         </select>
                     </div>
                 </div>
@@ -243,7 +247,9 @@ const RoadmapPage = ({ data }) => {
 
                     <table className='roadmap-table table-hover'>
                         <tbody>
-                            {sortedEdges.map(({ node }, index) => (
+                            <tr>
+                                <td>
+                                {sortedEdges.map(({ node }, index) => (
                                 <React.Fragment key={node.Summary}>
 
                                     <div className="aux-progress">
@@ -254,111 +260,120 @@ const RoadmapPage = ({ data }) => {
                                     </div>
 
                                     <div className="card">
-                                        <tr onClick={() => toggleDetails(index)}>
-                                            <div class="d-flex justify-content-between">
-                                                <td class="partner">
-                                                    <i
-                                                        className='fa-regular fa-chevron-up me-2'
-                                                        id={`fa-chevron-down-${index}`}
-                                                    ></i> <strong>{node.Summary}</strong></td>
+                                        <table>
+                                            <tbody>
+                                                <tr onClick={() => toggleDetails(index)}>
+                                                    <div class="d-flex justify-content-between">
+                                                        <td class="partner d-flex justify-content-between">
+                                                            <i
+                                                                className='fa-regular fa-chevron-up me-2'
+                                                                id={`fa-chevron-down-${index}`}
+                                                            ></i> <strong>{node.Summary}</strong></td>
 
 
-                                                {node.Product.toLowerCase() === "pull" || node.Product.toLowerCase() === "push" || node.Product.toLowerCase() === "hibrid" ? (
-                                                    <td class="status">
-                                                        <span className='me-2'>Status:</span>
-                                                        <span
-                                                            className={`badge text-bg-${node.Status.toLowerCase()}`}
-                                                        >
-                                                            {node.Status}
-                                                        </span>
-                                                        <br />
-                                                        <span className='me-2'>Product:</span>{node.Product[0] + node.Product.slice(1).toLowerCase()}
-                                                        <br />
-                                                        <span className='me-2'>Available:</span>{formatDate(node.Due_date)}
+                                                        {node.Product.toLowerCase() === "pull" || node.Product.toLowerCase() === "push" || node.Product.toLowerCase() === "hibrid" ? (
+                                                            <td class="status">
+                                                                <span className='me-2'>Status:</span>
+                                                                <span
+                                                                    className={`badge text-bg-${node.Status.toLowerCase()}`}
+                                                                >
+                                                                    {node.Status}
+                                                                </span>
+                                                                <br />
+                                                                <span className='me-2'>Product:</span>{node.Product[0] + node.Product.slice(1).toLowerCase()}
+                                                                <br />
+                                                                <span className='me-2'>Available:</span>
+                                                                {(node.Status.toLowerCase()==='blocked')  ? (
+                                                                    'TBD'
+                                                                ) : (
+                                                                    formatDate(node.Due_date)
+                                                                )}
+                                                                
+                                                            </td>
+                                                        ) : <td class="status">
+                                                            <span className='me-2'>Status:</span>
+                                                            <span
+                                                                className={`badge text-bg-${node.Status.toLowerCase()}`}
+                                                            >
+                                                                {node.Status}
+                                                            </span>
+                                                            <br />
+                                                            <span className='me-2'>Product: </span>{node.Product[0] + node.Product.slice(1).toLowerCase()}
+
+                                                        </td>}
+                                                    </div>
+                                                </tr>
+
+                                                <tr id={`row-details-${index}`} className='row-details'>
+                                                    <td colSpan='5'>
+                                                        <div className='mb-3'>
+                                                            <p>{node.External_Description}</p>
+                                                        </div>
+                                                        {node.Product.toLowerCase() === "pull" || node.Product.toLowerCase() === "push" || node.Product.toLowerCase() === "hibrid" ? (
+                                                            <p>
+                                                                <span className='me-2 fw-bold'>Profile Link:</span>
+                                                                <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br />
+                                                                <span className='me-2 fw-bold'>Status:</span>
+                                                                <span>{node.Status}</span><br />
+                                                                <span className='me-2 fw-bold'>Available:</span>
+                                                                <span>{node.Due_date}</span><br /><br />
+                                                                <span className='me-2 fw-bold'>Added to roadmap:</span>
+                                                                <span>{formatDate(node.Created)}</span><br />
+                                                                <span className='me-2 fw-bold'>Development Start:</span>
+                                                                <span>{formatDate(node.Start_date)}</span><br />
+                                                                <span className='me-2 fw-bold'>Last Update:</span>
+                                                                <span>{formatDate(node.Updated)}</span><br />
+                                                            </p>
+
+                                                        ) : 
+                                                        
+                                                            <p>
+                                                                <span className='me-2 fw-bold'>Profile Link:</span>
+                                                                <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br />
+                                                                <span className='me-2 fw-bold'>Status:</span>
+                                                                <span>Developed by supplier</span><br />
+                                                            </p>
+                                                        }
+
+                                                        {node.Product.toLowerCase() === "pull" ? (
+                                                            <p>
+                                                                <span className='me-2 fw-bold'>Analisys:</span>
+                                                                <span>{node.Analisys}</span> <br />
+                                                                <span className='me-2 fw-bold'>Content:</span>
+                                                                <span>{node.Content}</span> <br />
+                                                                <span className='me-2 fw-bold'>Search:</span>
+                                                                <span>{node.Search}</span> <br />
+                                                                <span className='me-2 fw-bold'>Management:</span>
+                                                                <span>{node.Management}</span> <br />
+                                                                <span className='me-2 fw-bold'>Configuration:</span>
+                                                                <span>{node.Configuration_Dev}</span> <br />
+                                                                <span className='me-2 fw-bold'>Validation:</span>
+                                                                <span>{node.Validation}</span> <br />
+                                                            </p>
+                                                        ) : null}
+
+                                                        {node.Product.toLowerCase() === "push" ? (
+                                                            <p>
+                                                                <span className='me-2 fw-bold'>Analisys:</span>
+                                                                <span>{node.Analisys}</span> <br />
+                                                                <span className='me-2 fw-bold'>SetUp:</span>
+                                                                <span>{node.SetUp}</span> <br />
+                                                                <span className='me-2 fw-bold'>Product_Load:</span>
+                                                                <span>{node.Product_Load}</span> <br />
+                                                                <span className='me-2 fw-bold'>Booking_Flow:</span>
+                                                                <span>{node.Booking_Flow}</span> <br />
+                                                            </p>
+                                                        ) : null}
+
                                                     </td>
-                                                ) : <td class="status">
-                                                    <span className='me-2'>Status:</span>
-                                                    <span
-                                                        className={`badge text-bg-${node.Status.toLowerCase()}`}
-                                                    >
-                                                        {node.Status}
-                                                    </span>
-                                                    <br />
-                                                    <span className='me-2'>Product: </span>{node.Product[0] + node.Product.slice(1).toLowerCase()}
-
-                                                </td>}
-                                            </div>
-                                        </tr>
-
-
-
-
-                                        <tr id={`row-details-${index}`} className='row-details'>
-                                            <td colSpan='5'>
-                                                <div className='mb-3'>
-                                                    <p>{node.External_Description}</p>
-                                                </div>
-                                                {node.Product.toLowerCase() === "pull" || node.Product.toLowerCase() === "push" || node.Product.toLowerCase() === "hibrid" ? (
-                                                    <p>
-                                                        <span className='me-2 fw-bold'>Profile Link:</span>
-                                                        <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br />
-                                                        <span className='me-2 fw-bold'>Status:</span>
-                                                        <span>{node.Status}</span><br />
-                                                        <span className='me-2 fw-bold'>Available:</span>
-                                                        <span>{node.Due_date}</span><br /><br />
-                                                        <span className='me-2 fw-bold'>Added to roadmap:</span>
-                                                        <span>{formatDate(node.Created)}</span><br />
-                                                        <span className='me-2 fw-bold'>Development Start:</span>
-                                                        <span>{formatDate(node.Start_date)}</span><br />
-                                                        <span className='me-2 fw-bold'>Last Update:</span>
-                                                        <span>{formatDate(node.Updated)}</span><br />
-                                                    </p>
-
-                                                ) : 
-                                                
-                                                    <p>
-                                                        <span className='me-2 fw-bold'>Profile Link:</span>
-                                                        <span><a href={node.Profile_Link}>{node.Profile_Link}</a></span> <br />
-                                                        <span className='me-2 fw-bold'>Status:</span>
-                                                        <span>Developed by supplier</span><br />
-                                                    </p>
-                                                }
-
-                                                {node.Product.toLowerCase() === "pull" ? (
-                                                    <p>
-                                                        <span className='me-2 fw-bold'>Analisys:</span>
-                                                        <span>{node.Analisys}</span> <br />
-                                                        <span className='me-2 fw-bold'>Content:</span>
-                                                        <span>{node.Content}</span> <br />
-                                                        <span className='me-2 fw-bold'>Search:</span>
-                                                        <span>{node.Search}</span> <br />
-                                                        <span className='me-2 fw-bold'>Management:</span>
-                                                        <span>{node.Management}</span> <br />
-                                                        <span className='me-2 fw-bold'>Configuration:</span>
-                                                        <span>{node.Configuration_Dev}</span> <br />
-                                                        <span className='me-2 fw-bold'>Validation:</span>
-                                                        <span>{node.Validation}</span> <br />
-                                                    </p>
-                                                ) : null}
-
-                                                {node.Product.toLowerCase() === "push" ? (
-                                                    <p>
-                                                        <span className='me-2 fw-bold'>Analisys:</span>
-                                                        <span>{node.Analisys}</span> <br />
-                                                        <span className='me-2 fw-bold'>SetUp:</span>
-                                                        <span>{node.SetUp}</span> <br />
-                                                        <span className='me-2 fw-bold'>Product_Load:</span>
-                                                        <span>{node.Product_Load}</span> <br />
-                                                        <span className='me-2 fw-bold'>Booking_Flow:</span>
-                                                        <span>{node.Booking_Flow}</span> <br />
-                                                    </p>
-                                                ) : null}
-
-                                            </td>
-                                        </tr>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </React.Fragment>
-                            ))}
+                                ))}
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -392,8 +407,6 @@ export const query = graphql`
           Configuration_Dev
           Validation
           Percentage_Total
-          SetUp
-          Product_Load
           Product
         }
       }
