@@ -1068,12 +1068,12 @@
     "Profile Link": "2023-06-14T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "50%",
-    "Search": "50%",
-    "Booking Flow": "50%",
-    "Management": "50%",
+    "Search": "100%",
+    "Booking Flow": "100%",
+    "Management": "100%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 55,
+    "Percentage Total": 85,
     "Product": "PULL"
   },
   {
