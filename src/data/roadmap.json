@@ -21,6 +21,15 @@
     "Product": "PULL"
   },
   {
+    "Summary": "Kreola DMC",
+    "Created": "October 2023",
+    "Updated": "December 2023",
+    "Status": "ToDo",
+    "External Description": "No description",
+    "Profile Link": "https://app.travelgatex.com/network/kreola",
+    "Product": "PULL"
+  },
+  {
     "Summary": "DCS+",
     "Created": "October 2023",
     "Updated": "December 2023",
@@ -1047,10 +1056,8 @@
     "Status": "In Certification",
     "Due date": "September 2023",
     "Start date": "July 2023",
-    "Target start": "July 2023",
-    "Target end": "September 2023",
-    "External Description": "NextPax is the most advanced channel management technology provider for hotels, resorts and vacation rentals worldwide, recognised for delivering the most advanced full-service solutions between property management systems and distribution channels worldwide. Connect your vacation rentals, hotels and/or vacation parks to over 100+ booking channels around the world.",
-    "Profile Link": "https://app.travelgatex.com/network/nextpax",
+    "External Description": "2023-09-05T22:00:00.000Z",
+    "Profile Link": "2023-07-02T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
