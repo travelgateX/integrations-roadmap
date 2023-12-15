@@ -596,6 +596,7 @@
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
+    "Percentage Total": 42,
     "Product": "PULL"
   },
   {
@@ -686,12 +687,20 @@
   {
     "Summary": "NETSEMANTICS",
     "Created": "July 2023",
-    "Updated": "November 2023",
+    "Updated": "December 2023",
     "Status": "In Progress",
     "Due date": "January 2024",
     "Start date": "November 2023",
     "External Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit urna arcu, nec feugiat eros rhoncus vitae. Quisque ultrices elementum augue, quis dapibus diam egestas sed. Maecenas bibendum augue augue, in consectetur felis dictum tristique. Curabitur velit diam, mattis sit amet convallis eu, sagittis at urna. Morbi porta mauris id leo condimentum malesuada. In rhoncus laoreet porta. Ut facilisis enim sed turpis consectetur, id sodales ante porttitor. Aliquam erat volutpat. Curabitur euismod urna quis vestibulum scelerisque. Quisque eget felis viverra, tincidunt tellus sed, sagittis neque. Nam vulputate ligula eros, ac rhoncus purus porta nec. Ut eu libero ac eros euismod molestie a eget augue.",
     "Profile Link": "https://app.travelgatex.com/network",
+    "Analisys": "100%",
+    "Content": "0%",
+    "Search": "100%",
+    "Booking Flow": "50%",
+    "Management": "0%",
+    "Configuration Dev": "0%",
+    "Validation": "50%",
+    "Percentage Total": 50,
     "Product": "PULL"
   },
   {
@@ -1079,13 +1088,13 @@
     "External Description": "2023-07-23T22:00:00.000Z",
     "Profile Link": "2023-06-14T22:00:00.000Z",
     "Analisys": "100%",
-    "Content": "50%",
+    "Content": "100%",
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "0%",
+    "Configuration Dev": "100%",
     "Validation": "0%",
-    "Percentage Total": 85,
+    "Percentage Total": 92,
     "Product": "PULL"
   },
   {
