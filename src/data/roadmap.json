@@ -92,9 +92,9 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "0%",
-    "Validation": "0%",
-    "Percentage Total": 92,
+    "Configuration Dev": "100%",
+    "Validation": "50%",
+    "Percentage Total": 96,
     "Product": "PULL"
   },
   {
@@ -1233,8 +1233,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "50%",
-    "Percentage Total": 96,
+    "Validation": "100%",
+    "Percentage Total": 100,
     "Product": "PULL"
   }
 ]
