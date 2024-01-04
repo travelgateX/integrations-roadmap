@@ -43,7 +43,8 @@
     "Summary": "DCS+",
     "Created": "October 2023",
     "Updated": "January 2024",
-    "Status": "In Certification",
+    "Resolved": "January 2024",
+    "Status": "Completed",
     "Due date": "November 2023",
     "Start date": "October 2023",
     "Target start": "October 2023",
@@ -614,7 +615,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "50%",
-    "Configuration Dev": "0%",
+    "Configuration Dev": "50%",
     "Validation": "50%",
     "Percentage Total": 79,
     "Product": "PULL"
@@ -1115,8 +1116,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "0%",
-    "Percentage Total": 92,
+    "Validation": "100%",
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
