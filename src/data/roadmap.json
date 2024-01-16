@@ -603,7 +603,7 @@
     "Summary": "HALLTELS - New Seller",
     "Created": "August 2023",
     "Updated": "January 2024",
-    "Status": "In Progress",
+    "Status": "In Certification",
     "Due date": "February 2024",
     "Start date": "December 2023",
     "Target start": "December 2023",
@@ -615,7 +615,7 @@
     "Search": "100%",
     "Booking Flow": "100%",
     "Management": "100%",
-    "Configuration Dev": "50%",
+    "Configuration Dev": "100%",
     "Validation": "50%",
     "Percentage Total": 96,
     "Product": "PULL"
@@ -632,7 +632,7 @@
     "External Description": "STAAH Ltd. is a New Zealand-based technology company that specialises in cloud-based channel management and booking engine for accommodation providers helping them maximise their online revenue. Founded by Gavin Jeddo in 2008, a pioneer in the field of distribution technology, STAAH's industry-leading technology powers a property's distribution through online travel agencies (OTA) and direct bookings.\n\nSTAAH works with more than 18,000+ properties across 90 countries through its operations in New Zealand, Australia, India, Malaysia, Indonesia, Philippines, Thailand, UK and Europe.",
     "Profile Link": "none",
     "Booking Flow": "50%",
-    "Percentage Total": 108,
+    "Percentage Total": 120,
     "Product": "PUSH"
   },
   {
@@ -678,8 +678,10 @@
   {
     "Summary": "ctsturismo.com",
     "Created": "July 2023",
-    "Updated": "December 2023",
-    "Status": "Planned",
+    "Updated": "January 2024",
+    "Status": "In Progress",
+    "Due date": "February 2024",
+    "Start date": "January 2024",
     "External Description": "No description",
     "Profile Link": "https://app.travelgatex.com/network/cts",
     "Product": "PULL"
@@ -1046,7 +1048,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
@@ -1068,7 +1070,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
@@ -1110,7 +1112,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "Product": "PULL"
   },
   {
@@ -1130,7 +1132,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "PULL"
@@ -1151,7 +1153,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "PULL"
@@ -1173,7 +1175,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "PULL"
@@ -1195,7 +1197,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "PULL"
@@ -1217,7 +1219,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 77,
+    "Percentage Total": 100,
     "SetUp": "100%",
     "Product Load": "100%",
     "Product": "PULL"
@@ -1239,7 +1241,7 @@
     "Management": "100%",
     "Configuration Dev": "100%",
     "Validation": "100%",
-    "Percentage Total": 79,
+    "Percentage Total": 100,
     "Product": "PULL"
   }
 ]
