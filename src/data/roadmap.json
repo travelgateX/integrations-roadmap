@@ -577,7 +577,9 @@
     "Profile Link": "https://app.travelgatex.com/network/phobs",
     "Analisys": "100%",
     "Booking Flow": "100%",
-    "Percentage Total": 30,
+    "Percentage Total": 60,
+    "SetUp": "0%",
+    "Product Load": "50%",
     "Product": "PUSH"
   },
   {
@@ -585,7 +587,7 @@
     "Created": "August 2023",
     "Updated": "January 2024",
     "Status": "In Progress",
-    "Due date": "January 2024",
+    "Due date": "February 2024",
     "Start date": "December 2023",
     "External Description": "No description",
     "Profile Link": "https://app.travelgatex.com/network/city-tours-usa",
@@ -633,7 +635,9 @@
     "Profile Link": "none",
     "Analisys": "100%",
     "Booking Flow": "50%",
-    "Percentage Total": 132,
+    "Percentage Total": 48,
+    "SetUp": "0%",
+    "Product Load": "50%",
     "Product": "PUSH"
   },
   {
