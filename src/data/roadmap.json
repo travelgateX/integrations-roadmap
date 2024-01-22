@@ -1,5 +1,14 @@
 [
   {
+    "Summary": "Major update API Trip.com/CTrip",
+    "Created": "January 2024",
+    "Updated": "January 2024",
+    "Status": "ToDo",
+    "External Description": "none",
+    "Profile Link": "none",
+    "Product": "PULL"
+  },
+  {
     "Summary": "Reseliva PUSH",
     "Created": "January 2024",
     "Updated": "January 2024",
@@ -1108,10 +1117,8 @@
     "Status": "Completed",
     "Due date": "January 2024",
     "Start date": "June 2023",
-    "Target start": "June 2023",
-    "Target end": "July 2023",
-    "External Description": "BookingAgora is a leading B2B marketplace with the fastest access to best deals.\nOur partners enjoy from a large variety of accommodation options, in-house developed technology products, flight ticketing and 24/7 customer service support.",
-    "Profile Link": "https://app.travelgatex.com/network/booking-agora",
+    "External Description": "2023-07-23T22:00:00.000Z",
+    "Profile Link": "2023-06-14T22:00:00.000Z",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
