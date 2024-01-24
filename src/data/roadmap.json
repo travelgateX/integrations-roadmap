@@ -167,19 +167,6 @@
     "Product": "PULL"
   },
   {
-    "Summary": "mondee",
-    "Created": "September 2023",
-    "Updated": "January 2024",
-    "Resolved": "January 2024",
-    "Status": "Completed",
-    "Due date": "January 2024",
-    "Start date": "January 2024",
-    "Target start": "September 2023",
-    "External Description": "none",
-    "Profile Link": "none",
-    "Product": "PULL"
-  },
-  {
     "Summary": "Booklogic",
     "Created": "September 2023",
     "Updated": "October 2023",
@@ -1114,8 +1101,10 @@
     "Status": "Completed",
     "Due date": "August 2023",
     "Start date": "July 2023",
-    "External Description": "2023-07-17T22:00:00.000Z",
-    "Profile Link": "2023-06-20T22:00:00.000Z",
+    "Target start": "June 2023",
+    "Target end": "July 2023",
+    "External Description": "MTS City Breaks, member of MARINE TOURS group of companies, is a B2B booking platform offering access to exclusive wholesaler rates globally. Established in 1997, in Athens, Greece, MTS City Breaks' booking tool displays over half a million accommodation properties combining preferred hotels agreements and wholesaler rates into a single booking platform that allow partners to save time and earn more. We have over 20 years of experience and our Worldwide distribution is over 3000 active partners in over 50 countries.",
+    "Profile Link": "https://app.travelgatex.com/network/mts-city-breaks",
     "Analisys": "100%",
     "Content": "100%",
     "Search": "100%",
