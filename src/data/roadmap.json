@@ -8,13 +8,13 @@
     "External Description": "We are a part of the Trip.com Group, a NASDAQ listed company since 2003 (NASDAQ: TCOM) with over 45,100 employees and over 400 million members, making it one of the leading online travel agencies in the world. With more than 1.4 million hotels in 200 countries and regions, we've built an extensive hotel network to give our customers a fantastic choice of accommodation. Our far-reaching flight network has over 2 million individual flight routes connecting more than 5,000 cities around the globe. When you combine this with our 24/7 English customer service and various other travel products, you can trust us to take care of your next trip.",
     "Profile Link": "none",
     "Analisys": "100%",
-    "Content": "0%",
+    "Content": "50%",
     "Search": "0%",
     "Booking Flow": "0%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 15,
+    "Percentage Total": 22,
     "Product": "PULL"
   },
   {
@@ -57,12 +57,12 @@
     "Profile Link": "none",
     "Analisys": "50%",
     "Content": "0%",
-    "Search": "50%",
-    "Booking Flow": "0%",
+    "Search": "100%",
+    "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 21,
+    "Percentage Total": 42,
     "Product": "PULL"
   },
   {
