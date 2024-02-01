@@ -12,7 +12,7 @@
   {
     "Summary": "Trip.com/CTrip API 2.2",
     "Created": "January 2024",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "In Progress",
     "Start date": "January 2024",
     "External Description": "We are a part of the Trip.com Group, a NASDAQ listed company since 2003 (NASDAQ: TCOM) with over 45,100 employees and over 400 million members, making it one of the leading online travel agencies in the world. With more than 1.4 million hotels in 200 countries and regions, we've built an extensive hotel network to give our customers a fantastic choice of accommodation. Our far-reaching flight network has over 2 million individual flight routes connecting more than 5,000 cities around the globe. When you combine this with our 24/7 English customer service and various other travel products, you can trust us to take care of your next trip.",
@@ -59,7 +59,7 @@
   {
     "Summary": "Travcoding Seller Hotel API",
     "Created": "December 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "In Progress",
     "Due date": "February 2024",
     "Start date": "January 2024",
@@ -92,8 +92,8 @@
     "Booking Flow": "100%",
     "Management": "100%",
     "Configuration Dev": "100%",
-    "Validation": "100%",
-    "Percentage Total": 100,
+    "Validation": "50%",
+    "Percentage Total": 96,
     "Product": "PULL"
   },
   {
@@ -102,7 +102,7 @@
     "Updated": "February 2024",
     "Status": "In Progress",
     "Due date": "February 2024",
-    "Start date": "January 2024",
+    "Start date": "February 2024",
     "External Description": "No description",
     "Profile Link": "https://app.travelgatex.com/network/kreola",
     "Analisys": "0%",
@@ -118,7 +118,7 @@
   {
     "Summary": "DCS+",
     "Created": "October 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "January 2024",
     "Status": "Completed",
     "Due date": "November 2023",
@@ -623,8 +623,8 @@
     "Profile Link": "https://app.travelgatex.com/network/phobs",
     "Analisys": "100%",
     "Booking Flow": "100%",
-    "Percentage Total": 60,
-    "SetUp": "0%",
+    "Percentage Total": 70,
+    "SetUp": "100%",
     "Product Load": "50%",
     "Product": "PUSH"
   },
@@ -640,17 +640,17 @@
     "Analisys": "100%",
     "Content": "0%",
     "Search": "100%",
-    "Booking Flow": "0%",
+    "Booking Flow": "50%",
     "Management": "0%",
     "Configuration Dev": "0%",
     "Validation": "0%",
-    "Percentage Total": 34,
+    "Percentage Total": 46,
     "Product": "PULL"
   },
   {
     "Summary": "HALLTELS - New Seller",
     "Created": "August 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "In Certification",
     "Due date": "February 2024",
     "Start date": "December 2023",
@@ -671,7 +671,7 @@
   {
     "Summary": "STAAH Limited",
     "Created": "August 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "In Progress",
     "Due date": "March 2024",
     "Start date": "December 2023",
@@ -681,15 +681,15 @@
     "Profile Link": "none",
     "Analisys": "100%",
     "Booking Flow": "50%",
-    "Percentage Total": 48,
-    "SetUp": "0%",
+    "Percentage Total": 53,
+    "SetUp": "50%",
     "Product Load": "50%",
     "Product": "PUSH"
   },
   {
     "Summary": "Travcoding Seller Condo API",
     "Created": "August 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "November 2023",
     "Status": "Completed",
     "Due date": "September 2023",
@@ -709,7 +709,7 @@
   {
     "Summary": "bj.meituan.com",
     "Created": "July 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "December 2023",
     "Status": "Completed",
     "Due date": "December 2023",
@@ -741,7 +741,7 @@
   {
     "Summary": "hikaritour.com",
     "Created": "July 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "November 2023",
     "Status": "Completed",
     "Due date": "November 2023",
@@ -763,7 +763,7 @@
   {
     "Summary": "NETSEMANTICS",
     "Created": "July 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "In Progress",
     "Due date": "January 2024",
     "Start date": "November 2023",
@@ -782,7 +782,7 @@
   {
     "Summary": "Mason's Travel Pvt Ltd",
     "Created": "June 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "January 2024",
     "Status": "Completed",
     "Due date": "January 2024",
@@ -804,7 +804,7 @@
   {
     "Summary": "GIATA",
     "Created": "June 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "June 2023",
@@ -827,7 +827,7 @@
   {
     "Summary": "Palladium Hotel Group",
     "Created": "June 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "June 2023",
@@ -850,7 +850,7 @@
   {
     "Summary": "Canarias New Travel",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "July 2023",
     "Status": "Completed",
     "Due date": "July 2023",
@@ -874,7 +874,7 @@
   {
     "Summary": "E-htl Viagens Online",
     "Created": "April 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "October 2023",
     "Status": "Completed",
     "Due date": "October 2023",
@@ -896,7 +896,7 @@
   {
     "Summary": "Conextur DMC Argentina",
     "Created": "April 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -920,7 +920,7 @@
   {
     "Summary": "AllBeds (Grupocdv)",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -944,7 +944,7 @@
   {
     "Summary": "Saltour",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "February 2023",
@@ -968,7 +968,7 @@
   {
     "Summary": "Gekko Group",
     "Created": "March 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "October 2023",
     "Status": "Completed",
     "Due date": "October 2023",
@@ -990,7 +990,7 @@
   {
     "Summary": "RTS.net",
     "Created": "April 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -1014,7 +1014,7 @@
   {
     "Summary": "Trip.com",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -1038,7 +1038,7 @@
   {
     "Summary": "TBO.com",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "May 2023",
     "Status": "Completed",
     "Due date": "May 2023",
@@ -1062,7 +1062,7 @@
   {
     "Summary": "Seera Group",
     "Created": "December 2022",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "March 2023",
@@ -1085,7 +1085,7 @@
   {
     "Summary": "The Travel Junction",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "November 2023",
     "Status": "Completed",
     "Due date": "November 2023",
@@ -1107,7 +1107,7 @@
   {
     "Summary": "MTS City Breaks",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "November 2023",
     "Status": "Completed",
     "Due date": "August 2023",
@@ -1127,7 +1127,7 @@
   {
     "Summary": "NextPax",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "December 2023",
     "Status": "Completed",
     "Due date": "December 2023",
@@ -1147,7 +1147,7 @@
   {
     "Summary": "Booking Agora",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "January 2024",
     "Status": "Completed",
     "Due date": "January 2024",
@@ -1167,7 +1167,7 @@
   {
     "Summary": "Eurotours",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "September 2023",
     "Status": "Completed",
     "Due date": "September 2023",
@@ -1189,7 +1189,7 @@
   {
     "Summary": "Ezlink",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Status": "Completed",
     "Due date": "June 2023",
     "Start date": "May 2023",
@@ -1210,7 +1210,7 @@
   {
     "Summary": "EverRooms",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "August 2023",
     "Status": "Completed",
     "Due date": "July 2023",
@@ -1232,7 +1232,7 @@
   {
     "Summary": "Atharva Infotech",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "August 2023",
     "Status": "Completed",
     "Due date": "September 2023",
@@ -1254,7 +1254,7 @@
   {
     "Summary": "Travel Compositor",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "September 2023",
     "Status": "Completed",
     "Due date": "September 2023",
@@ -1276,7 +1276,7 @@
   {
     "Summary": "Sabre CSL",
     "Created": "May 2023",
-    "Updated": "January 2024",
+    "Updated": "February 2024",
     "Resolved": "December 2023",
     "Status": "Completed",
     "Due date": "December 2023",
