@@ -141,7 +141,7 @@
   {
     "Summary": "Certificacion API Seller Nemo",
     "State": "Resuelta",
-    "Resoluci?n": "Won't Do",
+    "Resolution": "Won't Do",
     "Created": "January 2024",
     "Updated": "January 2024",
     "Product Process Type": "Product Maintenance"
@@ -228,7 +228,7 @@
   {
     "Summary": "Synxis (Sabre) - Hibryd",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "November 2023",
     "Updated": "February 2024",
     "Due Date": "2024-02-13T23:00:00.000Z",
@@ -274,7 +274,7 @@
   {
     "Summary": "DCS+",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "October 2023",
     "Updated": "February 2024",
     "Due Date": "2023-11-20T23:00:00.000Z",
@@ -340,7 +340,7 @@
   {
     "Summary": "mondee",
     "State": "Rechazado",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "January 2024",
     "Due Date": "2024-01-23T23:00:00.000Z",
@@ -351,7 +351,7 @@
   {
     "Summary": "Booklogic",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-10-08T22:00:00.000Z",
@@ -363,7 +363,7 @@
   {
     "Summary": "Smartbooking",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -386,7 +386,7 @@
   {
     "Summary": "Skapit",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -409,7 +409,7 @@
   {
     "Summary": "OTI Holdings",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -442,7 +442,7 @@
   {
     "Summary": "Hotelios",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -465,7 +465,7 @@
   {
     "Summary": "RuralGest",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -488,7 +488,7 @@
   {
     "Summary": "My Morocco Travel",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -511,7 +511,7 @@
   {
     "Summary": "Enjoy Cuba",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-10-16T22:00:00.000Z",
@@ -533,7 +533,7 @@
   {
     "Summary": "Etstur",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -556,7 +556,7 @@
   {
     "Summary": "Tourvest",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -579,7 +579,7 @@
   {
     "Summary": "Solmar Villas",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -632,7 +632,7 @@
   {
     "Summary": "Roombeast",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -655,7 +655,7 @@
   {
     "Summary": "EaseMyTrip",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -688,7 +688,7 @@
   {
     "Summary": "BeachVillas",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -711,7 +711,7 @@
   {
     "Summary": "B2B Holidays",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -734,7 +734,7 @@
   {
     "Summary": "Smart Touristic System",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -767,7 +767,7 @@
   {
     "Summary": "Channex",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "October 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -790,7 +790,7 @@
   {
     "Summary": "Roomiroom ",
     "State": "Finalizada",
-    "Resoluci?n": "In Progress",
+    "Resolution": "In Progress",
     "Created": "September 2023",
     "Updated": "September 2023",
     "Due Date": "2023-09-18T22:00:00.000Z",
@@ -813,7 +813,7 @@
   {
     "Summary": "Pan Pacific Travel",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "September 2023",
     "Updated": "November 2023",
     "External Description": "Pan Pacific is a privately-owned and operated Australasian inbound operator with companies in Australia & New Zealand. Established in 1984, we have grown to become one of the region's most successful and respected operators with an extensive worldwide customer-base.\n\nIn July 2016 Pan Pacific acquired the business of Finesse South Pacific Travel, a highly regarded Australian inbound company with a proud and successful 30-year history as Australia's leading operator in the Latin markets.\n\nWhile its primary business activity is an Inbound Operator, Pan Pacific holds a substantial interest in one of New Zealand's most progressive Conference & Event Organisers, Event Dynamics.\n\nGiven our many shared clients, Pan Pacific Australia/New Zealand work closely together to ensure consistency in servicing & operational procedures and a seamless experience for client partners who work with us in both countries.\n\nOur Business Philosophy\n\nThe cornerstone of an Inbound Operator's role is to provide excellent service, competitive pricing and quality product however Pan Pacific's objective is to add more value to its client relationships and pro-actively contribute to their business growth.\n\nWe believe this can be achieved through regular communication, an intimate understanding of our clients? business and a creative, \"can do\" attitude in constantly seeking better and more innovative ways to support their needs and enhance their competitive advantage. Succeeding in this will only deliver increased growth to our own business.\n\nFull-Service Operation\n\nA 2 person tailor-made FIT, a special interest group of 30, an incentive program of 500, a sports event of 4000 or foreign-language escorted coach tours - Pan Pacific has the experience and operational infrastructure to service any inbound-Australia/New Zealand leisure or corporate travel requirement.\n\nMarket Diversity\n\nPan Pacific has one of the most market-diverse customer portfolio of any inbound company in Australia/New Zealand with client partners located in the following regions;\n\nAsia - China, Taiwan\nEurope - France, Italy, Spain, Portugal, the Netherlands, Switzerland\nNorth America - USA, Canada\nScandinavia - Sweden, Finland, Denmark\nSouth Africa\nSouth America - Argentina, Brazil, Colombia\nSouth East Asia - Thailand, Malaysia, Singapore, Hong Kong, Philippines\nUnited Kingdom\n\nIn recognition of our broad market mix Pan Pacific staff possess a wide range of foreign-language skills.\n\nIndustry Memberships\nAUSTRALIA\nATEC\nThe Australia Tourism Export Council (ATEC) is the peak industry body representing Australia's $40 billion tourism export sector. As an organisation, our views are informed by the broadest cross-section of the Australian tourism industry.\nATEC represents more than 1000 members across Australia including large national and multinational companies as well as small and medium-sized enterprises, many of whom are based in regional and remote parts of Australia.\n\nOur members include inbound tour operators and online distributors who connect Australian tourism products with vital distribution channels in key overseas markets. Those tourism products include accommodation providers, tour companies, attractions, airlines, cruise lines, transport operators, food and beverage outlets and tourism services including retail outlets, educational institutions and guiding organisations.\n\nOur services include B2B opportunities, industry advocacy and development, education and business capacity building, local and national networking events and conferences.\n\nNEW ZEALAND\nQUALMARK\nPan Pacific Travel is a Qualmark Endorsed Inbound Tour Operator and has also been awarded the \"Covid Clean\" assessment, recognised by the World Travel & Tourism Council.\n\nNZ TEC - TOURISM EXPORT COUNCIL OF NEW ZEALAND\nThe Tourism Export Council of New Zealand (TECNZ) is a trade association established in 1971 that represents the interests of the New Zealand inbound tourism industry.\nOur mission is to support and represent our members to achieve sustainable growth in export earnings.\nWe are committed to adding value to tourism businesses and to providing a vital link between tour operators and suppliers of NZ products and services.\nTECNZ offers opportunities throughout the year for networking and discussion forums to address current issues.\n\nNZ TIA - TOURISM INDUSTRY AOTEAROA NEW ZEALAND\nTourism Industry Aotearoa (TIA) is the only independent association that represents all sectors of New Zealand's large and diverse tourism industry. We accomplish what no single member or sector group could achieve by themselves.\n\nOur Vision - A $41 billion visitor economy by 2025.\nWe are vocal supporters of our industry, advocating relentlessly to ensure tourism gets recognised as a vital contributor to New Zealand's economic and social wellbeing.\n\nOur Mission - Through leadership, influence and action, achieve tangible benefits for the tourism industry and New Zealand.\nOur members range from SMEs to large, publicly listed corporates. Collectively, they represent around 85% of total tourism industry turnover. The more members and support TIA has, the stronger our influence and the more we can achieve\n\nWINGSPAN\nPan Pacific Travel is proud to support the Wingspan Programme and in particular their work with the threatened New Zealand Falcon.\nWe sponsor \"Maia\", a very special falcon who was one of the falcons bred at Wingspan and released as part of \"On the Wing\"; the first ever city release of a threatened species.\nWhile Maia was released in 2014, she remains (almost on a daily basis) returning to the Rotorua Museum (Government Gardens) for supplementary food left out for her, but generally resides (and nests) in the Redwoods in Whakarewarewa Forest.\n\nSUSTAINABLE TOURISM\nPan Pacific has signed up to the Tourism Sustainability Commitment and joined a fast-growing group of New Zealand tourism operators who are working to make a positive difference.\nThe New Zealand Tourism Sustainability commitment aims to see every New Zealand tourism business committed to sustainability by 2025 - with a Vision of Leading the World in Sustainable Tourism. To deliver on this, we must achieve ambitious economic goals while sharing the overwhelming benefits with supportive host communities, contributing to restoring, protecting and enhancing our natural environment, and continuing to be a high quality destination of choice for domestic and international travellers.",
@@ -874,7 +874,7 @@
   {
     "Summary": "HALLTELS - New Seller",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "August 2023",
     "Updated": "February 2024",
     "Due Date": "2024-01-31T23:00:00.000Z",
@@ -912,7 +912,7 @@
   {
     "Summary": "Travcoding Seller Condo API",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "August 2023",
     "Updated": "February 2024",
     "Due Date": "2023-09-27T22:00:00.000Z",
@@ -931,7 +931,7 @@
   {
     "Summary": "bj.meituan.com",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "July 2023",
     "Updated": "February 2024",
     "Due Date": "2023-12-17T23:00:00.000Z",
@@ -950,7 +950,7 @@
   {
     "Summary": "ctsturismo.com",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "July 2023",
     "Updated": "January 2024",
     "Due Date": "2024-01-16T23:00:00.000Z",
@@ -962,7 +962,7 @@
   {
     "Summary": "hikaritour.com",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "July 2023",
     "Updated": "February 2024",
     "Due Date": "2023-11-14T23:00:00.000Z",
@@ -1017,7 +1017,7 @@
   {
     "Summary": "Mason's Travel Pvt Ltd",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "June 2023",
     "Updated": "February 2024",
     "Due Date": "2024-01-29T23:00:00.000Z",
@@ -1171,7 +1171,7 @@
   {
     "Summary": "Rhodasol - Avoris (Mayor Update)",
     "State": "Rechazado",
-    "Resoluci?n": "Won't Do",
+    "Resolution": "Won't Do",
     "Created": "May 2023",
     "Updated": "October 2023",
     "External Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit urna arcu, nec feugiat eros rhoncus vitae. Quisque ultrices elementum augue, quis dapibus diam egestas sed. Maecenas bibendum augue augue, in consectetur felis dictum tristique. Curabitur velit diam, mattis sit amet convallis eu, sagittis at urna. Morbi porta mauris id leo condimentum malesuada. In rhoncus laoreet porta. Ut facilisis enim sed turpis consectetur, id sodales ante porttitor. Aliquam erat volutpat. Curabitur euismod urna quis vestibulum scelerisque. Quisque eget felis viverra, tincidunt tellus sed, sagittis neque. Nam vulputate ligula eros, ac rhoncus purus porta nec. Ut eu libero ac eros euismod molestie a eget augue.",
@@ -1181,7 +1181,7 @@
   {
     "Summary": "Canarias New Travel",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "December 2022",
     "Updated": "February 2024",
     "Due Date": "2023-07-17T22:00:00.000Z",
@@ -1206,7 +1206,7 @@
   {
     "Summary": "E-htl Viagens Online",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "April 2023",
     "Updated": "February 2024",
     "Due Date": "2023-10-08T22:00:00.000Z",
@@ -1227,7 +1227,7 @@
   {
     "Summary": "Conextur DMC Argentina",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "April 2023",
     "Updated": "February 2024",
     "Due Date": "2023-05-17T22:00:00.000Z",
@@ -1252,7 +1252,7 @@
   {
     "Summary": "AllBeds (Grupocdv)",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "December 2022",
     "Updated": "February 2024",
     "Due Date": "2023-05-30T22:00:00.000Z",
@@ -1277,7 +1277,7 @@
   {
     "Summary": "Saltour",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "December 2022",
     "Updated": "February 2024",
     "Due Date": "2023-02-26T23:00:00.000Z",
@@ -1302,7 +1302,7 @@
   {
     "Summary": "Gekko Group",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "March 2023",
     "Updated": "February 2024",
     "Due Date": "2023-10-10T22:00:00.000Z",
@@ -1323,7 +1323,7 @@
   {
     "Summary": "RTS.net",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "April 2022",
     "Updated": "February 2024",
     "Due Date": "2023-05-16T22:00:00.000Z",
@@ -1348,7 +1348,7 @@
   {
     "Summary": "Trip.com",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "December 2022",
     "Updated": "February 2024",
     "Due Date": "2023-05-16T22:00:00.000Z",
@@ -1373,7 +1373,7 @@
   {
     "Summary": "TBO.com",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "December 2022",
     "Updated": "February 2024",
     "Due Date": "2023-05-25T22:00:00.000Z",
@@ -1468,7 +1468,7 @@
   {
     "Summary": "Yanolja",
     "State": "Rechazado",
-    "Resoluci?n": "Won't Do",
+    "Resolution": "Won't Do",
     "Created": "May 2023",
     "Updated": "October 2023",
     "Due Date": "2023-05-29T22:00:00.000Z",
@@ -1502,7 +1502,7 @@
   {
     "Summary": "The Travel Junction",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-11-06T23:00:00.000Z",
@@ -1523,7 +1523,7 @@
   {
     "Summary": "MTS City Breaks",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-08-15T22:00:00.000Z",
@@ -1555,7 +1555,7 @@
   {
     "Summary": "NextPax",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-12-12T23:00:00.000Z",
@@ -1577,7 +1577,7 @@
   {
     "Summary": "Booking Agora",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2024-01-02T23:00:00.000Z",
@@ -1598,7 +1598,7 @@
   {
     "Summary": "Eurotours",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-09-21T22:00:00.000Z",
@@ -1623,7 +1623,7 @@
   {
     "Summary": "Weekendesk",
     "State": "Rechazado",
-    "Resoluci?n": "Won't Do",
+    "Resolution": "Won't Do",
     "Created": "May 2023",
     "Updated": "October 2023",
     "Due Date": "2025-08-17T22:00:00.000Z",
@@ -1659,7 +1659,7 @@
   {
     "Summary": "EverRooms",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-07-06T22:00:00.000Z",
@@ -1684,7 +1684,7 @@
   {
     "Summary": "Atharva Infotech",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-09-11T22:00:00.000Z",
@@ -1729,7 +1729,7 @@
   {
     "Summary": "Travel Compositor",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-09-21T22:00:00.000Z",
@@ -1774,7 +1774,7 @@
   {
     "Summary": "Sabre CSL",
     "State": "Finalizada",
-    "Resoluci?n": "Listo",
+    "Resolution": "Listo",
     "Created": "May 2023",
     "Updated": "February 2024",
     "Due Date": "2023-12-10T23:00:00.000Z",
